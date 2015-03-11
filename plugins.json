@@ -1,0 +1,16 @@
+{
+    "plugins": [
+        {
+            "repo": "multiSelect",
+            "name": "flood_slr"
+        },
+	    {
+            "repo": "explorer",
+            "name": "restoration_explorer"
+        },
+        { 
+	    	"repo": "community_planning",
+            "name": "community_planning"
+        }
+    ]
+}
