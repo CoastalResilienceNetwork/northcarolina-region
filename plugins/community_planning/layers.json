@@ -54,7 +54,7 @@
                 {
                     "name": "",
                     "services": [
-                        { "name": "Roanoke_Island", "type":"dynamic", "displayName":"Critical Management", "showLayers": [
+                        { "name": "Roanoke_Island", "type":"dynamic", "displayName":"Coastal Management", "showLayers": [
                                 {"id":27, "parentLayerId":-1 },
                                 {"id":28, "parentLayerId":-1 },
                                 {"id":29, "parentLayerId":-1 },
@@ -64,10 +64,10 @@
                                 {"id":33, "parentLayerId":-1 },
                                 {"id":34, "parentLayerId":-1 },
                                 {"id":35, "parentLayerId":-1 },
-                                {"id":36, "parentLayerId":26 },
-                                {"id":37, "parentLayerId":26 },
+                                {"id":36, "parentLayerId":-1 },
+                                {"id":37, "parentLayerId":-1 },
                                 {"id":38, "parentLayerId":-1 },
-                                {"id":39, "parentLayerId":26 }
+                                {"id":39, "parentLayerId":-1 }
                             ]
                         }
                     ]
