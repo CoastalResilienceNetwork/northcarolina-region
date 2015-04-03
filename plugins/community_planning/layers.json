@@ -35,8 +35,7 @@
                     "name": "",
                     "services": [   
                         { "name": "Roanoke_Island", "type":"dynamic", "displayName":"Bathymetry", "showLayers": [
-                                {"id":21, "parentLayerId":-1 }
-                                
+                                {"id":21, "parentLayerId":-1 }    
                             ]
                         }
                     ]
@@ -47,8 +46,7 @@
                         { "name": "Roanoke_Island", "type":"dynamic", "displayName":"Coastal Hazards", "description":"This section is for highlighting geographies where we have finer scale data for illustrating potential oyser reef restoration. Note: Oyster data layers not visible when zooming out beyond the 1:500,000 scale.", "showLayers": [
                                 {"id":23, "parentLayerId":-1 },
                                 {"id":24, "parentLayerId":-1 },
-                                {"id":25, "parentLayerId":-1 }
-                                
+                                {"id":25, "parentLayerId":-1 }  
                             ]
                         }
                     ]
@@ -102,8 +100,7 @@
                                 {"id":55, "parentLayerId":-1 },
                                 {"id":56, "parentLayerId":-1 },
                                 {"id":57, "parentLayerId":-1 },
-                                {"id":58, "parentLayerId":-1 }
-                               
+                                {"id":58, "parentLayerId":-1 }   
                             ]
                         }
                     ]
@@ -143,8 +140,7 @@
                     "services": [
                         { "name": "Engelhard", "type":"dynamic", "displayName":"Bathymetry", "showLayers": [
                                 {"id":16, "parentLayerId":10 },
-                                {"id":17, "parentLayerId":1 }
-                               
+                                {"id":17, "parentLayerId":1 }  
                             ]
                         }
                     ]
@@ -155,8 +151,7 @@
                         { "name": "Engelhard", "type":"dynamic", "displayName":"Coastal Hazards", "showLayers": [
                                 {"id":19, "parentLayerId":-1 },
                                 {"id":20, "parentLayerId":1 },
-                                {"id":21, "parentLayerId":1 }
-                               
+                                {"id":21, "parentLayerId":1 }  
                             ]
                         }
                     ]
@@ -174,8 +169,7 @@
                                 {"id":29, "parentLayerId":1 },
                                 {"id":30, "parentLayerId":1 },
                                 {"id":31, "parentLayerId":1 },
-                                {"id":32, "parentLayerId":1 }
-                                
+                                {"id":32, "parentLayerId":1 }    
                             ]
                         }
                     ]
@@ -191,8 +185,7 @@
                                 {"id":38, "parentLayerId":1 },
                                 {"id":39, "parentLayerId":1 },
                                 {"id":40, "parentLayerId":1 },
-                                {"id":41, "parentLayerId":1 }
-                                
+                                {"id":41, "parentLayerId":1 }     
                             ]
                         }
                     ]
@@ -201,8 +194,7 @@
                     "name": "",
                     "services": [
                         { "name": "Engelhard", "type":"dynamic", "displayName":"Social and Economic", "showLayers": [
-                                {"id":43, "parentLayerId":-1 }
-                               
+                                {"id":43, "parentLayerId":-1 }   
                             ]
                         }
                     ]
