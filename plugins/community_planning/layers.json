@@ -1,11 +1,12 @@
 [
     {
         "agsSource": {
-            "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/North_Carolina",
+            "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services",
             "folderTitle": "Roanoke Island",
             "folders": [
                 {
-                    "name": "",
+                    "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/North_Carolina",
+					"name": "",
                     "services": [
                         { "name": "Roanoke_Island", "type":"dynamic", "displayName":"Habitats", "description":"The Habitat map service features data including but not limited to salt marshes, sea grasses, and current and historical oyster reefs. A brief description and metadata appear when you click on each layer.", "showLayers": [
                                 {"id":1, "parentLayerId":-1 },
@@ -32,7 +33,8 @@
                     ]
                 },
                 {
-                    "name": "",
+                    "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/North_Carolina",
+					"name": "",
                     "services": [   
                         { "name": "Roanoke_Island", "type":"dynamic", "displayName":"Bathymetry", "showLayers": [
                                 {"id":21, "parentLayerId":-1 }    
@@ -41,7 +43,8 @@
                     ]
                 },
                 {
-                    "name": "",
+                    "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/North_Carolina",
+					"name": "",
                     "services": [
                         { "name": "Roanoke_Island", "type":"dynamic", "displayName":"Coastal Hazards", "description":"This section is for highlighting geographies where we have finer scale data for illustrating potential oyser reef restoration. Note: Oyster data layers not visible when zooming out beyond the 1:500,000 scale.", "showLayers": [
                                 {"id":23, "parentLayerId":-1 },
@@ -52,7 +55,8 @@
                     ]
                 },
                 {
-                    "name": "",
+                    "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/North_Carolina",
+					"name": "",
                     "services": [
                         { "name": "Roanoke_Island", "type":"dynamic", "displayName":"Coastal Management", "showLayers": [
                                 {"id":27, "parentLayerId":-1 },
@@ -73,7 +77,8 @@
                     ]
                 },
                 {
-                    "name": "",
+                    "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/North_Carolina",
+					"name": "",
                     "services": [
                         { "name": "Roanoke_Island", "type":"dynamic", "displayName":"Infrastructure", "showLayers": [
                                 {"id":41, "parentLayerId":-1 },
@@ -94,7 +99,8 @@
                     ]
                 },
                 {
-                    "name": "",
+                    "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/North_Carolina",
+					"name": "",
                     "services": [
                         { "name": "Roanoke_Island", "type":"dynamic", "displayName":"Social and Economic", "description":"This section is for highlighting geographies where we have finer scale data for illustrating potential oyser reef restoration. Note: Oyster data layers not visible when zooming out beyond the 1:500,000 scale.", "showLayers": [
                                 {"id":55, "parentLayerId":-1 },
@@ -110,11 +116,12 @@
     },
     {
         "agsSource": {
-            "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/North_Carolina",
+            "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services",
             "folderTitle": "Engelhard",
             "folders": [
                 {
-                    "name": "",
+                    "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/North_Carolina",
+					"name": "",
                     "services": [
                         { "name": "Engelhard", "type":"dynamic", "displayName":"Habitats", "showLayers": [
                                 {"id":1, "parentLayerId":-1 },
@@ -136,7 +143,8 @@
                     ]
                 },
                 {
-                    "name": "",
+                    "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/North_Carolina",
+					"name": "",
                     "services": [
                         { "name": "Engelhard", "type":"dynamic", "displayName":"Bathymetry", "showLayers": [
                                 {"id":16, "parentLayerId":-1 },
@@ -146,7 +154,8 @@
                     ]
                 },
                 {
-                    "name": "",
+                    "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/North_Carolina",
+					"name": "",
                     "services": [
                         { "name": "Engelhard", "type":"dynamic", "displayName":"Coastal Hazards", "showLayers": [
                                 {"id":19, "parentLayerId":-1 },
@@ -157,7 +166,8 @@
                     ]
                 },
                 {
-                    "name": "",
+                    "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/North_Carolina",
+					"name": "",
                     "services": [
                         { "name": "Engelhard", "type":"dynamic", "displayName":"Coastal Management", "showLayers": [
                                 {"id":23, "parentLayerId":-1 },
@@ -175,7 +185,8 @@
                     ]
                 },
                 {
-                    "name": "",
+                    "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/North_Carolina",
+					"name": "",
                     "services": [
                         { "name": "Engelhard", "type":"dynamic", "displayName":"Infrastructure", "showLayers": [
                                 {"id":34, "parentLayerId":-1 },
@@ -191,7 +202,8 @@
                     ]
                 },
                 {
-                    "name": "",
+                    "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/North_Carolina",
+					"name": "",
                     "services": [
                         { "name": "Engelhard", "type":"dynamic", "displayName":"Social and Economic", "showLayers": [
                                 {"id":43, "parentLayerId":-1 }   
