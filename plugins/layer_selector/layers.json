@@ -1,32 +1,29 @@
 [
     {
         "agsSource": {
-            "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services",
-            "folderTitle": "Coastal_Resilience_base_data",
+            "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/North_Carolina",
+            "folderTitle": "Restoration Explorer Suitability Layers",
             "folders": [
                 {
-                    "name": "Engelhard",
+                    "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/North_Carolina",
+                    "name": "",
                     "services": [
-                        { "name": "Habitats", "type":"dynamic" },
-                        { "name": "Bathymetry", "type":"dynamic" },
-                        { "name": "Coastal_Hazards", "type":"dynamic" },
-                        { "name": "Coastal_Management", "type":"dynamic" },
-						{ "name": "Infrastructure", "type":"dynamic" },
-                        { "name": "Social_and_Economic", "type":"dynamic" }
+                        { "name": "North_Carolina", "type":"dynamic", "displayName":"Restoration Explorer Suitability Layers", "description":"", "showLayers": [
+                                {"id":1, "parentLayerId":-1 },
+                                {"id":2, "parentLayerId":-1 },
+                                {"id":3, "parentLayerId":-1 },
+                                {"id":4, "parentLayerId":-1 },
+                                {"id":5, "parentLayerId":-1 },
+                                {"id":6, "parentLayerId":-1 },
+                                {"id":7, "parentLayerId":-1 },
+                                {"id":8, "parentLayerId":-1 },
+                                {"id":9, "parentLayerId":-1 },
+                                {"id":10, "parentLayerId":-1 },
+                                {"id":11, "parentLayerId":-1 }
+                            ]
+                        }
                     ]
-                },
-                {
-                    "name": "Roanoke_Island",
-                    "services": [
-                        { "name": "Habitats", "type":"dynamic" },
-                        { "name": "Bathymetry", "type":"dynamic" },
-                        { "name": "Coastal_Hazards", "type":"dynamic" },
-                        { "name": "Coastal_Management", "type":"dynamic" },
-						{ "name": "Infrastructure", "type":"dynamic" },
-                        { "name": "Social_and_Economic", "type":"dynamic" }
-                    ]
-                }
-                
+                }                
             ]
         }
     }
