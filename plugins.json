@@ -1,8 +1,5 @@
 {
     "plugins": [
-        {
-            "repo": "multiSelect"
-        },
 	    {
             "repo": "explorer",
             "name": "restoration_explorer"
