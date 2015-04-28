@@ -78,7 +78,7 @@
                                 {"id":43, "parentLayerId":41 },
                                 {"id":44, "parentLayerId":41 },
                                 {"id":45, "parentLayerId":41 },
-                                {"id":45, "parentLayerId":41 }
+                                {"id":46, "parentLayerId":41 }
                             ]
                         }
                     ]
@@ -88,7 +88,6 @@
 					"name": "",
                     "services": [
                         { "name": "Roanoke_Island", "type":"dynamic", "displayName":"Infrastructure", "showLayers": [
-                                {"id":47, "parentLayerId":-1 },
                                 {"id":48, "parentLayerId":-1 },
                                 {"id":49, "parentLayerId":-1 },
                                 {"id":50, "parentLayerId":-1 },
