@@ -67,6 +67,7 @@
                 "display": "Roanoke Island",
                 "details": "Roanoke Island, NC",
                 "shape": [[-75.876,35.992],[-75.87,35.763],[-75.432,35.768],[-75.475,35.983],[-75.876,35.992]],
+                "availablePlugins": ["layer_selector", "community_planning"],
                 "outlineColor": "#000",
                 "noFill": true
             },
@@ -75,6 +76,7 @@
                 "display": "Engelhard",
                 "details": "Engelhard, NC",
                 "shape": [[-76.111,35.611],[-76.111,35.377],[-75.743,35.382],[-75.743,35.611],[-76.111,35.611]],
+                "availablePlugins": ["layer_selector", "community_planning"],
                 "outlineColor": "#000",
                 "noFill": true
             }
