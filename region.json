@@ -86,13 +86,14 @@
         {
             "id": "get-started",
             "title": "Getting Started",
-            "description": "This is the launchpad description",
+            "description": "Coastal Resilience is a decision support tool that provides local, state and national planners a step-wise process to guide decisions to reduce the ecological and socio-economic risks of coastal hazards",
             "showSubRegions": true,
+            "subRegionDescription": "Choose a specific region and it will take you there, or you can freely explore the map.",
             "showByDefault": false,
             "categories": [
               {
-                "name": "What's new?",
-                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "name": "One-Click Interactive Map",
+                "description": "Custom maps for adaptation, conservation, and restoration planning",
                 "issues": [
                     {
                       "name": "Potentially Restorable Wetlands in Manteo",
