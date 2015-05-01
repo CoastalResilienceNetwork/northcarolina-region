@@ -56,7 +56,7 @@
                     "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/North_Carolina",
                     "name": "",
                     "services": [
-                        { "name": "North_Carolina", "type":"dynamic", "displayName":"","description":"", "showLayers": [
+                        { "name": "North_Carolina", "type":"dynamic", "displayName":"Restoration Explorer Layers","description":"", "showLayers": [
                                 {"id":19, "parentLayerId":-1 },
                                 {"id":20, "parentLayerId":-1 },
                                 {"id":21, "parentLayerId":-1 },
