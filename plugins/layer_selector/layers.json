@@ -2,26 +2,73 @@
     {
         "agsSource": {
             "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/North_Carolina",
-            "folderTitle": "Restoration Explorer Suitability Layers",
+            "folderTitle": "Albemarle and Pamlico Regional Data Layers",
             "folders": [
                 {
                     "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/North_Carolina",
                     "name": "",
                     "services": [
-                        { "name": "North_Carolina", "type":"dynamic", "displayName":"Restoration Explorer Suitability Layers", "description":"", "showLayers": [
-                                {"id":1, "parentLayerId":-1 },
-                                {"id":2, "parentLayerId":-1 },
+                        { "name": "North_Carolina", "type":"dynamic", "displayName":"Coastal Management", "description":"", "showLayers": [
                                 {"id":3, "parentLayerId":-1 },
                                 {"id":4, "parentLayerId":-1 },
                                 {"id":5, "parentLayerId":-1 },
-                                {"id":6, "parentLayerId":-1 },
-                                {"id":7, "parentLayerId":-1 },
-                                {"id":8, "parentLayerId":-1 },
-                                {"id":9, "parentLayerId":-1 }
+                                {"id":6, "parentLayerId":-1 }
                             ]
                         }
                     ]
-                }                
+                },
+                {
+                    "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/North_Carolina",
+                    "name": "",
+                    "services": [
+                        { "name": "North_Carolina", "type":"dynamic", "displayName":"Habitat", "description":"", "showLayers": [
+                                {"id":8, "parentLayerId":-1 },
+                                {"id":9, "parentLayerId":-1 },
+                                {"id":10, "parentLayerId":-1 },
+                                {"id":11, "parentLayerId":-1 },
+                                {"id":12, "parentLayerId":-1 },
+                                {"id":13, "parentLayerId":-1 }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/North_Carolina",
+                    "name": "",
+                    "services": [
+                        { "name": "North_Carolina", "type":"dynamic", "displayName":"Infrastructure", "description":"", "showLayers": [
+                                {"id":15, "parentLayerId":-1 },
+                                {"id":16, "parentLayerId":-1 },
+                                {"id":17, "parentLayerId":-1 }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "agsSource": {
+            "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services",
+            "folderTitle": "Restoration Explorer Layers",
+            "folders": [
+                {
+                    "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/North_Carolina",
+                    "name": "",
+                    "services": [
+                        { "name": "North_Carolina", "type":"dynamic", "description":"", "showLayers": [
+                                {"id":19, "parentLayerId":-1 },
+                                {"id":20, "parentLayerId":-1 },
+                                {"id":21, "parentLayerId":-1 },
+                                {"id":22, "parentLayerId":-1 },
+                                {"id":23, "parentLayerId":-1 },
+                                {"id":24, "parentLayerId":-1 },
+                                {"id":25, "parentLayerId":-1 },
+                                {"id":26, "parentLayerId":-1 }
+                            ]
+                        }
+                    ]
+                }
             ]
         }
     }
