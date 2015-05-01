@@ -8,6 +8,16 @@
                     "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/North_Carolina",
                     "name": "",
                     "services": [
+                        { "name": "North_Carolina", "type":"dynamic", "displayName":"Bathymetry", "description":"", "showLayers": [
+                                {"id":1, "parentLayerId":-1 }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/North_Carolina",
+                    "name": "",
+                    "services": [
                         { "name": "North_Carolina", "type":"dynamic", "displayName":"Coastal Management", "description":"", "showLayers": [
                                 {"id":3, "parentLayerId":-1 },
                                 {"id":4, "parentLayerId":-1 },
