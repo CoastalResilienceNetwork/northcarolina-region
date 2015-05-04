@@ -21,16 +21,7 @@
 							"min": 0, 
 							"step": 1, 
 							"text": "Depth Score", 
-							"type": "layer"
-						}, 
-						{
-							"default": 5, 
-							"group": "all", 
-							"index": "substrate", 
-							"max": 10, 
-							"min": 0, 
-							"step": 1, 
-							"text": "Sea Bottom Type Score", 
+							"help": "Depth Score", 
 							"type": "layer"
 						}, 
 						{
@@ -41,6 +32,17 @@
 							"min": 0, 
 							"step": 1, 
 							"text": "Salinity Score", 
+							"help": "Salinity Score", 
+							"type": "layer"
+						}, 
+						{
+							"default": 5, 
+							"group": "all", 
+							"index": "exoyster", 
+							"max": 10, 
+							"min": 0, 
+							"step": 1, 
+							"text": "Existing Oyster Reef Score", 
 							"type": "layer"
 						}, 
 						{
@@ -62,7 +64,17 @@
 							"step": 1, 
 							"text": "Proximity to wetlands Score", 
 							"type": "layer"
-						}, 
+						},
+						{
+							"default": 5, 
+							"group": "all", 
+							"index": "substrate", 
+							"max": 10, 
+							"min": 0, 
+							"step": 1, 
+							"text": "Sea Bottom Type Score", 
+							"type": "layer"
+						},
 						{
 							"text": "<b>Socioeconomic Variables (weight):</b>",
 							"type": "text"
@@ -80,31 +92,11 @@
 						{
 							"default": 5, 
 							"group": "all", 
-							"index": "tourism", 
+							"index": "shellfish", 
 							"max": 10, 
 							"min": 0, 
 							"step": 1, 
-							"text": "Natural Resource Job Dependence Score", 
-							"type": "layer"
-						}, 
-						{
-							"default": 5, 
-							"group": "all", 
-							"index": "permfee", 
-							"max": 10, 
-							"min": 0, 
-							"step": 1, 
-							"text": "Project Permit Feasibility Score", 
-							"type": "layer"
-						}, 
-						{
-							"default": 5, 
-							"group": "all", 
-							"index": "impeadnav", 
-							"max": 10, 
-							"min": 0, 
-							"step": 1, 
-							"text": "Marine Transportation Score", 
+							"text": "Water Quality Score", 
 							"type": "layer"
 						}, 
 						{
