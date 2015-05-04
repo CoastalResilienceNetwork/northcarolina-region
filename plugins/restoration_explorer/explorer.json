@@ -115,7 +115,7 @@
 			"methods": "methods/Alabama_Dashboard.pdf",
 			"workspaceId": "postgis",
 			"geometryType": "polygon",
-			"dataset": "sde.nc_restoration_explorer_data_tol",
+			"dataset": "sde.nc_restoration_explorer_data",
 			"reqFields": ["objectid", "shape"],
 			"defaultSymbol": { "type": "esriSFS",
 							 "style": "esriSFSSolid",
