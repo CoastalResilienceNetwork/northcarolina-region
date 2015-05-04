@@ -98,16 +98,6 @@
 							"step": 1, 
 							"text": "Water Quality Score", 
 							"type": "layer"
-						}, 
-						{
-							"default": 5, 
-							"group": "all", 
-							"index": "shellfish", 
-							"max": 10, 
-							"min": 0, 
-							"step": 1, 
-							"text": "Water Quality Score", 
-							"type": "layer"
 						}
 			],
             "name": "Pamlico Sound, NC",
