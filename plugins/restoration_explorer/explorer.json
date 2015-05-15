@@ -109,7 +109,7 @@
 	    "extent": "[[-77.87500825258735, 34.1075000772661], [-77.87500825258735, 36.03084431985407], [-75.33658876120862, 36.03084431985407], [-75.33658876120862, 34.1075000772661], [-77.87500825258735, 34.1075000772661]]",
             "name": "Pamlico Sound, NC",
             "url": "http://services.coastalresilience.org:6080/arcgis/rest/services/PostGIS/DatabaseConnection/MapServer",
-			"methods": "methods/Alabama_Dashboard.pdf",
+			"methods": "methods/NC_Restoration_Explorer_Methods.pdf",
 			"workspaceId": "postgis",
 			"geometryType": "polygon",
 			"dataset": "sde.nc_restoration_explorer_data",
