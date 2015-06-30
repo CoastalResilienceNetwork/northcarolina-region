@@ -99,7 +99,7 @@
       "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/rasterExplorer/nc_explorer/ImageServer",
       "methods": "methods/Alabama_Dashboard.pdf",
       "colorRamp": [[255, 255, 129, 255], [131, 238, 13, 255], [76, 190, 110, 255], [39, 115, 163, 255], [13, 31, 133, 255]],
-      "inputRanges" : [0,1,2,3,4,5],
+      "inputRanges" : [0,50,51,75,76,100],
       "outputValues" : [1,2,3]
         }
     ]
