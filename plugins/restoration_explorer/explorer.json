@@ -86,6 +86,17 @@
 						{
 							"default": 5,
 							"group": "all",
+							"index": "B2",
+							"max": 10,
+							"min": 0,
+							"step": 1,
+							"text": "Shoreline Erosion Score", 
+							"help": "Areas at high risk of shoreline erosion would benefit most from the wave reduction services of oyster reefs. Areas with the highest shoreline erosion rates based on USGS CVI quartile of rates. 4 moderate, 3 low, and 2 very low.  The scores are allocated to the nearshore areas (within 2km of shore) adjacent to the shoreline.  All remaining areas are scored 0.",
+							"type": "layer"
+						},
+						{
+							"default": 5,
+							"group": "all",
 							"index": "B8",
 							"max": 10,
 							"min": 0,
