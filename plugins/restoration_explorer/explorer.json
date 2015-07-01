@@ -108,7 +108,7 @@
 			],
       "name": "Pamlico Sound, NC",
       "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/rasterExplorer/nc_explorer/ImageServer",
-      "methods": "methods/Alabama_Dashboard.pdf",
+      "methods": "methods/NC_Restoration_Explorer_Methods.pdf",
       "colorRamp": [[1, 255, 255, 129], [2, 76, 190, 110], [3, 13, 31, 133]],
       "inputRanges" : [0,50,51,75,76,100],
       "outputValues" : [1,2,3]
