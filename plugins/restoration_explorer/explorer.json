@@ -16,7 +16,7 @@
 						{
 							"default": 5,
 							"group": "all",
-							"index": "B4",
+							"index": "B1",
 							"max": 10,
 							"min": 0,
 							"step": 1,
@@ -27,7 +27,7 @@
 						{
 							"default": 5,
 							"group": "all",
-							"index": "B8",
+							"index": "B5",
 							"max": 10,
 							"min": 0,
 							"step": 1,
@@ -38,7 +38,7 @@
 						{
 							"default": 5,
 							"group": "all",
-							"index": "B1",
+							"index": "B8",
 							"max": 10,
 							"min": 0,
 							"step": 1,
@@ -49,7 +49,7 @@
 						{
 							"default": 5,
 							"group": "all",
-							"index": "B7",
+							"index": "B3",
 							"max": 10,
 							"min": 0,
 							"step": 1,
@@ -60,7 +60,7 @@
 						{
 							"default": 5,
 							"group": "all",
-							"index": "B3",
+							"index": "B4",
 							"max": 10,
 							"min": 0,
 							"step": 1,
@@ -71,7 +71,7 @@
 						{
 							"default": 5,
 							"group": "all",
-							"index": "B2",
+							"index": "B6",
 							"max": 10,
 							"min": 0,
 							"step": 1,
@@ -86,7 +86,7 @@
 						{
 							"default": 5,
 							"group": "all",
-							"index": "B6",
+							"index": "B2",
 							"max": 10,
 							"min": 0,
 							"step": 1,
@@ -97,7 +97,7 @@
 						{
 							"default": 5,
 							"group": "all",
-							"index": "B5",
+							"index": "B7",
 							"max": 10,
 							"min": 0,
 							"step": 1,
@@ -110,7 +110,7 @@
       "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/rasterExplorer/nc_restoration_explorer_10/ImageServer",
       "methods": "methods/NC_Restoration_Explorer_Methods.pdf",
       "colorRamp": [[1, 255, 255, 129], [2, 204, 255, 51], [3, 76, 190, 110], [4, 13, 31, 133]],
-      "inputRanges" : [-255,10,11,20,21,30,31,255],
+      "inputRanges" : [-32768,10,11,20,21,30,31,32767],
       "outputValues" : [1,2,3,4]
         }
     ]
