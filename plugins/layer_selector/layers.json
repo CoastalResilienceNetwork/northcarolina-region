@@ -1,11 +1,11 @@
 [
     {
         "agsSource": {
-            "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/North_Carolina",
+            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/North_Carolina",
             "folderTitle": "Albemarle and Pamlico Regional Data Layers",
             "folders": [
                 {
-                    "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/North_Carolina",
+                    "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/North_Carolina",
                     "name": "",
                     "services": [
                         { "name": "North_Carolina", "type":"dynamic", "displayName":"Bathymetry", "description":"", "showLayers": [
@@ -15,7 +15,7 @@
                     ]
                 },
                 {
-                    "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/North_Carolina",
+                    "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/North_Carolina",
                     "name": "",
                     "services": [
                         { "name": "North_Carolina", "type":"dynamic", "displayName":"Coastal Management", "description":"", "showLayers": [
@@ -30,7 +30,7 @@
                     ]
                 },
                 {
-                    "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/North_Carolina",
+                    "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/North_Carolina",
                     "name": "",
                     "services": [
                         { "name": "North_Carolina", "type":"dynamic", "displayName":"Habitat", "description":"", "showLayers": [
@@ -47,7 +47,7 @@
                     ]
                 },
                 {
-                    "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/North_Carolina",
+                    "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/North_Carolina",
                     "name": "",
                     "services": [
                         { "name": "North_Carolina", "type":"dynamic", "displayName":"Infrastructure", "description":"", "showLayers": [
@@ -59,7 +59,7 @@
                     ]
                 },
                 {
-                    "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/North_Carolina",
+                    "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/North_Carolina",
                     "name": "",
                     "services": [
                         { "name": "North_Carolina", "type":"dynamic", "displayName":"Social and Economic", "description":"", "showLayers": [
@@ -81,11 +81,11 @@
     },
     {
         "agsSource": {
-            "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services",
+            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services",
             "folderTitle": "Restoration Explorer Layers",
             "folders": [
                 {
-                    "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/North_Carolina",
+                    "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/North_Carolina",
                     "name": "",
                     "services": [
                         { "name": "North_Carolina", "type":"dynamic", "displayName":"Restoration Explorer Layers","description":"", "showLayers": [
