@@ -115,17 +115,9 @@
                     "services": [
                         { "name": "North_Carolina", "type":"dynamic", "displayName":"CRS Data Review","description":"", "showLayers": [
                                 {"id":42, "parentLayerId":-1 },
-                                {"id":43, "parentLayerId":42 },
                                 {"id":44, "parentLayerId":42 },
-                                {"id":45, "parentLayerId":42 },
                                 {"id":46, "parentLayerId":42 },
                                 {"id":47, "parentLayerId":42 },
-                                {"id":48, "parentLayerId":42 },
-                                {"id":49, "parentLayerId":42 },
-                                {"id":50, "parentLayerId":42 },
-                                {"id":51, "parentLayerId":-1 },
-                                {"id":52, "parentLayerId":51 },
-                                {"id":53, "parentLayerId":51 },
                                 {"id":54, "parentLayerId":-1 },
                                 {"id":55, "parentLayerId":54 },
                                 {"id":56, "parentLayerId":54 },
