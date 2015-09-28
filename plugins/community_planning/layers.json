@@ -5,7 +5,6 @@
             "folderTitle": "Roanoke Island",
             "folders": [
                 {
-                    "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/North_Carolina",
 					"name": "",
                     "services": [
                         { "name": "Roanoke_Island", "type":"dynamic", "displayName":"Habitats", "description":"The Habitat map service features data including but not limited to salt marshes, sea grasses, and current and historical oyster reefs. A brief description and metadata appear when you click on each layer.", "showLayers": [
@@ -34,7 +33,6 @@
                     ]
                 },
                 {
-                    "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/North_Carolina",
 					"name": "",
                     "services": [   
                         { "name": "Roanoke_Island", "type":"dynamic", "displayName":"Bathymetry", "showLayers": [
