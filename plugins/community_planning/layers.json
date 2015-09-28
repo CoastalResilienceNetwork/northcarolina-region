@@ -1,7 +1,7 @@
 [
     {
         "agsSource": {
-            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services",
+            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/North_Carolina",
             "folderTitle": "Roanoke Island",
             "folders": [
                 {
@@ -127,7 +127,7 @@
     },
     {
         "agsSource": {
-            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services",
+            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/North_Carolina",
             "folderTitle": "Engelhard",
             "folders": [
                 {
