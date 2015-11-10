@@ -1,6 +1,6 @@
 {
     "name": "Restoration Explorer",
-    "text": "To begin, select a region to view.",
+    "text": "To begin, select a restoration type to view.",
     "globalText": "Modify the sliders to change the values on the map (refresh takes a couple seconds).",
 	"mainToggle": {"index": 0, "text": "Toggle Restoration Score on or off"},
     "betweenGroups": "*",
@@ -106,7 +106,7 @@
 							"type": "layer"
 						}
 			],
-      "name": "Pamlico Sound, NC",
+      "name": "Shoreline Oyster Restoration",
       "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/rasterExplorer/nc_restoration_explorer_10/ImageServer",
       "methods": "methods/NC_Restoration_Explorer_Methods.pdf",
       "colorRamp": [[1, 255, 255, 129], [2, 204, 255, 51], [3, 76, 190, 110], [4, 13, 31, 133]],
