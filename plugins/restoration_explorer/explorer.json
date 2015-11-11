@@ -7,7 +7,7 @@
     "averageGroups": true,
     "pluginHeight": 510,
     "infoGraphic": "RestorationExplorer_c.jpg",
-       "regions": [
+       "restorationTypes": [
         {
             "items": [	{
 							"text": "<b>Ecological Variables (weight):</b>",
