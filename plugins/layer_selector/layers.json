@@ -90,39 +90,8 @@
                     "services": [
                         { "name": "North_Carolina", "type":"dynamic", "displayName":"Restoration Explorer Layers","description":"", "showLayers": [
                                 {"id":33, "parentLayerId":-1 },
-                                {"id":34, "parentLayerId":-1 },
-                                {"id":35, "parentLayerId":-1 },
-                                {"id":36, "parentLayerId":-1 },
-                                {"id":37, "parentLayerId":-1 },
-                                {"id":38, "parentLayerId":-1 },
-                                {"id":39, "parentLayerId":-1 },
-                                {"id":40, "parentLayerId":-1 }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        }
-    },
-    {
-        "agsSource": {
-            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services",
-            "folderTitle": "CRS Data Review",
-            "folders": [
-                {
-                    "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/North_Carolina",
-                    "name": "",
-                    "services": [
-                        { "name": "North_Carolina", "type":"dynamic", "displayName":"CRS Data Review","description":"", "showLayers": [
-                                {"id":42, "parentLayerId":-1 },
-                                {"id":44, "parentLayerId":42 },
-                                {"id":46, "parentLayerId":42 },
-                                {"id":47, "parentLayerId":42 },
-                                {"id":54, "parentLayerId":-1 },
-                                {"id":55, "parentLayerId":54 },
-                                {"id":56, "parentLayerId":54 },
-                                {"id":57, "parentLayerId":54 },
-                                {"id":58, "parentLayerId":54 }
+                                {"id":41, "parentLayerId":-1 },
+                                {"id":42, "parentLayerId":-1 }
                             ]
                         }
                     ]
