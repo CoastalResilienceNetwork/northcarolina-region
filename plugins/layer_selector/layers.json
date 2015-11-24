@@ -91,7 +91,8 @@
                         { "name": "North_Carolina", "type":"dynamic", "displayName":"Restoration Explorer Layers","description":"", "showLayers": [
                                 {"id":33, "parentLayerId":-1 },
                                 {"id":41, "parentLayerId":-1 },
-                                {"id":42, "parentLayerId":-1 }
+                                {"id":42, "parentLayerId":-1 },
+                                {"id":43, "parentLayerId":-1 }
                             ]
                         }
                     ]
