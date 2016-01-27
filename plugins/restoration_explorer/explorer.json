@@ -7,6 +7,7 @@
     "betweenGroups": "*",
     "averageGroups": true,
     "pluginHeight": 510,
+	"pluginWidth": 400,
     "infoGraphic": "RestorationExplorer_c.jpg",
        "regions": [
         {
@@ -17,7 +18,7 @@
 						{
 							"default": 5,
 							"group": "all",
-							"index": "B1",
+							"index": "B4",
 							"max": 10,
 							"min": 0,
 							"step": 1,
@@ -28,7 +29,7 @@
 						{
 							"default": 5,
 							"group": "all",
-							"index": "B5",
+							"index": "B10",
 							"max": 10,
 							"min": 0,
 							"step": 1,
@@ -39,7 +40,7 @@
 						{
 							"default": 5,
 							"group": "all",
-							"index": "B8",
+							"index": "B3",
 							"max": 10,
 							"min": 0,
 							"step": 1,
@@ -50,7 +51,7 @@
 						{
 							"default": 5,
 							"group": "all",
-							"index": "B3",
+							"index": "B1",
 							"max": 10,
 							"min": 0,
 							"step": 1,
@@ -61,7 +62,7 @@
 						{
 							"default": 5,
 							"group": "all",
-							"index": "B4",
+							"index": "B2",
 							"max": 10,
 							"min": 0,
 							"step": 1,
@@ -72,12 +73,23 @@
 						{
 							"default": 5,
 							"group": "all",
-							"index": "B6",
+							"index": "B8",
 							"max": 10,
 							"min": 0,
 							"step": 1,
 							"text": "Sea Bottom Type Score", 
 							"help": "Firm substrate without vegetation or shell is ideal for oyster growth. Existing benthic habitat is either intertidal or subtidal Firm, w/o vegetation, w/out shell = 4, other = 0.",
+							"type": "layer"
+						},
+						{
+							"default": 5,
+							"group": "all",
+							"index": "B9",
+							"max": 10,
+							"min": 0,
+							"step": 1,
+							"text": "Proximity to Strategic Habitat Score", 
+							"help": "Proximity to Strategic Habitat Score",
 							"type": "layer"
 						},
 						{
@@ -87,7 +99,7 @@
 						{
 							"default": 5,
 							"group": "all",
-							"index": "B2",
+							"index": "B6",
 							"max": 10,
 							"min": 0,
 							"step": 1,
@@ -98,21 +110,33 @@
 						{
 							"default": 5,
 							"group": "all",
-							"index": "B7",
+							"index": "B5",
 							"max": 10,
 							"min": 0,
 							"step": 1,
 							"text": "Water Quality Score", 
 							"help": "Areas of closed waters are weighted higher due to the potential benefit of oysters filtering the water. Areas currently closed = 2, other = 0.",
 							"type": "layer"
+						},
+						{
+							"default": 5,
+							"group": "all",
+							"index": "B7",
+							"max": 10,
+							"min": 0,
+							"step": 1,
+							"text": "Public Accessibility Score", 
+							"help": "Public Accessibility Score",
+							"type": "layer"
 						}
 			],
       "name": "Shoreline Oyster Restoration",
-      "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/rasterExplorer/nc_restoration_explorer_10/ImageServer",
+      "url": "http://dev.services.coastalresilience.org:6080/arcgis/rest/services/rasterExplorer/NC_Rest_Explorer_NEW/ImageServer",
       "methods": "methods/NC_Restoration_Explorer_Methods.pdf",
-      "colorRamp": [[1, 255, 255, 129], [2, 204, 255, 51], [3, 76, 190, 110], [4, 13, 31, 133]],
-      "inputRanges" : [-32768,9,10,19,20,29,30,32767],
-      "outputValues" : [1,2,3,4]
+      "colorRamp": [[1, 255, 255, 129], [2, 204, 255, 51], [3, 76, 190, 110], [4, 13, 31, 133], [5, 150, 150, 150]],
+      "inputRanges" : [-32768,10,10,20,20,30,30,101,101,32767],
+      "outputValues" : [1,2,3,4,5],
+	  "outputLabels" : [{text:"Low", "percent": "0"},{text:"Medium", "percent": "38"},{text:"High", "percent": "75"},{text:"May not be suitable for specified restoration type", "percent": "100"}]
         }
     ]
 }
