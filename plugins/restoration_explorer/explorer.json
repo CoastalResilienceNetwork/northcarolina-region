@@ -130,7 +130,7 @@
 							"type": "layer"
 						}
 			],
-      "name": "Shoreline Oyster Restoration",
+      "name": "Subtidal Shoreline Oyster Reefs",
       "url": "http://dev.services.coastalresilience.org:6080/arcgis/rest/services/rasterExplorer/NC_Rest_Explorer_NEW/ImageServer",
       "methods": "methods/NC_Restoration_Explorer_Methods.pdf",
       "colorRamp": [[1, 255, 255, 129], [2, 204, 255, 51], [3, 76, 190, 110], [4, 13, 31, 133], [5, 150, 150, 150]],
