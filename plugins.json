@@ -1,7 +1,7 @@
 {
     "plugins": [
 	    {
-            "repo": "explorer",
+            "repo": "multiexplorer",
             "name": "restoration_explorer"
         },
         {
