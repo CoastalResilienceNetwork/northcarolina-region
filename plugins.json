@@ -1,16 +1,12 @@
 {
     "plugins": [
-        {
-            "repo": "multiSelect",
-            "name": "flood_slr"
-        },
 	    {
-            "repo": "explorer",
+            "repo": "multiexplorer",
             "name": "restoration_explorer"
         },
-        { 
-	    	"repo": "community_planning",
-            "name": "community_planning"
+        {
+        	"repo": "community-rating-system",
+        	"name": "community-rating-system"
         }
     ]
 }
