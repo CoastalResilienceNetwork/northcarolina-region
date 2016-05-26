@@ -7,6 +7,10 @@
         {
         	"repo": "community-rating-system",
         	"name": "community-rating-system"
+        },
+        {
+            "repo": "map-tree",
+            "name": "layer_selector"
         }
     ]
 }
