@@ -1,12 +1,20 @@
 {
     "plugins": [
-	    {
+        {
             "repo": "multiexplorer",
             "name": "restoration_explorer"
         },
         {
-        	"repo": "community-rating-system",
-        	"name": "community-rating-system"
+            "repo": "community-rating-system",
+            "name": "community-rating-system"
+        },
+        {
+            "repo": "map-tree",
+            "name": "layer_selector"
+        },
+        {
+            "repo": "map-tree",
+            "name": "community_planning"
         }
     ]
 }
