@@ -5,12 +5,15 @@
             "type": "ags",
             "layerType": "dynamic",
             "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/North_Carolina",
-            "name": "North_Carolina"
+            "name": "North_Carolina",
+            "reportGpUrl": "http://dev.services2.coastalresilience.org/arcgis/rest/services/DrawAndReport/getDrawAndReportDataMultiUnits/GPServer/getDrawAndReportDataMultiUnits",
+            "reportDbPath": "coastalresilience.gdb" 
         },
         "includeLayers": [
             {
                 "name": "Bathymetry",
                 "displayName": "Bathymetry"
+                "includeAllLayers": true
             },
             {
                 "name": "Coastal Management",
@@ -40,7 +43,9 @@
             "type": "ags",
             "layerType": "dynamic",
             "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/North_Carolina",
-            "name": "North_Carolina"
+            "name": "North_Carolina",
+            "reportGpUrl": "http://dev.services2.coastalresilience.org/arcgis/rest/services/DrawAndReport/getDrawAndReportDataMultiUnits/GPServer/getDrawAndReportDataMultiUnits",
+            "reportDbPath": "coastalresilience.gdb" 
         },
         "includeLayers": [
             {

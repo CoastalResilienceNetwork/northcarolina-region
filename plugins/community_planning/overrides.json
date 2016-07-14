@@ -3,6 +3,6 @@
     "width": 400,
     "resizable": false,
     "hasCustomPrint": true,
-    "name": "Coral Reef Fisheries",
-    "infoGraphic": "<div><img src='plugins/fisheries/fishproduction.jpg'/></div>"
+    "name": "Community Planning",
+    "infoGraphic": ""
 }
