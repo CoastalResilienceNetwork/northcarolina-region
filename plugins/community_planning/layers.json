@@ -46,6 +46,7 @@
 					"name": "",
                     "services": [
                         { "name": "Roanoke_Island", "type":"dynamic", "displayName":"Coastal Hazards", "description":"This section is for highlighting geographies where we have finer scale data for illustrating potential oyser reef restoration. Note: Oyster data layers not visible when zooming out beyond the 1:500,000 scale.", "showLayers": [
+                                {"id":70, "parentLayerId":-1 },
                                 {"id":24, "parentLayerId":-1 },
                                 {"id":25, "parentLayerId":-1 },
                                 {"id":26, "parentLayerId":-1 }  
@@ -115,7 +116,8 @@
                                 {"id":66, "parentLayerId":-1 },
                                 {"id":67, "parentLayerId":-1 },
                                 {"id":68, "parentLayerId":-1 },
-                                {"id":69, "parentLayerId":-1 }   
+                                {"id":69, "parentLayerId":-1 },
+                                {"id":71, "parentLayerId":-1 }  
                             ]
                         }
                     ]
