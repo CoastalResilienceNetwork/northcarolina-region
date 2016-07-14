@@ -1,230 +1,88 @@
 [
     {
-        "agsSource": {
+        "displayName": "Roanoke Island",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
             "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/North_Carolina",
-            "folderTitle": "Roanoke Island",
-            "folders": [
-                {
-					"name": "",
-                    "services": [
-                        { "name": "Roanoke_Island", "type":"dynamic", "displayName":"Habitats", "description":"The Habitat map service features data including but not limited to salt marshes, sea grasses, and current and historical oyster reefs. A brief description and metadata appear when you click on each layer.", "showLayers": [
-                                {"id":1, "parentLayerId":-1 },
-                                {"id":2, "parentLayerId":-1 },
-                                {"id":3, "parentLayerId":-1 },
-                                {"id":4, "parentLayerId":-1 },
-                                {"id":5, "parentLayerId":-1 },
-                                {"id":6, "parentLayerId":-1 },
-                                {"id":7, "parentLayerId":-1 },
-                                {"id":8, "parentLayerId":-1 },
-                                {"id":9, "parentLayerId":-1 },
-                                {"id":10, "parentLayerId":-1 },
-                                {"id":11, "parentLayerId":-1 },
-                                {"id":12, "parentLayerId":-1 },
-                                {"id":13, "parentLayerId":-1 },
-                                {"id":14, "parentLayerId":-1 },
-                                {"id":15, "parentLayerId":-1 },
-                                {"id":16, "parentLayerId":-1 },
-                                {"id":17, "parentLayerId":-1 },
-                                {"id":18, "parentLayerId":-1 },
-                                {"id":19, "parentLayerId":-1 },
-                                {"id":20, "parentLayerId":-1 }
-                            ]
-                        }
-                    ]
-                },
-                {
-					"name": "",
-                    "services": [   
-                        { "name": "Roanoke_Island", "type":"dynamic", "displayName":"Bathymetry", "showLayers": [
-                                {"id":22, "parentLayerId":-1 }    
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/North_Carolina",
-					"name": "",
-                    "services": [
-                        { "name": "Roanoke_Island", "type":"dynamic", "displayName":"Coastal Hazards", "description":"This section is for highlighting geographies where we have finer scale data for illustrating potential oyser reef restoration. Note: Oyster data layers not visible when zooming out beyond the 1:500,000 scale.", "showLayers": [
-                                {"id":70, "parentLayerId":-1 },
-                                {"id":24, "parentLayerId":-1 },
-                                {"id":25, "parentLayerId":-1 },
-                                {"id":26, "parentLayerId":-1 }  
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/North_Carolina",
-					"name": "",
-                    "services": [
-                        { "name": "Roanoke_Island", "type":"dynamic", "displayName":"Coastal Management", "showLayers": [
-                                {"id":28, "parentLayerId":-1 },
-                                {"id":29, "parentLayerId":-1 },
-                                {"id":30, "parentLayerId":-1 },
-                                {"id":31, "parentLayerId":-1 },
-                                {"id":32, "parentLayerId":-1 },
-                                {"id":33, "parentLayerId":-1 },
-                                {"id":34, "parentLayerId":-1 },
-                                {"id":35, "parentLayerId":-1 },
-                                {"id":36, "parentLayerId":-1 },
-                                {"id":37, "parentLayerId":-1 },
-                                {"id":38, "parentLayerId":-1 },
-                                {"id":39, "parentLayerId":-1 },
-                                {"id":40, "parentLayerId":-1 },
-                                {"id":41, "parentLayerId":-1 },
-                                {"id":42, "parentLayerId":41 },
-                                {"id":43, "parentLayerId":41 },
-                                {"id":44, "parentLayerId":41 },
-                                {"id":45, "parentLayerId":41 },
-                                {"id":46, "parentLayerId":41 }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/North_Carolina",
-					"name": "",
-                    "services": [
-                        { "name": "Roanoke_Island", "type":"dynamic", "displayName":"Infrastructure", "showLayers": [
-                                {"id":48, "parentLayerId":-1 },
-                                {"id":49, "parentLayerId":-1 },
-                                {"id":50, "parentLayerId":-1 },
-                                {"id":51, "parentLayerId":-1 },
-                                {"id":32, "parentLayerId":-1 },
-                                {"id":53, "parentLayerId":-1 },
-                                {"id":54, "parentLayerId":-1 },
-                                {"id":55, "parentLayerId":-1 },
-                                {"id":56, "parentLayerId":-1 },
-                                {"id":57, "parentLayerId":-1 },
-                                {"id":58, "parentLayerId":-1 },
-                                {"id":59, "parentLayerId":-1 },
-                                {"id":60, "parentLayerId":-1 },
-                                {"id":61, "parentLayerId":-1 },
-                                {"id":62, "parentLayerId":-1 },
-                                {"id":63, "parentLayerId":-1 },
-                                {"id":64, "parentLayerId":-1 }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/North_Carolina",
-					"name": "",
-                    "services": [
-                        { "name": "Roanoke_Island", "type":"dynamic", "displayName":"Social and Economic", "description":"This section is for highlighting geographies where we have finer scale data for illustrating potential oyser reef restoration. Note: Oyster data layers not visible when zooming out beyond the 1:500,000 scale.", "showLayers": [
-                                {"id":66, "parentLayerId":-1 },
-                                {"id":67, "parentLayerId":-1 },
-                                {"id":68, "parentLayerId":-1 },
-                                {"id":69, "parentLayerId":-1 },
-                                {"id":71, "parentLayerId":-1 }  
-                            ]
-                        }
-                    ]
-                }
-            ]
-        }
+            "name": "Roanoke_Island",
+            "reportGpUrl": "http://dev.services2.coastalresilience.org/arcgis/rest/services/DrawAndReport/getDrawAndReportDataMultiUnits/GPServer/getDrawAndReportDataMultiUnits",
+            "reportDbPath": "oceanwealth.gdb" 
+        },
+        "includeLayers": [
+            {
+                "name": "Habitats",
+                "displayName": "Habitats",
+                "includeAllLayers": true
+            },
+            {
+                "name": "Bathymetry",
+                "displayName": "Bathymetry",
+                "includeAllLayers": true
+            },
+            {
+                "name": "Coastal Hazards",
+                "displayName": "Coastal Hazards",
+                "includeAllLayers": true
+            },
+            {
+                "name": "Coastal Management",
+                "displayName": "Coastal Management",
+                "includeAllLayers": true
+            },
+            {
+                "name": "Infrastructure",
+                "displayName": "Infrastructure",
+                "includeAllLayers": true
+            },
+            {
+                "name": "Social and Economic",
+                "displayName": "Social and Economic",
+                "includeAllLayers": true
+            }
+        ]
     },
     {
-        "agsSource": {
+        "displayName": "Engelhard",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
             "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/North_Carolina",
-            "folderTitle": "Engelhard",
-            "folders": [
-                {
-                    "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/North_Carolina",
-					"name": "",
-                    "services": [
-                        { "name": "Engelhard", "type":"dynamic", "displayName":"Habitats", "showLayers": [
-                                {"id":1, "parentLayerId":-1 },
-                                {"id":2, "parentLayerId":-1 },
-                                {"id":3, "parentLayerId":-1 },
-                                {"id":4, "parentLayerId":-1 },
-                                {"id":5, "parentLayerId":-1 },
-                                {"id":6, "parentLayerId":-1 },
-                                {"id":7, "parentLayerId":-1 },
-                                {"id":8, "parentLayerId":-1 },
-                                {"id":9, "parentLayerId":-1 },
-                                {"id":10, "parentLayerId":-1 },
-                                {"id":11, "parentLayerId":-1 },
-                                {"id":12, "parentLayerId":-1 },
-                                {"id":13, "parentLayerId":-1 },
-                                {"id":14, "parentLayerId":-1 },
-                                {"id":15, "parentLayerId":-1 }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/North_Carolina",
-					"name": "",
-                    "services": [
-                        { "name": "Engelhard", "type":"dynamic", "displayName":"Bathymetry", "showLayers": [
-                                {"id":17, "parentLayerId":-1 },
-                                {"id":18, "parentLayerId":-1 }  
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/North_Carolina",
-					"name": "",
-                    "services": [
-                        { "name": "Engelhard", "type":"dynamic", "displayName":"Coastal Hazards", "showLayers": [
-                                {"id":20, "parentLayerId":-1 },
-                                {"id":21, "parentLayerId":-1 },
-                                {"id":22, "parentLayerId":-1 }  
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/North_Carolina",
-					"name": "",
-                    "services": [
-                        { "name": "Engelhard", "type":"dynamic", "displayName":"Coastal Management", "showLayers": [
-                                {"id":24, "parentLayerId":-1 },
-                                {"id":25, "parentLayerId":-1 },
-                                {"id":26, "parentLayerId":-1 },
-                                {"id":27, "parentLayerId":-1 },
-                                {"id":28, "parentLayerId":-1 },
-                                {"id":29, "parentLayerId":-1 },
-                                {"id":30, "parentLayerId":-1 },
-                                {"id":31, "parentLayerId":-1 },
-                                {"id":32, "parentLayerId":-1 },
-                                {"id":33, "parentLayerId":-1 }    
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/North_Carolina",
-					"name": "",
-                    "services": [
-                        { "name": "Engelhard", "type":"dynamic", "displayName":"Infrastructure", "showLayers": [
-                                {"id":35, "parentLayerId":-1 },
-                                {"id":36, "parentLayerId":-1 },
-                                {"id":37, "parentLayerId":-1 },
-                                {"id":38, "parentLayerId":-1 },
-                                {"id":39, "parentLayerId":-1 },
-                                {"id":40, "parentLayerId":-1 },
-                                {"id":41, "parentLayerId":-1 },
-                                {"id":42, "parentLayerId":-1 },
-                                {"id":43, "parentLayerId":-1 }     
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/North_Carolina",
-					"name": "",
-                    "services": [
-                        { "name": "Engelhard", "type":"dynamic", "displayName":"Social and Economic", "showLayers": [
-                                {"id":45, "parentLayerId":-1 }   
-                            ]
-                        }
-                    ]
-                }
-            ]
-        }
+            "name": "Engelhard",
+            "reportGpUrl": "http://dev.services2.coastalresilience.org/arcgis/rest/services/DrawAndReport/getDrawAndReportDataMultiUnits/GPServer/getDrawAndReportDataMultiUnits",
+            "reportDbPath": "oceanwealth.gdb" 
+        },
+        "includeLayers": [
+            {
+                "name": "Habitats",
+                "displayName": "Habitats",
+                "includeAllLayers": true
+            },
+            {
+                "name": "Bathymetry",
+                "displayName": "Bathymetry",
+                "includeAllLayers": true
+            },
+            {
+                "name": "Coastal Hazards",
+                "displayName": "Coastal Hazards",
+                "includeAllLayers": true
+            },
+            {
+                "name": "Coastal Management",
+                "displayName": "Coastal Management",
+                "includeAllLayers": true
+            },
+            {
+                "name": "Infrastructure",
+                "displayName": "Infrastructure",
+                "includeAllLayers": true
+            },
+            {
+                "name": "Social and Economic",
+                "displayName": "Social and Economic",
+                "includeAllLayers": true
+            }
+        ]
     }
 ]
