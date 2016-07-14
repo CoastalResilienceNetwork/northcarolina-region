@@ -5,9 +5,7 @@
             "type": "ags",
             "layerType": "dynamic",
             "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/North_Carolina",
-            "name": "Roanoke_Island",
-            "reportGpUrl": "http://dev.services2.coastalresilience.org/arcgis/rest/services/DrawAndReport/getDrawAndReportDataMultiUnits/GPServer/getDrawAndReportDataMultiUnits",
-            "reportDbPath": "oceanwealth.gdb" 
+            "name": "Roanoke_Island" 
         },
         "includeLayers": [
             {
@@ -48,9 +46,7 @@
             "type": "ags",
             "layerType": "dynamic",
             "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/North_Carolina",
-            "name": "Engelhard",
-            "reportGpUrl": "http://dev.services2.coastalresilience.org/arcgis/rest/services/DrawAndReport/getDrawAndReportDataMultiUnits/GPServer/getDrawAndReportDataMultiUnits",
-            "reportDbPath": "oceanwealth.gdb" 
+            "name": "Engelhard"
         },
         "includeLayers": [
             {
