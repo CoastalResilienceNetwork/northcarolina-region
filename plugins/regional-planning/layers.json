@@ -13,7 +13,6 @@
             {
                 "name": "Bathymetry",
                 "displayName": "Bathymetry"
-                "includeAllLayers": true
             },
             {
                 "name": "Coastal Management",
