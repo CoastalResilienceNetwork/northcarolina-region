@@ -22,12 +22,13 @@
                 "displayName": "Effective DFIRM"
             },
             {
-                "name": "Infrastructure",
+                "name": "Dare County Infrastructure",
                 "displayName": "Infrastructure",
                 "includeAllLayers": true
             },
             {
                 "name": "Habitats",
+                "id": "127",
                 "displayName": "Habitats",
                 "includeAllLayers": true
             },
