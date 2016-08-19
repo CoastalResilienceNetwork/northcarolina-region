@@ -5,9 +5,7 @@
             "type": "ags",
             "layerType": "dynamic",
             "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/North_Carolina",
-            "name": "North_Carolina",
-            "reportGpUrl": "http://dev.services2.coastalresilience.org/arcgis/rest/services/DrawAndReport/getDrawAndReportDataMultiUnits/GPServer/getDrawAndReportDataMultiUnits",
-            "reportDbPath": "coastalresilience.gdb" 
+            "name": "North_Carolina" 
         },
         "includeLayers": [
             {
@@ -42,9 +40,7 @@
             "type": "ags",
             "layerType": "dynamic",
             "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/North_Carolina",
-            "name": "North_Carolina",
-            "reportGpUrl": "http://dev.services2.coastalresilience.org/arcgis/rest/services/DrawAndReport/getDrawAndReportDataMultiUnits/GPServer/getDrawAndReportDataMultiUnits",
-            "reportDbPath": "coastalresilience.gdb" 
+            "name": "North_Carolina" 
         },
         "includeLayers": [
             {
@@ -95,9 +91,7 @@
             "type": "ags",
             "layerType": "dynamic",
             "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/North_Carolina",
-            "name": "North_Carolina",
-            "reportGpUrl": "http://dev.services2.coastalresilience.org/arcgis/rest/services/DrawAndReport/getDrawAndReportDataMultiUnits/GPServer/getDrawAndReportDataMultiUnits",
-            "reportDbPath": "coastalresilience.gdb" 
+            "name": "North_Carolina" 
         },
         "includeLayers": [
             {

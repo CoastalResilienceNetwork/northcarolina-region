@@ -37,7 +37,7 @@
                 "includeAllLayers": true
             }
         ]
-    }
+    },
     {
         "displayName": "Roanoke Island",
         "server": {
@@ -78,6 +78,6 @@
                 "includeAllLayers": true
             }
         ]
-    },
+    }
     
 ]
