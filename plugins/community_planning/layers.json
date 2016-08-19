@@ -1,11 +1,50 @@
 [
     {
+        "displayName": "Dare County",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/North_Carolina",
+            "name": "North_Carolina"
+        },
+        "includeLayers": [
+            {
+                "name": "Recreation",
+                "displayName": "Recreation",
+                "includeAllLayers": true
+            },
+            {
+                "name": "Preliminary DFIRM",
+                "displayName": "Preliminary DFIRM"
+            },
+            {
+                "name": "Effective DFIRM",
+                "displayName": "Effective DFIRM"
+            },
+            {
+                "name": "Infrastructure",
+                "displayName": "Infrastructure",
+                "includeAllLayers": true
+            },
+            {
+                "name": "Habitats",
+                "displayName": "Habitats",
+                "includeAllLayers": true
+            },
+            {
+                "name": "Social & Economic",
+                "displayName": "Social & Economic",
+                "includeAllLayers": true
+            }
+        ]
+    }
+    {
         "displayName": "Roanoke Island",
         "server": {
             "type": "ags",
             "layerType": "dynamic",
             "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/North_Carolina",
-            "name": "Roanoke_Island" 
+            "name": "North_Carolina" 
         },
         "includeLayers": [
             {
@@ -40,45 +79,5 @@
             }
         ]
     },
-    {
-        "displayName": "Engelhard",
-        "server": {
-            "type": "ags",
-            "layerType": "dynamic",
-            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/North_Carolina",
-            "name": "Engelhard"
-        },
-        "includeLayers": [
-            {
-                "name": "Habitats",
-                "displayName": "Habitats",
-                "includeAllLayers": true
-            },
-            {
-                "name": "Bathymetry",
-                "displayName": "Bathymetry",
-                "includeAllLayers": true
-            },
-            {
-                "name": "Coastal Hazards",
-                "displayName": "Coastal Hazards",
-                "includeAllLayers": true
-            },
-            {
-                "name": "Coastal Management",
-                "displayName": "Coastal Management",
-                "includeAllLayers": true
-            },
-            {
-                "name": "Infrastructure",
-                "displayName": "Infrastructure",
-                "includeAllLayers": true
-            },
-            {
-                "name": "Social and Economic",
-                "displayName": "Social and Economic",
-                "includeAllLayers": true
-            }
-        ]
-    }
+    
 ]
