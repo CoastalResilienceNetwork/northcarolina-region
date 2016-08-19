@@ -28,7 +28,6 @@
             },
             {
                 "name": "Habitats",
-                "parentLayerId": 118,
                 "displayName": "Habitats",
                 "includeAllLayers": true
             },
