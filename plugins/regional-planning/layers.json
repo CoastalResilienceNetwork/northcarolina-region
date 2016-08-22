@@ -84,21 +84,5 @@
                 "displayName": "Proximity to Strategic Habitat Areas"
             }
         ]
-    },
-    {
-        "displayName": "CRS QAQC",
-        "server": {
-            "type": "ags",
-            "layerType": "dynamic",
-            "url": "http://services.coastalresilience.org/arcgis/rest/services/North_Carolina",
-            "name": "North_Carolina" 
-        },
-        "includeLayers": [
-            {
-                "name": "CRS QAQC",
-                "displayName": "CRS QAQC",
-                "includeAllLayers": true
-            }
-        ]
     }
 ]
