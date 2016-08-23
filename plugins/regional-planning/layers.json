@@ -73,7 +73,7 @@
                 "displayName": "Category 1",
                 "includeLayers": [
                         {
-                                "name": "Inundation_Depth",
+                                "name": "Inundation Depth",
                                 "displayName": "Inundation Depth"
                             }
                         ]
@@ -86,7 +86,7 @@
                 "displayName": "Category 2",
                 "includeLayers": [
                         {
-                                "name": "Inundation_Depth",
+                                "name": "Inundation Depth",
                                 "displayName": "Inundation Depth"
                             }
                         ]
@@ -99,7 +99,7 @@
                 "displayName": "Category 3",
                 "includeLayers": [
                         {
-                                "name": "Inundation_Depth",
+                                "name": "Inundation Depth",
                                 "displayName": "Inundation Depth"
                             }
                         ]
@@ -112,7 +112,7 @@
                 "displayName": "Category 4",
                 "includeLayers": [
                         {
-                                "name": "Inundation_Depth",
+                                "name": "Inundation Depth",
                                 "displayName": "Inundation Depth"
                             }
                         ]
@@ -125,7 +125,7 @@
                 "displayName": "Category 5",
                 "includeLayers": [
                         {
-                                "name": "Inundation_Depth",
+                                "name": "Inundation Depth",
                                 "displayName": "Inundation Depth"
                             }
                         ]
