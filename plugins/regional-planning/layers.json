@@ -69,66 +69,36 @@
                 "server": {
                     "name": "NHC_SeamlessSLOSH_Category1"
                 },
-                "name": "NHC_SeamlessSLOSH_Category1",
-                "displayName": "Category 1",
-                "includeLayers": [
-                        {
-                                "name": "Inundation Depth",
-                                "displayName": "Inundation Depth"
-                            }
-                        ]
+                "name": "Inundation Depth",
+                "displayName": "Category 1"
                     },
                     {
                  "server": {
                     "name": "NHC_SeamlessSLOSH_Category2"
                 },
-                "name": "NHC_SeamlessSLOSH_Category2",
-                "displayName": "Category 2",
-                "includeLayers": [
-                        {
-                                "name": "Inundation Depth",
-                                "displayName": "Inundation Depth"
-                            }
-                        ]
+                "name": "Inundation Depth",
+                "displayName": "Category 2"
                     },       
                     {
                  "server": {
                     "name": "NHC_SeamlessSLOSH_Category3"
                 },
-                "name": "NHC_SeamlessSLOSH_Category3",
-                "displayName": "Category 3",
-                "includeLayers": [
-                        {
-                                "name": "Inundation Depth",
-                                "displayName": "Inundation Depth"
-                            }
-                        ]
+                "name": "Inundation Depth",
+                "displayName": "Category 3"
                     },
                     {
                  "server": {
                     "name": "NHC_SeamlessSLOSH_Category4"
                 },
-                "name": "NHC_SeamlessSLOSH_Category4",
-                "displayName": "Category 4",
-                "includeLayers": [
-                        {
-                                "name": "Inundation Depth",
-                                "displayName": "Inundation Depth"
-                            }
-                        ]
+                "name": "Inundation Depth",
+                "displayName": "Category 4"
                     },
                     {
                  "server": {
                     "name": "NHC_SeamlessSLOSH_Category5"
                 },
-                "name": "NHC_SeamlessSLOSH_Category5",
-                "displayName": "Category 5",
-                "includeLayers": [
-                        {
-                                "name": "Inundation Depth",
-                                "displayName": "Inundation Depth"
-                            }
-                        ]
+                "name": "Inundation Depth",
+                "displayName": "Category 5"
                     }
         ]
     },
