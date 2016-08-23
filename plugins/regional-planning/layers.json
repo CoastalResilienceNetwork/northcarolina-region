@@ -46,11 +46,11 @@
                 "server": {
                     "name": "CFEM_ShallowCoastalFlooding"
                 },
-                "name": "NC_MHX_FF_WM",
+                "name": "CFEM_ShallowCoastalFlooding",
                 "displayName": "Coastal Flood Exposure",
                 "includeLayers": [
                         {
-                                "name": "Shallow Coastal Flooding",
+                                "name": "NC_MHX_FF_WM",
                                 "displayName": "Shallow Coastal Flooding Areas"
                             }
                         ]
