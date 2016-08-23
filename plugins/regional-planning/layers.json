@@ -35,6 +35,68 @@
         ]
     },
     {
+        "displayName": "National Weather Service - Storm Surge Inundation (SLOSH MOMs)",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "http://tiles.arcgis.com/tiles/C8EMgrsFcRFL6LrL/arcgis/rest/services"
+        },
+        "includeLayers": [
+            {
+                "server": {
+                    "name": "NHC_SeamlessSLOSH_Category1"
+                },
+                "name": "NHC_SeamlessSLOSH_Category1",
+                "displayName": "Category 1"
+            },
+            {
+                "server": {
+                    "name": "NHC_SeamlessSLOSH_Category2"
+                },
+                "name": "NHC_SeamlessSLOSH_Category2",
+                "displayName": "Category 2"
+            },
+            {
+                "server": {
+                    "name": "NHC_SeamlessSLOSH_Category3"
+                },
+                "name": "NHC_SeamlessSLOSH_Category3",
+                "displayName": "Category 3"
+            },
+            {
+                "server": {
+                    "name": "NHC_SeamlessSLOSH_Category4"
+                },
+                "name": "NHC_SeamlessSLOSH_Category4",
+                "displayName": "Category 4"
+            },
+            {
+                "server": {
+                    "name": "NHC_SeamlessSLOSH_Category5"
+                },
+                "name": "NHC_SeamlessSLOSH_Category5",
+                "displayName": "Category 5"
+            }
+        ]
+    },
+    {
+        "displayName": "NOAA - Coastal Flood Frequency",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "https://coast.noaa.gov/arcgis/rest/services/dc_slr"
+        },
+        "includeLayers": [
+            {
+                "server": {
+                    "name": "Flood_Frequency"
+                },
+                "name": "SLR_Viewer_Data_Extent",
+                "displayName": "Shallow Coastal Flooding Areas"
+            }
+        ]
+    },
+    {
         "displayName": "Restoration Explorer Layers",
         "server": {
             "type": "ags",
