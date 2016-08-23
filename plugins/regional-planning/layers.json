@@ -35,7 +35,7 @@
         ]
     },
     {
-        "displayName": "NOAA - Coastal Flood Exposure",
+        "displayName": "NOAA - Flood Risk",
         "server": {
             "type": "ags",
             "layerType": "dynamic",
@@ -46,6 +46,8 @@
                 "server": {
                     "name": "CFEM_ShallowCoastalFlooding"
                 },
+                "name": "CFEM_ShallowCoastalFlooding",
+                "displayName": "Coastal Flood Exposure",
                 "includeLayers": [
                         {
                                 "name": "NC_MHX_FF_WM",
