@@ -35,74 +35,21 @@
         ]
     },
     {
-        "displayName": "NOAA - Flood Risk",
+        "displayName": "Flood Risk",
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "https://coast.noaa.gov/arcgis/rest/services/FloodExposureMapper/"
+            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/North_Carolina",
+            "name": "North_Carolina"
         },
         "includeLayers": [
             {
-                "server": {
-                    "name": "CFEM_ShallowCoastalFlooding"
-                },
-                "name": "CFEM_ShallowCoastalFlooding",
-                "displayName": "Coastal Flood Exposure",
-                "includeLayers": [
-                        {
-                                "name": "NC_MHX_FF_WM",
-                                "displayName": "Shallow Coastal Flooding Areas"
-                            }
-                        ]
-                    }
+                "name": "Flood Risk",
+                "displayName": "Flood Risk",
+                "includeAllLayers": true
+            }
         ]
     },
-    {
-        "displayName": "National Weather Service - Storm Surge Inundation (SLOSH MOMs)",
-        "server": {
-            "type": "ags",
-            "layerType": "dynamic",
-            "url": "http://tiles.arcgis.com/tiles/C8EMgrsFcRFL6LrL/arcgis/rest/services/"
-        },
-        "includeLayers": [
-            {
-                "server": {
-                    "name": "NHC_SeamlessSLOSH_Category1"
-                },
-                "name": "Inundation Depth ",
-                "displayName": "Category 1"
-                    },
-                    {
-                 "server": {
-                    "name": "NHC_SeamlessSLOSH_Category2"
-                },
-                "name": "Inundation Depth",
-                "displayName": "Category 2"
-                    },       
-                    {
-                 "server": {
-                    "name": "NHC_SeamlessSLOSH_Category3"
-                },
-                "name": "Inundation Depth",
-                "displayName": "Category 3"
-                    },
-                    {
-                 "server": {
-                    "name": "NHC_SeamlessSLOSH_Category4"
-                },
-                "name": "Inundation Depth",
-                "displayName": "Category 4"
-                    },
-                    {
-                 "server": {
-                    "name": "NHC_SeamlessSLOSH_Category5"
-                },
-                "name": "Inundation Depth",
-                "displayName": "Category 5"
-                    }
-        ]
-    },
-    
     {
         "displayName": "Restoration Explorer Layers",
         "server": {
@@ -151,22 +98,6 @@
             {
                 "name": "Proximity to Strategic Habitat Areas",
                 "displayName": "Proximity to Strategic Habitat Areas"
-            }
-        ]
-    },
-    {
-        "displayName": "CRS QAQC",
-        "server": {
-            "type": "ags",
-            "layerType": "dynamic",
-            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/North_Carolina",
-            "name": "North_Carolina" 
-        },
-        "includeLayers": [
-            {
-                "name": "CRS QAQC",
-                "displayName": "CRS QAQC",
-                "includeAllLayers": true
             }
         ]
     }
