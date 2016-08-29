@@ -35,26 +35,19 @@
         ]
     },
     {
-        "displayName": "NOAA - Flood Risk",
+        "displayName": "Flood Risk",
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "https://coast.noaa.gov/arcgis/rest/services/FloodExposureMapper/"
+            "url": "http://services.coastalresilience.org/arcgis/rest/services/North_Carolina",
+            "name": "North_Carolina"
         },
         "includeLayers": [
             {
-                "server": {
-                    "name": "CFEM_ShallowCoastalFlooding"
-                },
-                "name": "CFEM_ShallowCoastalFlooding",
-                "displayName": "Coastal Flood Exposure",
-                "includeLayers": [
-                        {
-                                "name": "NC_MHX_FF_WM",
-                                "displayName": "Shallow Coastal Flooding Areas"
-                            }
-                        ]
-                    }
+                "name": "Flood Risk",
+                "displayName": "Flood Risk",
+                "includeAllLayers": true
+            }
         ]
     },
     {
