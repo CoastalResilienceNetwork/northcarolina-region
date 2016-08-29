@@ -18,6 +18,11 @@
                 "includeAllLayers": true
             },
             {
+                "name": "Flood Risk",
+                "displayName": "Flood Risk",
+                "includeAllLayers": true
+            },
+            {
                 "name": "Habitat",
                 "displayName": "Habitat",
                 "includeAllLayers": true
@@ -31,21 +36,6 @@
                 "name": "Social and Economic",
                 "displayName": "Social and Economic",
                 "includeAllLayers": true
-            }
-        ]
-    },
-    {
-        "displayName": "Flood Risk",
-        "server": {
-            "type": "ags",
-            "layerType": "dynamic",
-            "url": "http://services.coastalresilience.org/arcgis/rest/services/North_Carolina",
-            "name": "North_Carolina"
-        },
-        "includeLayers": [
-            {
-                "name": "Shallow Coastal Flooding",
-                "displayName": "Areas Susceptible to Shallow Coastal Flooding"
             }
         ]
     },
