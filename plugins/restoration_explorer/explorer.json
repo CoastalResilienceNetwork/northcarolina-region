@@ -11,6 +11,135 @@
 	"pluginWidth": 400,
     "infoGraphic": "RestorationExplorer_c.jpg",
        "regions": [
+			{
+            "items": [	{
+							"text": "<b>Ecological Variables (weight):</b>",
+							"type": "text"
+						},
+						{
+							"default": 5,
+							"group": "all",
+							"index": "B4",
+							"max": 10,
+							"min": 0,
+							"step": 1,
+							"text": "Depth Score", 
+							"help": "Oysters are able to thrive at a variety of depths, however, for the objectives of this project, the depth of placement was restricted to a maximum of 6 feet. All areas 6ft deep or less were scored 4 with remaining areas scored 0. Data Sources: NOAA Bathymetry (2000).", 
+							"type": "layer"
+						},
+						{
+							"default": 5,
+							"group": "all",
+							"index": "B10",
+							"max": 10,
+							"min": 0,
+							"step": 1,
+							"text": "Salinity Score", 
+							"help": "Salinity between 6-25 ppt is most suitable for oyster growth. Zones of optimal salinities between 10-15 ppt were scored as most suitable while also limiting susceptibility to the boring sponge and received a value of 4. Salinities between 6-10 and 15-25 ppt are still very good but not optimal and were assigned a value of 2. Remaining areas (< 6 ppt and >25 ppt) are not suitable for oyster growth and were scored 0.", 
+							"type": "layer"
+						},
+						{
+							"default": 5,
+							"group": "all",
+							"index": "B3",
+							"max": 10,
+							"min": 0,
+							"step": 1,
+							"text": "Existing Oyster Reef Score", 
+							"help": "Areas closer to established reefs are favorable for recruitment. Areas within 1 mile from existing oyster cultch planting sites and sanctuaries or naturally occurring reefs were scored 4, all remaining areas were scored 0. Data Sources: Oyster Sanctuaries; Existing Oyster Cultch Planting Sites – NC Department of Marine Fisheries (2014).",
+							"type": "layer"
+						},
+						{
+							"default": 5,
+							"group": "all",
+							"index": "B1",
+							"max": 10,
+							"min": 0,
+							"step": 1,
+							"text": "Historic Oyster Reef Score", 
+							"help": "Oysters are likely to be successful in areas where they historically have been productive. However, conditions may have changed in the given time span such that restoration may no longer be suitable in these areas. It’s also important to note that experts with local knowledge were less confident in the accuracy of the historical dataset. Therefore, this parameter was weighted as less important in determining oyster restoration suitability and areas within 1 mile of a historic reef were scored 2, while all other areas were scored 0. Data Sources: Historic Oyster Reefs digitized from maps - Lt. Francis E. Winslow (1887).",
+							"type": "layer"
+						},
+						{
+							"default": 5,
+							"group": "all",
+							"index": "B2",
+							"max": 10,
+							"min": 0,
+							"step": 1,
+							"text": "Proximity to wetlands Score", 
+							"help": "Salt marshes and oyster reefs work synergistically; there will likely be higher biodiversity, sediment accretion, etc. if oyster reefs are near marshes that are functionally connected to the shoreline. Areas within 50 m of a salt marsh that have not been disconnected from the shoreline by structures parallel to shore (bulkhead, riprap) were scored 4, other areas were scored 0. Data Sources: Estuarine Shoreline Structures – NC Division of Coastal Management (2006-2010); Salt Marsh Habitat – South Atlantic Bite Marine Assessment (SABMA) (2014).",
+							"type": "layer"
+						},
+						{
+							"default": 5,
+							"group": "all",
+							"index": "B8",
+							"max": 10,
+							"min": 0,
+							"step": 1,
+							"text": "Sea Bottom Type Score", 
+							"help": "Firm substrate without vegetation or shell is ideal for oyster growth. Existing benthic habitat is either intertidal or subtidal Firm, w/o vegetation, w/out shell = 4, other = 0. Data Sources: Estuarine Benthic Habitat Mapping - NC Division of Marine Fisheries (2013).",
+							"type": "layer"
+						},
+						{
+							"default": 5,
+							"group": "all",
+							"index": "B9",
+							"max": 10,
+							"min": 0,
+							"step": 1,
+							"text": "Proximity to Strategic Habitat Score", 
+							"help": "The North Carolina Division of Marine Fisheries and the Albemarle-Pamlico National Estuary Partnership have identified important conservation areas for coastal fish and shellfish habitat. Reefs located within or near these areas may contribute positively to the health of the estuarine system. Areas within the boundary of or within a 1 mile area of these locations (but excluding submerged aquatic vegetation) have a score of 4, other areas have a score of 0. Submerged aquatic vegetation are removed because new oyster habitat cannot replace existing SAV habitat. Data Source: North Carolina Division of Marine Fisheries (2012).",
+							"type": "layer"
+						},
+						{
+							"text": "<b>Socioeconomic Variables (weight):</b>",
+							"type": "text"
+						},
+						{
+							"default": 5,
+							"group": "all",
+							"index": "B6",
+							"max": 10,
+							"min": 0,
+							"step": 1,
+							"text": "Shoreline Erosion Score", 
+							"help": "Oyster reefs can be placed adjacent to eroding shorelines to help attenuate waves and stabilize shorelines. To identify portions of the shoreline that are vulnerable to erosion, we extracted the shoreline erosion risk variable from the USGS Coastal Vulnerability Index. Erosion rates were classified into quartiles with scores of 0, 2, 3, and 4. A score of 4 indicates areas with the highest erosion rates and a score of 2 indicates areas of low erosion. The scores were then allocated to the nearshore areas (within 1 mile of shore) adjacent to the shoreline. All remaining areas were scored 0. Data Sources: USGS Coastal Vulnerability Index (2010).",
+							"type": "layer"
+						},
+						{
+							"default": 5,
+							"group": "all",
+							"index": "B5",
+							"max": 10,
+							"min": 0,
+							"step": 1,
+							"text": "Water Quality Score", 
+							"help": "Areas of closed waters are weighted higher due to the potential benefit of oysters filtering the water. Areas currently closed = 2, other = 0. Data Sources: Shellfish Growing Areas – NC Department of Environment and Natural Resources: Shellfish Sanitation and Recreational Water Quality Section (2011).",
+							"type": "layer"
+						},
+						{
+							"default": 5,
+							"group": "all",
+							"index": "B7",
+							"max": 10,
+							"min": 0,
+							"step": 1,
+							"text": "Public Accessibility Score", 
+							"help": "Boating access to the reef site may make the project easier to construct and monitor. Boaters and fishers will not have as far to travel to benefit from potential finfish productivity. If a user does not require public access to their reef site, they can adjust the slider to zero and remove it from analysis. Areas within 5 miles of a Wildlife Resource Commission public boat access have a score of 2, all other areas have a score of 0. Data Source: North Carolina Wildlife Resource Commission Division of Engineering and Lands Management (5th Update ).",
+							"type": "layer"
+						}
+			],
+      "name": "Subtidal Shoreline Oyster Reefs",
+	  "printTitle": "North Carolina - Subtidal Oyster Reef Restoration Explorer",
+      "url": "http://dev.services.coastalresilience.org:6080/arcgis/rest/services/rasterExplorer/NC_Rest_Explorer_NEW/ImageServer",
+      "methods": "https://ow-maps.s3.amazonaws.com/ncexplorer/NC_Restoration_Explorer_Methods.pdf",
+      "colorRamp": [[1, 255, 255, 129], [2, 204, 255, 51], [3, 76, 190, 110], [4, 13, 31, 133], [5, 150, 150, 150]],
+      "inputRanges" : [-32768,10,10,20,20,30,30,101,101,32767],
+      "outputValues" : [1,2,3,4,5],
+	  "outputLabels" : [{text:"Low", "percent": "0"},{text:"Medium", "percent": "38"},{text:"High", "percent": "75"},{text:"May not be suitable for specified restoration type", "percent": "100"}]
+        },
         {
             "items": [	{
 							"text": "<b>Threshold Layers (weight):</b>",
@@ -209,10 +338,10 @@
 							"type": "layer"
 						}
 			],
-      "name": "Subtidal Shoreline Oyster Reefs",
+      "name": "Subtidal Deep Water Oyster Reefs",
 	  "printTitle": "North Carolina - Subtidal Oyster Reef Restoration Explorer",
       "url": "http://services.coastalresilience.org:6080/arcgis/rest/services/North_Carolina/NC_Composite_1/ImageServer",
-      "methods": "methods/NC_Restoration_Explorer_Methods.pdf",
+      "methods": "https://ow-maps.s3.amazonaws.com/ncexplorer/oyster_sanctuary_layer_descriptions_for_tnc.docx",
       "colorRamp": [[0, 50, 50, 50], [1, 255, 255, 129], [2, 204, 255, 51], [3, 76, 190, 110], [4, 13, 31, 133], [5, 150, 150, 150]],
       "inputRanges" : [-32768,1,1,10,10,20,20,30,30,101,101,32767],
       "outputValues" : [0,1,2,3,4,5],
