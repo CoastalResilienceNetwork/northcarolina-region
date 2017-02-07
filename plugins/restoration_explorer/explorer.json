@@ -5,13 +5,13 @@
 	"mainToggle": {"text": "Main Layer Transparency"},
 	"ddText": "Choose a Restoration Type",
     "betweenGroups": "*",
-    "averageGroups": true,
+    "averageGroups": [true,"*"],
 	"enableCustomPrint": true,
     "pluginHeight": 510,
 	"pluginWidth": 400,
     "infoGraphic": "RestorationExplorer_c.jpg",
        "regions": [
-        {
+			{
             "items": [	{
 							"text": "<b>Ecological Variables (weight):</b>",
 							"type": "text"
@@ -134,11 +134,222 @@
       "name": "Subtidal Shoreline Oyster Reefs",
 	  "printTitle": "North Carolina - Subtidal Oyster Reef Restoration Explorer",
       "url": "http://dev.services.coastalresilience.org:6080/arcgis/rest/services/rasterExplorer/NC_Rest_Explorer_NEW/ImageServer",
-      "methods": "methods/NC_Restoration_Explorer_Methods.pdf",
+      "methods": "https://ow-maps.s3.amazonaws.com/ncexplorer/NC_Restoration_Explorer_Methods.pdf",
       "colorRamp": [[1, 255, 255, 129], [2, 204, 255, 51], [3, 76, 190, 110], [4, 13, 31, 133], [5, 150, 150, 150]],
       "inputRanges" : [-32768,10,10,20,20,30,30,101,101,32767],
       "outputValues" : [1,2,3,4,5],
 	  "outputLabels" : [{text:"Low", "percent": "0"},{text:"Medium", "percent": "38"},{text:"High", "percent": "75"},{text:"May not be suitable for specified restoration type", "percent": "100"}]
+        },
+        {
+            "items": [	{
+							"text": "<br><b>Default Settings Based on Expert Opinion</b>",
+							"type": "text"
+						},
+	       					{
+							"text": "<b>Threshold Layers (weight):</b>",
+							"type": "text"
+						},
+						{
+							"default": 7,
+							"group": "w",
+							"index": "B14",
+							"max": 10,
+							"min": 0,
+							"step": 1,
+							"text": "Salinity (psu)", 
+							"help": "Summer sound-wide salinity during average freshwater input from 1987-2008. Important to oyster biological processes (e.g., larval survival, growth and predation). Source: NC DMF and Durham 2009. Optimal (100): 10-15 psu; Suitable (50): 6-10 psu; 15-25 psu Unsuitable (0): <6 psu; >25 psu. Thresholds based values reported in Kennedy (1996).", 
+							"type": "layer"
+						},
+						{
+							"default": 6,
+							"group": "w",
+							"index": "B15",
+							"max": 10,
+							"min": 0,
+							"step": 1,
+							"text": "Sanctuary larval export", 
+							"help": "Settlement location of oyster larvae spawned from existing sanctuaries. Goal for existing sanctuaries to export larvae to future sanctuaries to create sanctuary network. Source: Puckett et al. 2016. Optimal (100): 100-51st percentile of larval abundance; Suitable (50): 51-1st percentile of larval abundance; Unsuitable (0): no larval abundance.",
+							"type": "layer"
+						},
+						{
+							"default": 5,
+							"group": "w",
+							"index": "B16",
+							"max": 10,
+							"min": 0,
+							"step": 1,
+							"text": "Sanctuary larval import", 
+							"help": "Natal location of oyster larvae settling within existing sanctuaries. Goal for existing sanctuaries to import larvae from future sanctuaries to create sanctuary network. Source: Puckett et al. 2016. Optimal (100): 100-51st percentile of larval abundance; Suitable (50): 51-1st percentile of larval abundance; Unsuitable (0): no larval abundance.",
+							"type": "layer"
+						},
+						{
+							"default": 3,
+							"group": "w",
+							"index": "B11",
+							"max": 10,
+							"min": 0,
+							"step": 1,
+							"text": "Dissolved oxygen", 
+							"help": "Late summer sound-wide minimum interpolated dissolved oxygen concentrations from 1996-2014. Important to oyster biological processes (e.g., survival). Source: NC DMF, Puckett et al. 2016. Optimal (100): 100-67thpercentile of DO concentrations; Suitable (50): 66-33rd percentile of DO concentrations; Unsuitable (0): 32nd-0th percentile of DO concentrations.",
+							"type": "layer"
+						},
+						{
+							"default": 2,
+							"group": "w",
+							"index": "B10",
+							"max": 10,
+							"min": 0,
+							"step": 1,
+							"text": "Cultch planting site larval import", 
+							"help": "Natal location of oyster larvae settling within cultch-planting sites—locations where oyster shell is deployed to replace shell removed through commercial oyster harvest. Cultch-planting sites established from 2010-2014 were used. Goal for existing sanctuaries to export larvae to commercially harvested cultch-planting sites. Promotes larval exchange among strategies within the oyster restoration portfolio. Source: NC DMF, Puckett et al. 2016. Optimal (100): 100-51st percentile of larval abundance; Suitable (50): 51-1st percentile of larval abundance; Unsuitable (0): no larval abundance.",
+							"type": "layer"
+						},
+						{
+							"default": 2,
+							"group": "w",
+							"index": "B9",
+							"max": 10,
+							"min": 0,
+							"step": 1,
+							"text": "Cultch planting site larval export", 
+							"help": "Settlement location of oyster larvae spawned from cultch-planting sites. Cultch-planting sites established from 2010-2014 were used. Enables selection of sites that promotes larval exchange among strategies within the oyster restoration portfolio. Source: NC DMF, Puckett et al. 2016. Optimal (100): 100-51st percentile of larval abundance; Suitable (50): 51-1st percentile of larval abundance; Unsuitable (0): no larval abundance.",
+							"type": "layer"
+						},
+						{
+							"default": 2,
+							"group": "w",
+							"index": "B13",
+							"max": 10,
+							"min": 0,
+							"step": 1,
+							"text": "Natural reef larval import", 
+							"help": "Natal location of oyster larvae settling within natural subtidal reefs. Goal for existing sanctuaries to export larvae to commercially harvested natural reefs. Source: NC DMF, Puckett et al. 2016. Optimal (100): 100-51st percentile of larval abundance; Suitable (50): 51-1st percentile of larval abundance; Unsuitable (0): no larval abundance.",
+							"type": "layer"
+						},
+						{
+							"default": 2,
+							"group": "w",
+							"index": "B12",
+							"max": 10,
+							"min": 0,
+							"step": 1,
+							"text": "Natural reef larval export", 
+							"help": "Settlement location of oyster larvae spawned from cultch-planting sites. Cultch-planting sites established from 2010-2014 were used. Enables selection of sites that promotes larval exchange among strategies within the oyster restoration portfolio. Source: NC DMF, Puckett et al. 2016. Optimal (100): 100-51st percentile of larval abundance; Suitable (50): 51-1st percentile of larval abundance; Unsuitable (0): no larval abundance.",
+							"type": "layer"
+						},
+						{
+							"default": 1,
+							"group": "w",
+							"index": "B17",
+							"max": 10,
+							"min": 0,
+							"step": 1,
+							"text": "Material stock pile sites (km)", 
+							"help": "Location of material stockpile sites accessed by vessels for loading material (e.g., reef balls) used for restoration. Enables selection of sites based on economic and logistical constraints associated with transporting large amounts of hard substrate need for restoration. Optimal (100): <5 km; Suitable (50): 5-10 km; Unsuitable (0): >10 km. Thresholds based on vessel range (trips per day), fuel costs, and vessel load capabilities. Source: NC DMF.",
+							"type": "layer"
+						},
+						{
+							"default": 1,
+							"group": "w",
+							"index": "B8",
+							"max": 10,
+							"min": 0,
+							"step": 1,
+							"text": "Boat ramps (nm)", 
+							"help": "Location of boat ramps where recreational fishermen can launch boats. Source: NC WRC. Enables selection of sites based on accessibility to recreational (fin)fishing. Optimal (1): <10 nm; Unsuitable (0): >10 nm. Thresholds based on average travel distance reported for inshore recreational vessels by Ramos et al. (2006).",
+							"type": "layer"
+						},
+						{
+							"text": "<b>Exclusion Layers (check to exclude):</b>",
+							"type": "text",
+							"help": "Variables used to exclude unsuitable sites. All exclusion layers are removed from eligibility by default. Uncheck layers to reconsider those areas in the oyster reef suitability score."
+						},
+						{
+							"default": 1,
+							"group": "ex",
+							"index": "B7",
+							"max": 1,
+							"min": 0,
+							"step": 1,
+							"text": "Substrate", 
+							"help": "Substrate types in Pamlico Sound. Substrates types included: sand, muddy sand, sandy mud, mud, and soft mud. Excluded cells with soft substrate (e.g., soft mud and mud), which is necessary to prevent subsidence of heavy material used for reef restoration. Source: NC DMF.",
+							"type": "layer"
+						},
+						{
+							"default": 1,
+							"group": "ex",
+							"index": "B6",
+							"max": 1,
+							"min": 0,
+							"step": 1,
+							"text": "SAV", 
+							"help": "Location of SAV in Pamlico Sound. Excluded if a cell contained SAV because reef restoration is not permitted in the presence of SAV. Source: NC DMF.",
+							"type": "layer"
+						},
+						{
+							"default": 1,
+							"group": "ex",
+							"index": "B2",
+							"max": 1,
+							"min": 0,
+							"step": 1,
+							"text": "Shellfish Leases", 
+							"help": "Location of private shellfish leases in Pamlico Sound. Excluded if a cell contained leased area to prevent user conflicts. Source: NC DMF.",
+							"type": "layer"
+						},
+						{
+							"default": 1,
+							"group": "ex",
+							"index": "B5",
+							"max": 1,
+							"min": 0,
+							"step": 1,
+							"text": "Nursery Areas", 
+							"help": "Location of primary and special secondary nursery areas in Pamlico Sound, which serve as critical habitat for juvenile fishes. Excluded if a cell contained primary or special secondary nursery areas because reef restoration is not permitted in the presence of nursery areas. Source: NC DMF.",
+							"type": "layer"
+						},
+						{
+							"default": 1,
+							"group": "ex",
+							"index": "B3",
+							"max": 1,
+							"min": 0,
+							"step": 1,
+							"text": "Military Zones", 
+							"help": "Location of military exclusion zones used for practice missions. Excluded if a cell contained military protected area because habitat enhancement is not permitted in military zones due to the possibility of unexploded ordnance. Source: NCDEQ.",
+							"type": "layer"
+						},
+						{
+							"default": 1,
+							"group": "ex",
+							"index": "B4",
+							"max": 1,
+							"min": 0,
+							"step": 1,
+							"text": "Navigational Channels", 
+							"help": "Location of major navigational channels including the Intracoastal Waterway and Ferry routes. Excluded if a cell contained the Intracoastal Waterway or Ferry routes to prevent navigational hazards to large vessels. Source: USGS and NCDOT.",
+							"type": "layer"
+						},
+						{
+							"default": 1,
+							"group": "ex",
+							"index": "B1",
+							"max": 1,
+							"min": 0,
+							"step": 1,
+							"text": "Bathymetry", 
+							"help": "Depth (m) in Pamlico Sound. Excluded if depth of entire 1km2 cell was < 2m, which is required for navigational clearance. Source: NOAA.",
+							"type": "layer"
+						}
+			],
+      "name": "Subtidal Deep Water Oyster Reefs",
+	  "printTitle": "North Carolina - Subtidal Oyster Reef Restoration Explorer",
+      "url": "http://services.coastalresilience.org:6080/arcgis/rest/services/North_Carolina/NC_Composite_1/ImageServer",
+      "methods": "https://ow-maps.s3.amazonaws.com/ncexplorer/oyster_sanctuary_layer_descriptions_for_tnc.docx",
+      "colorRamp": [[0, 196, 0, 169], [1, 255, 255, 129], [2, 204, 255, 51], [3, 76, 190, 110], [4, 13, 31, 133], [5, 150, 150, 150]],
+      "inputRanges" : [-32768,1,1,10,10,20,20,30,30,101,101,32767],
+      "outputValues" : [0,1,2,3,4,5],
+	  "outputLabels" : [{text:"Excluded Areas", "percent": "0"},{text:"Low", "percent": "20"},{text:"Medium", "percent": "50"},{text:"High", "percent": "80"},{text:"May not be suitable for specified restoration type", "percent": "100"}]
         }
     ]
 }
