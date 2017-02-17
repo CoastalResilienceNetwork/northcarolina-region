@@ -142,10 +142,10 @@
         },
         {
             "items": [	{
-							"text": "<br><b>Default Settings Based on Expert Opinion</b>",
+							"text": "<br><a href='http://media.coastalresilience.org/NC/RestExpl_Expert_Opinion.pdf' target='_blank' >Default Settings Based on <b>Expert Opinion</b></a>",
 							"type": "text"
 						},
-	       					{
+	       				{
 							"text": "<b>Threshold Layers (weight):</b>",
 							"type": "text"
 						},
