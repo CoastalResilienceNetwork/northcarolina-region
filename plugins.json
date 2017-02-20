@@ -13,6 +13,10 @@
             "name": "regional-planning"
         },
         {
+            "repo": "flood-slr",
+            "name": "flood-slr"
+        },
+        {
             "repo": "regional-planning",
             "name": "community_planning"
         }
