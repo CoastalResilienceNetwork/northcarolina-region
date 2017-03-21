@@ -9,8 +9,8 @@
         },
         "includeLayers": [
             {
-                "name": "Bathymetry",
-                "displayName": "Bathymetry"
+                "name": "Bathymetry (m)",
+                "displayName": "Bathymetry (m)"
             },
             {
                 "name": "Coastal Management",
