@@ -345,7 +345,7 @@
       "name": "Subtidal Deep Water Oyster Reefs",
 	  "printTitle": "North Carolina - Subtidal Oyster Reef Restoration Explorer",
       "url": "http://services.coastalresilience.org:6080/arcgis/rest/services/North_Carolina/NC_Composite_1/ImageServer",
-      "methods": "https://ow-maps.s3.amazonaws.com/ncexplorer/oyster_sanctuary_layer_descriptions_for_tnc.docx",
+      "methods": "http://media.coastalresilience.org/NC/RestExpl_Methods.pdf",
       "colorRamp": [[0, 196, 0, 169], [1, 255, 255, 129], [2, 204, 255, 51], [3, 76, 190, 110], [4, 13, 31, 133], [5, 150, 150, 150]],
       "inputRanges" : [-32768,1,1,10,10,20,20,30,30,101,101,32767],
       "outputValues" : [0,1,2,3,4,5],
