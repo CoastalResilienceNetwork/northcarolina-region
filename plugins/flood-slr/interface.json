@@ -1,0 +1,150 @@
+{
+	"tooltips": {
+		"region": "Geographic areas where climate change/sea level rise vulnerability studies have been conducted.",
+		"hazard": "Spatial extent for different coastal hazards (storm wave impact, coastal flooding, coastal erosion, rising tide levels) that may affect coastal assets.  Impact zones were estimated across multiple planning horizons.",
+		"climate": "Future planning horizons representing the impact of climate change.",
+		"scenario": "Sea level rise scenarios (low, medium, and high) based on the 'Average of Models, Low,' 'Projection,' and 'Average of Models, High, regional sea level rise amounts.",
+		"hurricane": "Hurrican categories (Saffir-Simpson hurricane wind scale, ranging from 1 to 5) used to model storm surge heights.",
+		"dataSource": "Source of hazard data to be mapped in the application."
+	},
+	"controls": {
+		"select": {
+			"hazard": [],
+			"datasource": []
+		},
+		"slider": {
+			"climate": ["Current", "2030", "2060", "2100"],
+			"scenario":["Low", "Medium", "High"],
+			"hurricane":[1,2,3,4,5]
+		}
+	},
+	"region": {
+		"Currituck County": {
+			"url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/North_Carolina/NC_Flood_Slr/MapServer",
+			"layers": {
+				"main": "http://dev.services2.coastalresilience.org/arcgis/rest/services/North_Carolina/NC_Flood_Slr/MapServer",
+				"storm_surge": "http://dev.services2.coastalresilience.org/arcgis/rest/services/North_Carolina/NC_Flood_Slr/MapServer",
+				"shallow_coastal_flooding": "http://dev.services2.coastalresilience.org/arcgis/rest/services/North_Carolina/NC_Flood_Slr/MapServer",
+				"fema": "http://dev.services2.coastalresilience.org/arcgis/rest/services/North_Carolina/NC_Flood_Slr/MapServer"
+			},
+			"extent": {
+				"xmin": -8526300.087382287,
+				"ymin": 4304324.538767489,
+				"xmax": -8386038.140479178,
+				"ymax": 4376557.530496882,
+				"spatialReference": {
+					"wkid": 102100,
+					"latestWkid": 3857
+				}
+			},
+			"controls": {
+				"select": {
+					"hazard": {
+						"options": [
+							{
+								"name": " -- ",
+								"value": ""
+							},
+							{
+								"name": "Sea Level Rise",
+								"value": "sea_level_rise",
+								"description":"Historical sea level trends are available from NOAA tide stations at <a href='https://tidesandcurrents.noaa.gov/sltrends/sltrends_station.shtml?stnid=8651370' target='_blank'>Duck</a> and <a href='https://tidesandcurrents.noaa.gov/sltrends/sltrends_station.shtml?stnid=8652587' target='_blank'>Oregon Inlet</a>."
+							},
+							{
+								"name": "Storm Surge",
+								"value": "storm_surge",
+								"controls": ["hurricane"]
+							},
+							{
+								"name": "Shallow Coastal Flooding",
+								"value": "shallow_coastal_flooding",
+								"controls": []
+							}
+						]
+					},
+					"datasource":{
+						"options": [
+							{ "name": " -- ", "value": "" },
+							{ "name": "NOAA Coastal Flood Exposure", "value": "noaa" }
+						]
+					}
+				},
+				"slider": {
+					"climate": { "disabled": false, "show": true, "values": ["Current", "2045", "2060", "2100"]  },
+					"scenario": { "disabled": false, "show": true },
+					"hurricane": { "disabled": false, "show": true }
+				},
+				"radiocheck": {
+					"fema": { "disabled": false, "show": true }
+				}
+			},
+			"download": {
+				"report":"https://coast.noaa.gov/floodexposure/#/services#flood-hazards",
+				"data":"https://coast.noaa.gov/floodexposure/#/services#flood-hazards"
+			}
+		},
+		"Dare County": {
+			"url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/North_Carolina/NC_Flood_Slr/MapServer",
+			"layers": {
+				"main": "http://dev.services2.coastalresilience.org/arcgis/rest/services/North_Carolina/NC_Flood_Slr/MapServer",
+				"storm_surge": "http://dev.services2.coastalresilience.org/arcgis/rest/services/North_Carolina/NC_Flood_Slr/MapServer",
+				"shallow_coastal_flooding": "http://dev.services2.coastalresilience.org/arcgis/rest/services/North_Carolina/NC_Flood_Slr/MapServer",
+				"fema": "http://dev.services2.coastalresilience.org/arcgis/rest/services/North_Carolina/NC_Flood_Slr/MapServer"
+			},
+			"extent": {
+				"xmin": -8591653.746566305,
+				"ymin": 4178127.005068734,
+				"xmax": -8311129.8527596,
+				"ymax": 4322592.988527773,
+				"spatialReference": {
+					"wkid": 102100,
+					"latestWkid": 3857
+				}
+			},
+			"controls": {
+				"select": {
+					"hazard": {
+						"options": [
+							{
+								"name": " -- ",
+								"value": ""
+							},
+							{
+								"name": "Sea Level Rise",
+								"value": "sea_level_rise"
+							},
+							{
+								"name": "Storm Surge",
+								"value": "storm_surge",
+								"controls": ["hurricane"]
+							},
+							{
+								"name": "Shallow Coastal Flooding",
+								"value": "shallow_coastal_flooding",
+								"controls": []
+							}
+						]
+					},
+					"datasource":{
+						"options": [
+							{ "name": " -- ", "value": "" },
+							{ "name": "NOAA Coastal Flood Exposure", "value": "noaa" }
+						]
+					}
+				},
+				"slider": {
+					"climate": { "disabled": false, "show": true, "values": ["Current", "2045", "2060", "2100"] },
+					"scenario": { "disabled": false, "show": true },
+					"hurricane": { "disabled": false, "show": true }
+				},
+				"radiocheck": {
+					"fema": { "disabled": false, "show": true }
+				}
+			},
+			"download": {
+				"report":"https://coast.noaa.gov/floodexposure/#/services#flood-hazards",
+				"data":"https://coast.noaa.gov/floodexposure/#/services#flood-hazards"
+			}
+		}
+	}
+}
