@@ -63,9 +63,19 @@
             "plugins": [
 				{
 					"title": "Community Rating System",
-					"description": "Brace yourself. It's going to be awesome.",
+					"description": "How do you stack up?",
 					"pluginName": "community-rating-system"
-				}
+				},
+		    		{
+					"title": "Flood and Sea Level Rise",
+					"description": "It's up and coming",
+					"pluginName": "flood-slr"
+				},
+		    		{
+					"title": "Restoration Explorer",
+					"description": "A restorative exploration",
+					"pluginName": "restoration-explorer"
+				}	
             ]
       }
 }
