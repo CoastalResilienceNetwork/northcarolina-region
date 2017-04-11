@@ -54,8 +54,10 @@
         "printServerUrl": "http://services.coastalresilience.org:6080/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task", "customPrintTemplatePrefix": "Letter ANSI A GeositeFramework"  
     },
     "colors": {
-       "primary": "#26648E",
-       "secondary": "#26648E"
+      	"primary": "#26648E",
+      	"secondary": "#26648E",
+	"tertiary": "#333333",
+	"active": "#0096D6"
     },
     "identifyBlacklist": ["OBJECTID", "OBJECTID_1", "SHAPE", "Shape", "shape_Length", "shape_Area", "NumScen"],
     "identifyEnabled": true,
@@ -123,6 +125,13 @@
                     }
                   ]
               }
+            ],
+	    "plugins": [
+		{
+			"title": "Community Rating System",
+			"description": "Brace yourself. It's going to be awesome.",
+			"pluginName": "community-rating-system"
+		}
             ]
         }
     ]
