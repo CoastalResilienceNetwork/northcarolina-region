@@ -1,26 +1,24 @@
 {
-    "googleAnalyticsPropertyId": "7401895-16",
+    "googleAnalyticsPropertyId": "7401895-38",
     "googleUrlShortenerApiKey": "AIzaSyDO_xBd3griGKuhlYBvv7jVN4Mt58Gl4iw",
-    "titleMain": { "text": "Coastal Resilience", "url": "http://coastalresilience.org/" },
-    "titleDetail": { "text": "North Carolina", "url": "http://coastalresilience.org/" },
+    "titleMain": { "text": "North Carolina", "url": "http://coastalresilience.org/" },
+    "titleDetail": { "text": "", "url": "http://coastalresilience.org/geographies/new-york-and-connecticut" },
 	"headerLinks": [
-        { "text": "GET STARTED", "launchpadId": "get-started", "url": "" },
 		{ "text": "TOUR", "url": "javascript:;", "elementId": "help-overlay-start"},
-        { "text": "GO TO", "url": "#", "items": [
-                { "text": "Entire USA", "url": "http://maps.coastalresilience.org/us/" },
-				{ "text": "California", "url": "http://maps.coastalresilience.org/ventura/" },
-				{ "text": "Florida Keys", "url": "http://maps.coastalresilience.org/flkeys/" },
-				{ "text": "Grenada, St. Vincent & the Grenadines", "url": "http://maps.coastalresilience.org/gsvg/" },
-				{ "text": "MesoAmerican Reef", "url": "http://maps.coastalresilience.org/mar/" },
-                { "text": "New York & Connecticut", "url": "http://maps.coastalresilience.org/nyct" },
-                { "text": "New Jersey", "url": "http://maps.coastalresilience.org/nj" },
-				{ "text": "U.S. Virgin Islands", "url": "http://maps.coastalresilience.org/usvi/" },
-                { "text": "Washington", "url": "http://maps.coastalresilience.org/pugetsound" }
-            ]
-        },
-        { "text": "The Nature Conservancy", "url": "http://nature.org/marine/" },
-        { "text": "Partners", "url": "partners.html", "popup": true },
-        { "text": "Legal Disclosure", "url": "http://www.nature.org/about-us/governance/terms-of-use.xml" }
+        { "text": "The Nature Conservancy", "url": "http://www.nature.org" }
+    ],
+    "regionLinks": [
+            { "text": "California", "url": "http://maps.coastalresilience.org/california" },
+            { "text": "Connecticut", "url": "http://maps.coastalresilience.org/connecticut" },
+            { "text": "Global", "url": "http://maps.coastalresilience.org/global/" },
+            { "text": "Gulf of Mexico", "url": "http://maps.coastalresilience.org/gulfmex/" },
+            { "text": "Grenada, St. Vincent & the Grenadines", "url": "http://maps.coastalresilience.org/gsvg/" },
+            { "text": "MesoAmerican Reef", "url": "http://maps.coastalresilience.org/mar/" },
+            { "text": "New Jersey", "url": "http://maps.coastalresilience.org/newjersey" },
+            { "text": "Southeast Florida", "url": "http://maps.coastalresilience.org/seflorida/" },
+            { "text": "United States", "url": "http://maps.coastalresilience.org/unitedstates/" },
+            { "text": "U.S. Virgin Islands", "url": "http://maps.coastalresilience.org/usvi/" },
+            { "text": "Washington", "url": "http://maps.coastalresilience.org/pugetsound" }
     ],
     "initialExtent": [
         -77.706251235,
@@ -29,119 +27,45 @@
         36.405587596
     ],
     "basemaps": [
-        { "name": "Topographic"        , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer" },
-        { "name": "Basic Dark Gray"    , "url": "http://server.arcgisonline.com/arcgis/rest/services/Canvas/World_Dark_Gray_Base/MapServer"},
+		{ "name": "Streets"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer" },
+		{ "name": "Topographic"        , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer" },
         { "name": "National Geographic", "url": "http://server.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer" },
         { "name": "Ocean"              , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/Ocean_Basemap/MapServer" },
         { "name": "Imagery"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer" },
         { "name": "Physical"           , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Physical_Map/MapServer" },
         { "name": "Shaded Relief"      , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Shaded_Relief/MapServer" },
-        { "name": "Streets"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer" },
         { "name": "Terrain"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Terrain_Base/MapServer" }
     ],
     "pluginOrder": [
-        "regional-planning",
-        "community_planning",
-        "flood-slr",
-		"restoration_explorer",
-        "zoom_to",
+		"launchpad",
+	    "zoom_to",
         "measure",
         "legend_display",
-        "full_extent"
-        
+        "full_extent",
+        "subregion_toggle",
+		"community-rating-system"
     ],
     "print": {
-        "printServerUrl": "http://services.coastalresilience.org:6080/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task", "customPrintTemplatePrefix": "Letter ANSI A GeositeFramework"  
+        "printServerUrl": "http://services.coastalresilience.org:6080/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task",
+	"customPrintTemplatePrefix": "Letter ANSI A GeositeFramework",
+	"headerLogoPath": "http://maps.coastalresilience.org/network/img/TNCLogoPrimary_RGB2.jpg"
     },
     "colors": {
-      	"primary": "#26648E",
-      	"secondary": "#26648E",
-	"tertiary": "#333333",
-	"active": "#0096D6"
+       "primary": "#2F6384",
+       "secondary": "#5E94B6",
+       "tertiary": "#333333",
+		"active": "#0096D6"
     },
-    "identifyBlacklist": ["OBJECTID", "OBJECTID_1", "SHAPE", "Shape", "shape_Length", "shape_Area", "NumScen"],
-    "identifyEnabled": true,
-    "subregions": {
-        "hideAtZoomLevel": 1,
-        "color": "#00C5CD",
-        "outlineColor": "#008000",
-        "opacity": 0.2,
-        "clickToFocus": true,
-        "hideByDefault": true,
-        "areas": [
-            {
-                "id": "Roanoke Island",
-                "display": "Roanoke Island",
-                "details": "Roanoke Island, NC",
-                "shape": [[-75.8687148118928, 35.76521241835649], [-75.8687148118928, 35.987535638249994], [-75.44260259594593, 35.987535638249994], [-75.44260259594593, 35.76521241835649], [-75.8687148118928, 35.76521241835649]],
-                "availablePlugins": ["layer_selector", "restoration_explorer","community_planning"],
-                "outlineColor": "#000",
-                "noFill": true
-            },
-            {
-                "id": "Engelhard",
-                "display": "Engelhard",
-                "details": "Engelhard, NC",
-                "shape": [[-76.10958081396421, 35.37749054830885], [-76.10958081396421, 35.60932076695684], [-75.74735690948299, 35.60932076695684], [-75.74735690948299, 35.37749054830885], [-76.10958081396421, 35.37749054830885]],
-                "availablePlugins": ["layer_selector", "restoration_explorer", "community_planning"],
-                "outlineColor": "#000",
-                "noFill": true
-            }
-        ]
-    },
-     "launchpad": [
-	{
-        	"title": "",
-            	"description": "<p>Welcome to North Carolina...</p>",
-            	"plugins": [
-			{
-				"title": "Community Rating System",
-				"description": "Brace yourself. It's going to be awesome.",
-				"pluginName": "community-rating-system"
-			}
-            	]
-	}
-    ],
-    "launchpads": [
-        {
-            "id": "get-started",
-            "title": "Getting Started",
-            "description": "Coastal Resilience is a decision support tool that provides local, state and national planners a step-wise process to guide decisions to reduce the ecological and socio-economic risks of coastal hazards",
-            "showSubRegions": true,
-            "subRegionDescription": "Choose a specific region and it will take you there, or you can freely explore the map.",
-            "showByDefault": false,
-            "categories": [
-              {
-                "name": "One-Click Interactive Map",
-                "description": "Custom maps for adaptation, conservation, and restoration planning",
-                "issues": [
-                    {
-                      "name": "Roanoke Island Oysters: Past & Present",
-                      "description": "",
-                      "saveCode": "e34df34rd3....3434",
-                      "saveCode": "eyJzY3JlZW4iOsSAc3BsaXRTxIPEhcSHOmZhbHNlLMSBeW5jTWFwc8SIxJXEl2V9xJptxKAwxIjEgGV4dMSGdMSsInR5cGXEiCLErsSwbsSyxJp4bWnEky04NDU2NjUzLsWHxYg0MTgxOcSaecWBxJM0MsWINjA4xYzFnDQwNTg2M8S/xKl4xIjFhDM5McWZMS42ODg5NMWrMzfFlMWnxIjFmDk4MsWsxbDFjTMwMDI1xJrEi2F0acSWUmVmZcSExJ3EuMSJIndraWTEiDHGhcacMMSabMaKZXN0V8aYxpo6Mzg1N8SnIl9wYXJ0xKI6W8StxK/EscSzxLXEt8S5xLvGusWmxYLFqcWFxY3FisWMxZrFj8WRxZMixZXHgjrFmMWaxZzFnsWFxaHFo8WlIsWAYcWoOsWqxazFrsWwxbLFtMW2xbjHjMW6x4/Fv8W+xoDFicWIxoPGhcaHxIHGscaLxo3Gj8aRxIZjxpTEgMaXxpnGm8adxoTGoMaixqTGpse7xqnGq8atxq5mcmFtZUlkxrVbMF19yJLGiGVsZWPEsGRCYcSYxKlwSW5kxK7EiDDGrsaxbmXEq8aVyKhlTnVtYsaRyKXGiHTGok9mUGx1Z8WCxrXEisiWyJjImsi6yLzHjiLEjMmFbnMvxqF5xpFfxJjIl8iZb3IixJrJiMi9yYrEs8mYyL7JjGHJjnLJkMmByZPJlcaVcm9vdC9BbMiyxKlyyJcgYciiIFDIisSNY28gxo7IvW9uxJYgRMaKYSBMyZ/GkcmLTsmUdGggQ8ayb8SNyb8xxLNvxrFjxI55yKUux6RjaMiYa2XGqMSkxJjGrnbKiGnJvsS5xa/KlMSayafJqcmrya1lya/JscmzZMm1ybdpybnJu2XJvcm/bMqByoPKhcqHcsqJyovKjcqPyafKkmEzxYY2ypXKl8qZypvKncqfY8qhxqh0cnXEmSJ2aXNpYsiXyobJoMiNyI8zyJQiyq/Jqsmsya7Gssq1ybTJtm3JuMm6ybzKqcq/y4HItsuDyaDLhsazy4jKkMuLxbPGnDHMhDIxM8uQYcqYxLXLk8Sayp7KoMqixIjLmcubxJrLnsugy6Jly6TGkcumxIhbxZPGnCzMh8upy6vKscuuybBlybLLscq5yrvLtsm+yoDKgsu6zJrLhS/Kisu+yo7MgMWCYTE1MTYxN8yJzIvKmjowypzMjsuVy5fEo8SWyqXKrsmoy6zKssq0zKjKtsq4y7PKusu1yr3Lt8yvy4LMssu9yozMt8uKzLnFkjLGnTLNpTMyxZg1xZkyzYDGlcqWzIrLks2EzYYizI/LlsyRxJTNi8SmzY3KsMaOxqTJlMaKy7cgRXjEjMmUxpHLu8qIzLTLh82fypHMucW/xoMzzIcyM86UxbXFisuPza7LkcyMzbLLlMyQyqPNuX3Ooc6i",
-                      "faIcon": "fa fa-clock-o"
-                    },
-                    {
-                      "name": "Restoring Oysters for Erosion Reduction",
-                      "description": "",
-                      "saveCode": "e34df34rd3....3434",
-                      "saveCode": "eyJzY3JlZW4iOsSAc3BsaXRTxIPEhcSHOmZhbHNlLMSBeW5jTWFwc8SIxJXEl2V9xJptxKAwxIjEgGV4dMSGdMSsInR5cGXEiCLErsSwbsSyxJp4bWnEky04NjEwNsWILjU5NTI4OTIyMcSaecWBxJM0MTc3MzYyLjM0MzA5OTMxxaLEv8SpeMSIxYTFoTkwMzkuMDg0NDk3MjQ3xZXFq8SIxaIwNMWkNC7FpsWMOcWGODXEmsSLYXRpxJZSZWZlxITEncS4xIkid2tpZMSIxYfFkzAwxJpsxo9lc3RXxp3Gnzozxos3xKciX3BhcnTEojpbxK3Er8SxxLPEtcS3xLnEu8a+xarFgsWtxYXFh8WJNsWLxY3Fj8WRxZPFvseGOsWZxZvFncWfxaHFo8WlxafFqSLFgGHFrDrFrsW4xbHFs8W1xbfFucW7xb0ixZbHn8aAxaPGgznGhcaHxaXGisaMxIHGtcaQxpLGlMaWxIZjxpnEgMacxp7GoDDGosakIsamxLDGqcaryILGrsawfcayZnJhbWVJZMa5WzBdfcibxo1lbGVjxLBkQmHEmMSpcEluZMSuxIgwxrLGtW5lxKvGmsixZU51bWLGlsiuxo10xqdPZlBsdWfFgsa5xIrIn8ihyKPJg8mFx5IixIzJjm5zL8SExqlvyJLGkG9uX8SuxIzJmMi8xJrJkcmGyZPEs8mjyYfJlcaodMmYxo9pyZvJnXjJn8SEcsSzZ2VvZ8iScGh5xLPEjmVtyJjEgMSwxK/EuTxiPkVjb2zJuGljxJYgVsa2xpFiyKBzICh3ZWlnaHQpOjwvyogixJrHgMaZxLTEu8qmIsm5b3VwxLl1bsquyrBlxp/Ep8SAyKzElXVsxLI6yIbKtcqxOiLElmzKrMWCyKzHoCJixo/JvMqsxb86xYfEqMeSyIbGqWXLg8WUyqrKhcuERMuYdGggxJDJoMqsaMify4Miy55wy6DKmDwgPSA2IMaVZXQgxrZlIG3JoCBzdcSOYcqWy7lmyZggb3nLl3LKmMWCIE5DIMSEyYbJmy4gQWxsy7fEhMimy7HLs8u2yKzLmMyGciDKl8qYy7DGhcyGy6DGlsuvIMSryqfEtsqpxqZ5yLzKuSLKu2HKvcq/y4Fyyq/LqMuGy4jIq8ity4RzxJbFgsSOyb3EqMety5LIhsWXyL3EgcSwy5nKp8qry4RTzYRuzYbLosqLxITLpcunxLnNlMSNzZbEtSDIu3TKm8SGIDUtMjUgcMurIGnKmMu7xITLvcu/yL/MgsuzzIXMh8yJIMqud8ugzJRayZvGqMyGZsyGy6tpxKnMmM2DzZ/EjmnOg82jzaVuIDE14oCQzarNrM2uzKY7zactzpTOmMu2y7AyypnGqWnMlyB2xpZ5zbxvb2TNonXLtm5vy7ZvzofOiSnOm0zGqMqYy6BhzpI1za3OoMysLsqsyqjEucyxzLMsyrrGlMy3yr7EiMe2y4LEucy+xJrLic2BxLp4zbrEsMm0zYjHoMuTIs2My4DIvsuYxqDNkcucIkV4zbDGkMq0IE/MiM+aIMaTxpTNmMukxJrLpmzLqEHMmsqYY8qNxJjMosmrIMmqzIHEjXPLps6uxITGlMqYy7jLs2F2yazNt8yEzKLEhMSDzbXIlMS9zJTPumXMm3fEjmjMjDHLus6lzIPMu23Qgs+pzqTPrM+ZzKrPvc6wY8umypjMhc2DxJ10dcqUzoM9NCzMqMumzIrLrzDPhMyux4HLhM+IybTMtMy2zLjNjc+Ry4TPkyLPlcuL0J9z0KvPm8+fzYnPns+gy5bNj8+ky5vKvyJIz6rJmMqPz63Pr8yqz7LOhcujzZrPts2cy4RO0JvMotGRyatyyo/KkdCJZtCLzbPNssu5y77MgM23zr7OrtCMxJXQj8iS0JHMhdCUctCWxLHQu2LOsCDKm8qdyp/Kt8u3ypjMpM2vbXDJmMi/xL3SktCnz6rFgmfMkMSF0bYgZHXLudCBzKkgyotuZsaex73LucyM0qjRsNGhypDMmGTGj8imy7XQmc+70o3QntCg0KLIoM6Ey7fOktKy0bJj0qDPs9CMxILJoM6uPTLQu86z0L3Mq9GAz4XMr8+HYcyy0YbPisy1z4zRic+hyq3Mu8qwz5LMl8y/y4rEucSpzIpoy5DRls2Ly5XPos2Q0ZzEuVDMu8+pxYHNodCBypt0xqbIq8qY0ajEuNGqz7jNncSWy7bTp9CGzoPRvsyG0aTQk9Khyph3yZhry73EnMaWyYbOpNK0bHnOm8qb0o3Kr2zOrsSNa8ifzqpo0I7LudCfyp7MqmLJrmRpzqjMis2G0LvEmNSq0JfLtmFjxJHJmm7Qu8u1Y8yUac6Fyq/UitCK0o3HvCDIssa2y7rGttSFzrzUotSzzbPSqsiyyKLSkdKny6bLvWjJoM2fZdK60JvUjNK9zr8wy7rTgWHLvdSC1YfTqCDOvcu2zbDVhM6z0qPNsNWOyYvSkciRb9Cm0qjQhtWWxYLLuWLOqsap0ofIonXJls2sxrbLhsif1aZv1ZTLvCjSi2xry6ZhZNC70bJwybopy6/QutC8zKrLsNOT0YLMsNOXz4nPi8q8z47TntGLy4XTo8+UzYDLi8u+YtW7xqfTqs+d06zEk9GZz6PLks+l0Z1T0JsgQs6zyavQplTMr8+00akiz7fLqEZpctCm1qjWqsSw0rzLoMqvy7bOqMm2yL/Ut8yh1ZTIn8yY1anSrcqR0JLUiM27zb3NvyDPqNKdz6zIu8S90J/ThtSi1KjXkM2vypjKnMypzKLFgs+axpDStsyY0LJ1YtewypHXg9eF0Lt3L9aF147LtcmtyZvXute80ozUhc6mzKbTj9es05LRgcS005XRhNac05nKg82SIsqHPlNvY8muyKHJm9Wy0aLKk9Gy0ITOg8qaypzKnsqgyqLKpD7TlNGD07DEmtaiyrPLgsq3ItGH05zWoM+e1qLRjdGPxLljds6OzLtzya7Eh8+cyIPLlNav067Rm8qE1rTVlcSE1ZfXnti92L/WvtO+14DRqyLQmsybxo8g1KXLodGyc9SPb86F1bXZitW30ILZjcmb1JrKvc6u16LGlMSOy7pvxqnLs9Cl1abVk3fUo9Kg0qTIotmOz7/Yu8e+0LHUvtSJ04fRttWZ0JzQntmw1KTSj8mq1obZoMiy2aLZrNmOyZnOj9K4zq7ZpFVTR1MgQ1ZJIHHQtsa30KPTgdqNc8yUNNmryKzajdC7M8yjb3fQu9SHzqLUrM6qyo13zJQgVNWT04rVv9CMy4bYl8anzq7Vksu51YXTqMu8y7jMm8qa1ZwgMmvQptmd2odl1pPWjWrUtMSx1oTag9uM1Zfas8yWzJjEhMSpzYXPrNuD0bfRus2Z0pHWmdiM2KrRhdix05rRiNagz5DToMy91qTRjtamxLnYhWzSrNCG1qzZgs+f063Njtaxy5rZh8S5V8anzKJR0LbEjc2h073Nm9SAy4TZlNm70qnPvtKR2bLPmtuf1YLSj8ij2Zfahcyi0qTSptaF0qjSl8S8x7nMmNmo0qzOtNm8zInKmNKsyr7GltKe25Tcj8aW2oDPvNW+xpfTuc6qz73ZrNKRzqHYiNOR1pjYi8+G2I7TmNixXcSax4PEvcS5W1stxZsuODc1xqM4zarNqt2JM8aMIMWhLsWH3YrGozDFmzI2xYbcvyDdhd2H3Yndi8W13Y413ZDdksWdxbTFo8W2xaIxOcaLxoM33Z7doDXFoMWd3abdicWGMsW1xZ7ap8eLxbHHpt2t3a813bHds92G3bUz3bc43bkx3bvFhdOO3ZPGhd2W3aPdmcW63Zwx3obdod2X3aTFjt2mxZzdqN6S3ZnelN2a3pddXcqsbsiTyqlQyJPEjcqLy6LKr8ir0LvMjsqs1b7Lh8uEyp90cDovL9m4yo/GqC7Ki8imyL9syZbOpc6OxpguyZhnOsWJODAvxrZj1JPJqcap3r7Gltm5xqgvUNmsdEdJUy9E0rfLjcSYQ8mb1Y/Uty/En3DWtXLUrMuQy7XVlciX06bfs86tyZTMjl/Gk8mXyZnYv1/PqMmyxpZfTd+3yJcucGRmyqzUjXJrxo7HvsiWxLnSl8ap1JPKrMm21bLLtXJ51rzYqtKX1JZnyZvKrNK2yL/EmNGdc8isLsSdX8mW0bHYgMmcyZ7KjcmzX+CgpGHKrMSEcdeDyJ/ftca6Im9iasmLyILGjdSix4Hcv9Ob1p/Ej8WWYsqMxr/YjcS6c9GyU0ZTyqzGqXnIoMeC4KGRaeChk1PYlsSNxp/EmsqL4KCyxIhbzpTGpOChpyzgoanNqjXgoYfYvnrGmTjEms6+Z+ChmdOez5hm0bbLtc2Nedmd4KG6zLnEmteM1ZfgoY7Yqsao4KGSTOChlci+4KGYyqngoobgoZzgoojgoZ/goYMi4KGjyZjgoaXgoangopbdiyzImsSa0J1ky6DGoMiP4KGiyozJmFLIk8uD3YTgoaws4KKo3o054KKpNeChrSzgoabFp+Ciqcav4KGqM+CireCir1s3NuChqsWw4KGqy5Pgoazcv1vFsuCivsaMMTbgorbgo4DgorAx4KK24KKy4KOL4KOI4KKu3qbGstubblTJuOChtWVDy6Zj1J/GrTHIj+Cjnw==",
-                      "faIcon": "fa fa-leaf"
-                    },
-                    {
-                      "name": "CRS Setback Data -DRAFT",
-                      "description": "",
-                      "saveCode": "e34df34rd3....3434",
-                      "saveCode": "eyJzY3JlZW4iOsSAc3BsaXRTxIPEhcSHOmZhbHNlLMSBeW5jTWFwc8SIxJXEl2V9xJptxKAwxIjEgGV4dMSGdMSsInR5cGXEiCLErsSwbsSyxJp4bWnEky04NDAyNzkxLjM3MzbFjTExxJp5xYHEkzQyNDQ3MTcuMTM5ODc4M8WZxL/EqXjEiMWExaE4xZAwxYzFpjkwOTcyNsWUxanEiMWYNDY1MzQuxbPFiTXFtsWJxJrEi2F0acSWUmVmZcSExJ3EuMSJIndraWTEiDHFh8acMMSabMaKZXN0V8aYxpo6MzjGhcSnIl9wYXJ0xKI6W8StxK/EscSzxLXEt8S5xLvGucWoxYLFq8WFxYfFicWLxY3Fj8WRxZMixZXHgTrFvMWbxZ3Fn8WtxaTFpjTFqGHFqjrFrMWixa/FsTLFs8W1xbfFuceYxbvFmcW+xoDGgjDGhMaGOcaIxrDGi8aNxo/GkcSGY8aUxIDGl8aZxpvGnTDGnyLGocSwxqTGpse5xqnGqzd9xq1mcmFtZUlkxrRbMF19yJPGiGVsZWPEsGRCYcSYxKlwSW5kxK7Gm8atxrBuZcSrxpXIqGVOdW1ixpHEiMe9xqTGok9mUGx1Z8WCxrTEisiXyJnIm8i6yLzHjSLEjMmFbnMvxqF5xpFfxJjImMiab3IixJrJiMi9yYrEs8mYyL7JjGHJjnLJkMmByZPJlcaVcm9vdC9BbMiyxKlyyJggYcijIFDIi8SNY28gxo7IvW9uxJYgRMaKYSBMyZ/GkcmLTsmUdGggQ8axb8SNyb8xxLNvxrBjxI55yLQuN8SaY2jImWtlxqjEpMSYxq12yohpyb7EucWLypTEmsmnyanJq8mtZcmvybHJs2TJtcm3acm5ybtlyb3Jv2zKgcqDyoXKh3LKicqLyo3Kj8mnypJhxoA1NsWkypXKl8qZypvKnSLKn8qhyqPEo8SWyqbKr8moyarJrMmuxrHKtsm0ybZtybjJusm8yqrLgMuCdMqEyobJoMuHxrLLicqQy4zGnMWSMTLFoDE0MTUxNsWdy5JhypjEtcuVyp7KoGPKosqky5zEpsueyrHLocq0y6NlybLLpcq6yrzLqsm+yoDKgsuuy4TLsS/Kisuzyo7LtcWCYTE5MsadzIPMhcqaOsWwy5bLmMyKy5rElMyNxq3KsMugyrPKtcyUyrfKucunyrvLqcq+y6vMm8uDy7DKiMygy4jMo8uLzKUyx5UyNcW3xYgyOMefMzAzypTGlcqWzITLlMyuypzMiMuZzIzEpcy2y58vxo7GpMmUxorLqyBFeMSMyZTGkcyezYbMocqMzYnKkcylM824NDPFv8WQxY7FpTnFhsyrzZzMr82fzLLNocudIsy3L0NSU8utyoTGjnZpZXfNh8yiy4rNtsm/xZg1NM6CzIbNncywzInMi8SIdHJ1xJkizpJzaWLImM2FcsiOyJDGhSw1Nc60OMiTyIfOug==",
-                      "faIcon": "fa fa-leaf"
-                    }
-                  ]
-              }
+   "identifyBlacklist": ["OBJECTID", "OBJECTID_1", "SHAPE", "Shape", "shape_Length", "shape_Area", "NumScen"],
+    "launchpad": {
+            "title": "",
+            "description": "<p>Welcome to North Carolina...</p>",
+            "plugins": [
+				{
+					"title": "Community Rating System",
+					"description": "Brace yourself. It's going to be awesome.",
+					"pluginName": "community-rating-system"
+				}
             ]
-        }
-    ]		
+      }
 }
-
-
-
