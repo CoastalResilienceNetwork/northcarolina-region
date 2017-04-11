@@ -74,7 +74,7 @@
 		    		{
 					"title": "Restoration Explorer",
 					"description": "A restorative exploration",
-					"pluginName": "restoration-explorer"
+					"pluginName": "restoration_explorer"
 				}	
             ]
       }
