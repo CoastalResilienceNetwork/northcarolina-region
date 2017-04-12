@@ -64,7 +64,6 @@
 					},
 					"datasource":{
 						"options": [
-							{ "name": " -- ", "value": "" },
 							{ "name": "NOAA Coastal Flood Exposure", "value": "noaa" }
 						]
 					}
@@ -127,7 +126,6 @@
 					},
 					"datasource":{
 						"options": [
-							{ "name": " -- ", "value": "" },
 							{ "name": "NOAA Coastal Flood Exposure", "value": "noaa" }
 						]
 					}
