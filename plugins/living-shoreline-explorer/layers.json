@@ -1,0 +1,31 @@
+[
+    {
+        "displayName": "Living Shoreline Explorer",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/North_Carolina",
+            "name": "Living_Shoreline_Explorer"
+        },
+        "includeLayers": [
+            {
+                "name": "Living Shoreline Types ply",
+                "displayName": "Living Shoreline Types ply"
+            },
+            {
+                "name": "Living Shoreline Types ras",
+                "displayName": "Living Shoreline Types ras (zoom to view)"
+            },
+            {
+                "name": "Factors",
+                "displayName": "Factors",
+                "includeAllLayers": true
+            },
+            {
+                "name": "Reference Data",
+                "displayName": "Reference Data",
+                "includeAllLayers": true
+            }
+        ]
+    }    
+]
