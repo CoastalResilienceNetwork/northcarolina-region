@@ -65,17 +65,17 @@
             "description": "<p>The Coastal Resilience decision-support tool provides communities access to the best available science and local data on coastal hazards to visualize their risks and examine where nature can increase resilience and reduce risk through conservation and restoration activities.  For additional project information, visit the <a href= 'http://coastalresilience.org/project/north-carolina/' target='_blank'><b>North Carolina</b></a> home page.</p>",
 			 "plugins": [	
                 {
-                    "title": "Flood and Sea Level Rise",
+                    "title": "<img src='img/flood_slr.png' hspace=10>Flood and Sea Level Rise",
                     "description": "Identifies potential inundation during coastal storms from wind, storm surge, and future flood risk based on sea-level rise predictions.",
                     "pluginName": "flood-slr"
                 },
                 {
-                    "title": "CRS Explorer",
+                    "title": "<img src='img/CRSicon_active.png' hspace=10>CRS Explorer",
                     "description": "Identifies open space to reduce flood risk and insurance premiums using Community Rating System (CRS) Open Space Preservation (OSP) credits.",
                     "pluginName": "community-rating-system"
                 },
 		    	{
-					"title": "Restoration Explorer",
+					"title": "<img src='img/RestExplicon_active.png' hspace=10>Restoration Explorer",
 					"description": "Identifies subtidal areas that have suitable conditions for oyster restoration to reduce shoreline erosion and improve oyster stock in the deep water of the Albemarle-Pamlico sound",
 					"pluginName": "restoration_explorer"
 				}	
