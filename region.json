@@ -76,7 +76,7 @@
                 },
 		    	{
 					"title": "<img src='img/RestExplicon_active.png' hspace=10>Restoration Explorer",
-					"description": "Identifies subtidal areas that have suitable conditions for oyster restoration to reduce shoreline erosion and improve oyster stock in the deep water of the Albemarle-Pamlico sound",
+					"description": "Identifies subtidal areas that have suitable conditions for oyster restoration to reduce shoreline erosion and improve oyster stock in the Albemarle-Pamlico sound",
 					"pluginName": "restoration_explorer"
 				}	
             ],
