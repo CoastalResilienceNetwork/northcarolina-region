@@ -1,6 +1,12 @@
 {
-	"showInfoGraphic": false,
-    "tooltips": {
+	"infoGraphic": {
+		"show": false,
+		"popup": true,
+		"width":600,
+		"height":400, 
+		"url":"<img style='style='position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);' src='PLUGIN-DIRECTORY/slr_flooding_c.jpg'/>"
+	},
+	"tooltips": {
 		"region": "Geographic areas where climate change/sea level rise vulnerability studies have been conducted.",
 		"hazard": "Spatial extent for different coastal hazards that may affect coastal assets.  Impact zones were estimated across multiple planning horizons.",
 		"climate": "Future planning horizons representing the impact of climate change.",
