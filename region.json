@@ -92,19 +92,19 @@
                     "title": "North Carolina State Center for Marine Sciences and Tech"
                 },
                 {
-                    "logoPath": "img/NC_NERR.gif",
+                    "logoPath": "img/NC_NERR.png",
                     "link": "http://www.nccoastalreserve.net/",
                     "title": "NC Coastal Reserve"
-                },
-                {
-                    "logoPath": "img/NCCOS.png",
-                    "link": " https://coastalscience.noaa.gov/",
-                    "title": "National Centers for Coastal Ocean Science"
                 },
                 {
                     "logoPath": "img/CSI.png",
                     "link": " http://www.coastalstudiesinstitute.org/",
                     "title": "UNC Coastal Studies Institute"
+                },
+                {
+                    "logoPath": "img/NCCOS.png",
+                    "link": " https://coastalscience.noaa.gov/",
+                    "title": "National Centers for Coastal Ocean Science"
                 }
             ]
       }
