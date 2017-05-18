@@ -93,13 +93,18 @@
                 },
                 {
                     "logoPath": "img/NC_NERR.gif",
-                    "link": "http://www.nccoastalreserve.net/web/crp",
+                    "link": "http://www.nccoastalreserve.net/",
                     "title": "NC Coastal Reserve"
                 },
                 {
-                    "logoPath": "img/NOAA.jpg",
-                    "link": "http://www.noaa.gov/",
-                    "title": "NOAA"
+                    "logoPath": "img/NCCOS.jpg",
+                    "link": " https://coastalscience.noaa.gov/",
+                    "title": "National Centers for Coastal Ocean Science"
+                },
+                {
+                    "logoPath": "img/CSI.png",
+                    "link": " http://www.coastalstudiesinstitute.org/",
+                    "title": "UNC Coastal Studies Institute"
                 }
             ]
       }
