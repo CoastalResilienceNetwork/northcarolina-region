@@ -9,22 +9,22 @@
         },
         "includeLayers": [
             {
-                "name": "Infrastructure",
+                "name": "CCInfrastructure",
                 "displayName": "Infrastructure",
                 "includeAllLayers": true
             },
             {
-                "name": "Habitat",
+                "name": "CCHabitat",
                 "displayName": "Habitat",
                 "includeAllLayers": true
             },
              {
-                "name": "Flood Map",
+                "name": "CCFlood Map",
                 "displayName": "Flood Map",
                 "includeAllLayers": true
             },
             {
-                "name": "Land Use",
+                "name": "CCLand Use",
                 "displayName": "Recreation",
                 "includeAllLayers": true
             }  
@@ -40,22 +40,22 @@
         },
         "includeLayers": [
             {
-                "name": "Infrastructure",
+                "name": "DCInfrastructure",
                 "displayName": "Infrastructure",
                 "includeAllLayers": true
             },
             {
-                "name": "Habitat",
+                "name": "DCHabitat",
                 "displayName": "Habitat",
                 "includeAllLayers": true
             },
             {
-                "name": "Flood Map",
+                "name": "DCFlood Map",
                 "displayName": "Flood Map",
                 "includeAllLayers": true
             },
             {
-                "name": "Land Use",
+                "name": "DCLand Use",
                 "displayName": "Land Use",
                 "includeAllLayers": true
             }
@@ -71,12 +71,12 @@
         },
         "includeLayers": [
             {
-                "name": "Land Use",
+                "name": "HCLand Use",
                 "displayName": "Land Use",
                 "includeAllLayers": true
             },
             {
-                "name": "Flood Map",
+                "name": "HCFlood Map",
                 "displayName": "Flood Map",
                 "includeAllLayers": true
             }
@@ -92,12 +92,12 @@
         },
         "includeLayers": [
             {
-                "name": "Coastal Management",
+                "name": "RICoastal Management",
                 "displayName": "Coastal Management",
                 "includeAllLayers": true
             },
             {
-                "name": "Infrastructure",
+                "name": "RIInfrastructure",
                 "displayName": "Infrastructure",
                 "includeAllLayers": true
             }
