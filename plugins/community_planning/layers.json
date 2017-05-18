@@ -1,5 +1,36 @@
 [
     {
+        "displayName": "Currituck County",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/North_Carolina",
+            "name": "North_Carolina"
+        },
+        "includeLayers": [
+            {
+                "name": "Infrastructure",
+                "displayName": "Infrastructure",
+                "includeAllLayers": true
+            },
+            {
+                "name": "Habitat",
+                "displayName": "Habitat",
+                "includeAllLayers": true
+            },
+             {
+                "name": "Flood Map",
+                "displayName": "Flood Map",
+                "includeAllLayers": true
+            },
+            {
+                "name": "Land Use",
+                "displayName": "Recreation",
+                "includeAllLayers": true
+            }  
+        ]
+    },
+    {
         "displayName": "Dare County",
         "server": {
             "type": "ags",
@@ -9,31 +40,44 @@
         },
         "includeLayers": [
             {
-                "name": "Recreation",
-                "displayName": "Recreation",
-                "includeAllLayers": true
-            },
-            {
-                "name": "Preliminary DFIRM",
-                "displayName": "Preliminary DFIRM"
-            },
-            {
-                "name": "Effective DFIRM",
-                "displayName": "Effective DFIRM"
-            },
-            {
                 "name": "Infrastructure",
                 "displayName": "Infrastructure",
                 "includeAllLayers": true
             },
             {
-                "name": "Habitats",
-                "displayName": "Habitats",
+                "name": "Habitat",
+                "displayName": "Habitat",
                 "includeAllLayers": true
             },
             {
-                "name": "Social & Economic",
-                "displayName": "Social & Economic",
+                "name": "Flood Map",
+                "displayName": "Flood Map",
+                "includeAllLayers": true
+            },
+            {
+                "name": "Land Use",
+                "displayName": "Land Use",
+                "includeAllLayers": true
+            }
+        ]
+    },
+    {
+        "displayName": "Hyde County",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/North_Carolina",
+            "name": "North_Carolina"
+        },
+        "includeLayers": [
+            {
+                "name": "Land Use",
+                "displayName": "Land Use",
+                "includeAllLayers": true
+            },
+            {
+                "name": "Flood Map",
+                "displayName": "Flood Map",
                 "includeAllLayers": true
             }
         ]
@@ -44,24 +88,9 @@
             "type": "ags",
             "layerType": "dynamic",
             "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/North_Carolina",
-            "name": "Roanoke_Island" 
+            "name": "North_Carolina" 
         },
         "includeLayers": [
-            {
-                "name": "Habitats",
-                "displayName": "Habitats",
-                "includeAllLayers": true
-            },
-            {
-                "name": "Bathymetry",
-                "displayName": "Bathymetry",
-                "includeAllLayers": true
-            },
-            {
-                "name": "Coastal Hazards",
-                "displayName": "Coastal Hazards",
-                "includeAllLayers": true
-            },
             {
                 "name": "Coastal Management",
                 "displayName": "Coastal Management",
@@ -71,13 +100,7 @@
                 "name": "Infrastructure",
                 "displayName": "Infrastructure",
                 "includeAllLayers": true
-            },
-            {
-                "name": "Social and Economic",
-                "displayName": "Social and Economic",
-                "includeAllLayers": true
             }
         ]
-    }
-    
+    }  
 ]
