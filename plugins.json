@@ -1,16 +1,20 @@
 {
     "plugins": [
-        {
+	    {
             "repo": "multiexplorer",
             "name": "restoration_explorer"
         },
         {
-            "repo": "community-rating-system",
-            "name": "community-rating-system"
+        	"repo": "community-rating-system",
+        	"name": "community-rating-system"
         },
         {
             "repo": "regional-planning",
             "name": "regional-planning"
+        },
+        {
+            "repo": "flood-slr",
+            "name": "flood-slr"
         },
         {
             "repo": "regional-planning",

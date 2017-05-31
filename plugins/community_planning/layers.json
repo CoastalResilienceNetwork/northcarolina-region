@@ -1,39 +1,83 @@
 [
     {
-        "displayName": "Dare County",
+        "displayName": "Currituck County",
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "http://services.coastalresilience.org/arcgis/rest/services/North_Carolina",
+            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/North_Carolina",
             "name": "North_Carolina"
         },
         "includeLayers": [
             {
-                "name": "Recreation",
-                "displayName": "Recreation",
-                "includeAllLayers": true
-            },
-            {
-                "name": "Preliminary DFIRM",
-                "displayName": "Preliminary DFIRM"
-            },
-            {
-                "name": "Effective DFIRM",
-                "displayName": "Effective DFIRM"
-            },
-            {
-                "name": "Infrastructure",
+                "name": "CCInfrastructure",
                 "displayName": "Infrastructure",
                 "includeAllLayers": true
             },
             {
-                "name": "Habitats",
-                "displayName": "Habitats",
+                "name": "CCHabitat",
+                "displayName": "Habitat",
+                "includeAllLayers": true
+            },
+             {
+                "name": "CCFlood Map",
+                "displayName": "Flood Map",
                 "includeAllLayers": true
             },
             {
-                "name": "Social & Economic",
-                "displayName": "Social & Economic",
+                "name": "CCLand Use",
+                "displayName": "Recreation",
+                "includeAllLayers": true
+            }  
+        ]
+    },
+    {
+        "displayName": "Dare County",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/North_Carolina",
+            "name": "North_Carolina"
+        },
+        "includeLayers": [
+            {
+                "name": "DCInfrastructure",
+                "displayName": "Infrastructure",
+                "includeAllLayers": true
+            },
+            {
+                "name": "DCHabitat",
+                "displayName": "Habitat",
+                "includeAllLayers": true
+            },
+            {
+                "name": "DCFlood Map",
+                "displayName": "Flood Map",
+                "includeAllLayers": true
+            },
+            {
+                "name": "DCLand Use",
+                "displayName": "Land Use",
+                "includeAllLayers": true
+            }
+        ]
+    },
+    {
+        "displayName": "Hyde County",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/North_Carolina",
+            "name": "North_Carolina"
+        },
+        "includeLayers": [
+            {
+                "name": "HCLand Use",
+                "displayName": "Land Use",
+                "includeAllLayers": true
+            },
+            {
+                "name": "HCFlood Map",
+                "displayName": "Flood Map",
                 "includeAllLayers": true
             }
         ]
@@ -43,41 +87,20 @@
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "http://services.coastalresilience.org/arcgis/rest/services/North_Carolina",
-            "name": "Roanoke_Island" 
+            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/North_Carolina",
+            "name": "North_Carolina" 
         },
         "includeLayers": [
             {
-                "name": "Habitats",
-                "displayName": "Habitats",
-                "includeAllLayers": true
-            },
-            {
-                "name": "Bathymetry",
-                "displayName": "Bathymetry",
-                "includeAllLayers": true
-            },
-            {
-                "name": "Coastal Hazards",
-                "displayName": "Coastal Hazards",
-                "includeAllLayers": true
-            },
-            {
-                "name": "Coastal Management",
+                "name": "RICoastal Management",
                 "displayName": "Coastal Management",
                 "includeAllLayers": true
             },
             {
-                "name": "Infrastructure",
+                "name": "RIInfrastructure",
                 "displayName": "Infrastructure",
-                "includeAllLayers": true
-            },
-            {
-                "name": "Social and Economic",
-                "displayName": "Social and Economic",
                 "includeAllLayers": true
             }
         ]
-    }
-    
+    }  
 ]
