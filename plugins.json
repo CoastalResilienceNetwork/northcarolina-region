@@ -21,8 +21,8 @@
             "name": "community_planning"
         },
         {
-            "repo": "regional-planning",
-            "name": "living-shoreline-explorer"
+            "repo": "living-shorelines-explorer",
+            "name": "living-shorelines-explorer"
         }
     ]
 }
