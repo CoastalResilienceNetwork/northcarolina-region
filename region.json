@@ -105,6 +105,11 @@
                     "logoPath": "img/NCCOS.png",
                     "link": " https://coastalscience.noaa.gov/",
                     "title": "National Centers for Coastal Ocean Science"
+                },
+                {
+                    "logoPath": "img/Currituck.png",
+                    "link": "http://www.co.currituck.nc.us/",
+                    "title": "Currituck County"
                 }
             ]
       }
