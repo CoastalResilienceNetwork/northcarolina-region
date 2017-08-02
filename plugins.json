@@ -1,9 +1,5 @@
 {
     "plugins": [
-	    {
-            "repo": "multiexplorer",
-            "name": "restoration_explorer"
-        },
         {
         	"repo": "community-rating-system",
         	"name": "community-rating-system"
