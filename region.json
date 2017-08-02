@@ -40,6 +40,7 @@
 		"launchpad",
         "flood-slr",
         "community-rating-system",
+	    "restoration_explorer",
         "living-shoreline-explorer",
 	    "zoom_to",
         "measure",
@@ -72,7 +73,12 @@
                     "title": "<img src='img/CRSicon_active.png' hspace=10>CRS Explorer",
                     "description": "Identifies open space to reduce flood risk and insurance premiums using Community Rating System (CRS) Open Space Preservation (OSP) credits.",
                     "pluginName": "community-rating-system"
-                }
+                },
+		{
+		    "title": "<img src='img/RestExplicon_active.png' hspace=10>Restoration Explorer",
+		    "description": "Identifies subtidal areas that have suitable conditions for oyster restoration to reduce shoreline erosion and improve oyster stock in the Albemarle-Pamlico sound",
+		    "pluginName": "restoration_explorer"
+		}
             ],
              "partners": [
                 {
