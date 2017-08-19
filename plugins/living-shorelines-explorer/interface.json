@@ -46,119 +46,8 @@
 				}
 			},
 			"togglebutton": {
-				"vulnerability": {
-					"controls": {
-						"mvi": {
-							"group": "vulnerability",
-							"name": "mvi",
-							"value": "mvi",
-							"label": "Overall Vulnerability",
-							"checked": true,
-							"dependency": {
-								"show": {
-									"togglebutton":[]
-								},
-								"hide": {
-									"togglebutton":["climate","human"]
-								},
-								"disable": {
-									"select":["factors"]
-								}
-							}
-						},
-						"individual": {
-							"group": "vulnerability",
-							"name": "individual",
-							"value": "individual",
-							"label": "Individual Variables",
-							"checked": false,
-							"dependency": {
-								"show": {
-									"select":[]
-								},
-								"hide": {
-									"togglebutton":["climate","human"]
-								},
-								"enable": {
-									"select":["factors"]
-								}
-							}
-						}
-					},
-					"label": "Show the Index Model or Variables:",
-					"show": true
-				},
-				"climate": {
-					"controls": {
-						"current": {
-							"group": "climate",
-							"name": "current",
-							"value": "current",
-							"label": "Current",
-							"checked": true
-						},
-						"moderate": {
-							"group": "climate",
-							"name": "moderate",
-							"value": "moderate",
-							"label": "Moderate",
-							"checked": false
-						},
-						"high": {
-							"group": "climate",
-							"name": "high",
-							"value": "high",
-							"label": "High",
-							"checked": false
-						}
-					},
-					"label": "Select a climate-induced change scenario:",
-					"show": false
-				},
-				"human": {
-					"controls": {
-						"current": {
-							"group": "human",
-							"name": "current",
-							"value": "current",
-							"label": "Current",
-							"checked": true
-						},
-						"moderate": {
-							"group": "human",
-							"name": "moderate",
-							"value": "moderate",
-							"label": "Moderate",
-							"checked": false
-						},
-						"high": {
-							"group": "human",
-							"name": "high",
-							"value": "high",
-							"label": "High",
-							"checked": false
-						}
-					},
-					"label": "Select a human-induced change scenario:",
-					"show": false
-				}
 			},
 			"select": {
-				"factors": {
-					"options": [
-						{ "name":"Wave Exposure", "value":"wave" },
-						{ "name":"Storm Surge", "value":"storm" },
-						{ "name":"Sea Level Rise", "value":"slr" },
-						{ "name":"Boat Activity", "value":"boat" },
-						{ "name":"Marsh Buffer Width", "value":"marsh_width" },
-						{ "name":"Marsh Vegetation Height", "value":"marsh_veg" },
-						{ "name":"Marsh Elevation", "value":"marsh_elev" },
-						{ "name":"Marsh Slope", "value":"marsh_slope" }
-					],
-					"label": "Select a Variable:",
-					"show": false,
-					"disabled": true
-				}
 			}
 		},
 		"other": {
@@ -217,7 +106,7 @@
 					}
 				},
 				"factor": {
-					"rep_we": { 
+					"rep_we": {
 						"dynamicId": 10,
 						"field": "RWE_SCORE"
 					},
