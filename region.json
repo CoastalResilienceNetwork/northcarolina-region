@@ -75,9 +75,9 @@
                     "pluginName": "community-rating-system"
                 },
 		    	{
-					"title": "<img src='img/RestExplicon_active.png' hspace=10>Restoration Explorer",
-					"description": "Identifies subtidal areas that have suitable conditions for oyster restoration to reduce shoreline erosion and improve oyster stock in the Albemarle-Pamlico sound",
-					"pluginName": "restoration_explorer"
+					"title": "<img src='img/living_shoreline.png' hspace=10>Living Shoreline Explorer",
+					"description": "Provides guidance on using salt marsh for shoreline erosion control based on site-specific wave energy.",
+					"pluginName": "living-shorelines-explorer"
 				}	
             ],
              "partners": [
