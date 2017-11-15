@@ -4,7 +4,7 @@
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/North_Carolina",
+            "url": "http://services.coastalresilience.org/arcgis/rest/services/North_Carolina",
             "name": "North_Carolina" 
         },
         "includeLayers": [
@@ -44,7 +44,7 @@
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/North_Carolina",
+            "url": "http://services.coastalresilience.org/arcgis/rest/services/North_Carolina",
             "name": "North_Carolina" 
         },
         "includeLayers": [
