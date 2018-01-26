@@ -17,6 +17,10 @@
             "name": "flood-slr"
         },
         {
+			"repo": "future_habitat_v2",
+			"name": "future-habitat-v2"
+    	},
+        {
             "repo": "regional-planning",
             "name": "community_planning"
         },
