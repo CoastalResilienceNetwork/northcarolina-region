@@ -25,6 +25,7 @@
 			"label": "100 cm"
 		}
 	],
+	"scenariosAdditive": false,
 	"stats": [
 		{
 			"icon": "grass",
