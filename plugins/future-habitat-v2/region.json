@@ -3,6 +3,7 @@
 	"regionLabel": "Choose a County to Explore",
 	"defaultExtent": [-9208521,3904403,-8436201,4465756],
 	"globalRegion": "North Carolina",
+	"current_conservation_lands": 6,
 	"scenarios": [
 		{
 			"layer": 1,
