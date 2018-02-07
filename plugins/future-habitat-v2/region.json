@@ -42,7 +42,7 @@
 		},
 		{
 			"icon": "grass",
-			"label": "High Marsh",
+			"label": "Transitional Marsh",
 			"units": "acres",
 			"fields": [
 				"NC_FutureHabitat_csv_Curr_HighMarsh_AC",
@@ -55,7 +55,7 @@
 		},
 		{
 			"icon": "grass",
-			"label": "Salt Marsh",
+			"label": "Regularly Flooded Marsh",
 			"units": "acres",
 			"fields": [
 				"NC_FutureHabitat_csv_Curr_SaltMarsh_AC",
@@ -68,7 +68,7 @@
 		},
 		{
 			"icon": "grass",
-			"label": "Brakish Marsh",
+			"label": "Irregularly Flooded Marsh",
 			"units": "acres",
 			"fields": [
 				"NC_FutureHabitat_csv_Curr_BrackishMarsh_AC",
@@ -94,7 +94,7 @@
 		},
 		{
 			"icon": "flats",
-			"label": "Flats",
+			"label": "Tidal/Ocean Flats",
 			"units": "acres",
 			"fields": [
 				"NC_FutureHabitat_csv_Curr_Beach_AC",
