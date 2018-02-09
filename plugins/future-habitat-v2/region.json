@@ -4,6 +4,7 @@
 	"defaultExtent": [-9208521,3904403,-8436201,4465756],
 	"globalRegion": "North Carolina",
 	"current_conservation_lands": 6,
+	"disclaimer": "**This planning tool predicts habitat changes due to sea level rise. This model evaluation of future coastal landscape is incomplete and considers barrier island changes in a very limited fashion.",
 	"scenarios": [
 		{
 			"layer": 1,
