@@ -58,6 +58,11 @@
                 "name": "DCLand Use",
                 "displayName": "Land Use",
                 "includeAllLayers": true
+            },
+            {
+                "name": "Town of Duck",
+                "displayName": "Town of Duck",
+                "includeAllLayers": true
             }
         ]
     },
