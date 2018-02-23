@@ -1,0 +1,140 @@
+{
+	"service": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Future_Habitat/MapServer",
+	"regionLabel": "Choose a County to Explore",
+	"defaultExtent": [-9208521,3904403,-8436201,4465756],
+	"globalRegion": "North Carolina",
+	"current_conservation_lands": 6,
+	"disclaimer": "**This planning tool predicts habitat changes due to sea level rise at a regional scale. Due to data limitations, it should not be used at a scale finer than 1:50K",
+	"intro": "Wetland Types for",
+	"scenarios": [
+		{
+			"layer": 1,
+			"label": "Current"
+		},
+		{
+			"layer": 2,
+			"label": "40 cm\n(15.7in)"
+		},
+		{
+			"layer": 3,
+			"label": "60 cm\n(23.6in)"
+		},
+		{
+			"layer": 4,
+			"label": "80 cm\n(31.5in)"
+		},
+		{
+			"layer": 5,
+			"label": "100 cm\n(39in)"
+		}
+	],
+	"scenariosAdditive": false,
+	"stats": [
+		{
+			"icon": "grass",
+			"label": "Fresh Marsh",
+			"units": "acres",
+			"fields": [
+				"NC_FutureHabitat_csv_Curr_FreshMarsh_AC",
+				"NC_FutureHabitat_csv_SLR40cm_FreshMarsh_AC",
+				"NC_FutureHabitat_csv_SLR60cm_FreshMarsh_AC",
+				"NC_FutureHabitat_csv_SLR80cm_FreshMarsh_AC",
+				"NC_FutureHabitat_csv_SLR100cm_FreshMarsh_AC"
+			],
+			"tooltip": ""
+		},
+		{
+			"icon": "grass",
+			"label": "Transitional Marsh",
+			"units": "acres",
+			"fields": [
+				"NC_FutureHabitat_csv_Curr_HighMarsh_AC",
+				"NC_FutureHabitat_csv_SLR40cm_HighMarsh_AC",
+				"NC_FutureHabitat_csv_SLR60cm_HighMarsh_AC",
+				"NC_FutureHabitat_csv_SLR80cm_HighMarsh_AC",
+				"NC_FutureHabitat_csv_SLR100cm_HighMarsh_AC"
+			],
+			"tooltip": ""
+		},
+		{
+			"icon": "grass",
+			"label": "Regularly Flooded Marsh",
+			"units": "acres",
+			"fields": [
+				"NC_FutureHabitat_csv_Curr_SaltMarsh_AC",
+				"NC_FutureHabitat_csv_SLR40cm_SaltMarsh_AC",
+				"NC_FutureHabitat_csv_SLR60cm_SaltMarsh_AC",
+				"NC_FutureHabitat_csv_SLR80cm_SaltMarsh_AC",
+				"NC_FutureHabitat_csv_SLR100cm_SaltMarsh_AC"
+			],
+			"tooltip": ""
+		},
+		{
+			"icon": "grass",
+			"label": "Irregularly Flooded Marsh",
+			"units": "acres",
+			"fields": [
+				"NC_FutureHabitat_csv_Curr_BrackishMarsh_AC",
+				"NC_FutureHabitat_csv_SLR40cm_BrackishMarsh_AC",
+				"NC_FutureHabitat_csv_SLR60cm_BrackishMarsh_AC",
+				"NC_FutureHabitat_csv_SLR80cm_BrackishMarsh_AC",
+				"NC_FutureHabitat_csv_SLR100cm_BrackishMarsh_AC"
+			],
+			"tooltip": ""
+		},
+		{
+			"icon": "beach",
+			"label": "Beach",
+			"units": "acres",
+			"fields": [
+				"NC_FutureHabitat_csv_Curr_FreshMarsh_AC",
+				"NC_FutureHabitat_csv_SLR40cm_FreshMarsh_AC",
+				"NC_FutureHabitat_csv_SLR60cm_FreshMarsh_AC",
+				"NC_FutureHabitat_csv_SLR80cm_FreshMarsh_AC",
+				"NC_FutureHabitat_csv_SLR100cm_FreshMarsh_AC"
+			],
+			"tooltip": ""
+		},
+		{
+			"icon": "flats",
+			"label": "Tidal/Ocean Flats",
+			"units": "acres",
+			"fields": [
+				"NC_FutureHabitat_csv_Curr_Beach_AC",
+				"NC_FutureHabitat_csv_SLR40cm_Beach_AC",
+				"NC_FutureHabitat_csv_SLR60cm_Beach_AC",
+				"NC_FutureHabitat_csv_SLR80cm_Beach_AC",
+				"NC_FutureHabitat_csv_SLR100cm_Beach_AC"
+			],
+			"tooltip": ""
+		},
+		{
+			"icon": "swamp",
+			"label": "Cypress Swamp",
+			"units": "acres",
+			"fields": [
+				"NC_FutureHabitat_csv_Curr_CypressMarsh_AC",
+				"NC_FutureHabitat_csv_SLR40cm_CypressMarsh_AC",
+				"NC_FutureHabitat_csv_SLR60cm_CypressMarsh_AC",
+				"NC_FutureHabitat_csv_SLR80cm_CypressMarsh_AC",
+				"NC_FutureHabitat_csv_SLR100cm_CypressMarsh_AC"
+			],
+			"tooltip": ""
+		},
+		{
+			"icon": "swamp",
+			"label": "Tidal Swamp",
+			"units": "acres",
+			"fields": [
+				"NC_FutureHabitat_csv_Curr_TidalSwamp_AC",
+				"NC_FutureHabitat_csv_SLR40cm_TidalSwamp_AC",
+				"NC_FutureHabitat_csv_SLR60cm_TidalSwamp_AC",
+				"NC_FutureHabitat_csv_SLR80cm_TidalSwamp_AC",
+				"NC_FutureHabitat_csv_SLR100cm_TidalSwamp_AC"
+			],
+			"tooltip": ""
+		}
+	],
+	"regionService": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Future_Habitat/MapServer/0",
+	"regionAttributeLabel": "NC_Counties_NAME"
+}
