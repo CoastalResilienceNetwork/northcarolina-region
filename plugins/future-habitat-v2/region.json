@@ -4,7 +4,8 @@
 	"defaultExtent": [-9208521,3904403,-8436201,4465756],
 	"globalRegion": "North Carolina",
 	"current_conservation_lands": 6,
-	"disclaimer": "**This planning tool predicts habitat changes due to sea level rise. This model evaluation of future coastal landscape is incomplete and considers barrier island changes in a very limited fashion.",
+	"disclaimer": "**This planning tool predicts habitat changes due to sea level rise at a regional scale. Due to data limitations, it should not be used at a scale finer than 1:50K",
+	"intro": "Wetland Types for",
 	"scenarios": [
 		{
 			"layer": 1,
@@ -12,19 +13,19 @@
 		},
 		{
 			"layer": 2,
-			"label": "40 cm"
+			"label": "40 cm\n(15.7in)"
 		},
 		{
 			"layer": 3,
-			"label": "60 cm"
+			"label": "60 cm\n(23.6in)"
 		},
 		{
 			"layer": 4,
-			"label": "80 cm"
+			"label": "80 cm\n(31.5in)"
 		},
 		{
 			"layer": 5,
-			"label": "100 cm"
+			"label": "100 cm\n(39in)"
 		}
 	],
 	"scenariosAdditive": false,
