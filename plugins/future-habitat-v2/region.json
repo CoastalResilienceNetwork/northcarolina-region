@@ -1,5 +1,5 @@
 {
-	"service": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Future_Habitat/MapServer",
+	"service": "http://services.coastalresilience.org/arcgis/rest/services/North_Carolina/Future_Habitat/MapServer",
 	"regionLabel": "Choose a County to Explore",
 	"defaultExtent": [-9208521,3904403,-8436201,4465756],
 	"globalRegion": "North Carolina",
@@ -135,6 +135,6 @@
 			"tooltip": ""
 		}
 	],
-	"regionService": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Future_Habitat/MapServer/0",
+	"regionService": "http://services.coastalresilience.org/arcgis/rest/services/North_Carolina/Future_Habitat/MapServer/0",
 	"regionAttributeLabel": "NC_Counties_NAME"
 }
