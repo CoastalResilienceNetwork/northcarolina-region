@@ -17,6 +17,362 @@
 		"sealevelrise": "Sea level rise inundation scenarios ranging from zero to six feet above mean higher high water (MHHW)."
 	},
 	"region": {
+		"Beaufort": {
+			"geography":"County",
+			"url": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer",
+			"layers": {
+				"main": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer"
+			},
+			"tooltips": {
+				"region": "Geographic areas where climate change/sea level rise vulnerability studies have been conducted.",
+				"hazard": "Spatial extent for different coastal hazards that may affect coastal assets.  Impact zones were estimated across multiple planning horizons.",
+				"climate": { 
+					"control":"hazard",
+					"values": {
+						"coastal_flooding_oem": "Current and modeled potential water surface.",
+						"default": "Future planning horizons representing the impact of climate change."
+					}
+				},
+				"scenario": {
+					"control":"hazard",
+					"values": {
+						"coastal_flooding_oem": "<div style='text-align:left'>Modeled storm surge from North Carolina Sea Level Rise Impact Study.<div style='height:5px;'></div><b>Mean High High Water (MHHW)</b>: The average of all the <b>high</b> water heights observed over a period of several years.<div style='height:5px;'></div><b>10-yr event</b>: A coastal flood event with a 10% chance of occurring annually. Has a 96% chance of occurring over a 30-yr mortgage.<div style='height:5px;'></div><b>100-year event</b>: A coastal flood event with a 1% chance of occurring annually. Has a 26% chance of occurring over a 30-yr mortgage.<div style='height:5px;'></div><b>Hurricane Fran</b>: Modeled storm surge using conditions from this 1996 event.</div>",
+						"default": "Sea level rise scenarios (low, medium, and high) based on regional sea level rise amounts."
+					}
+				}
+			},
+			"extent": {
+				"xmin":-8593330.457238283,"ymin":4193455.2746721245,"xmax":-8515071.426927628,"ymax":4264484.5875708228,
+				"spatialReference":{
+					"wkid":102100,
+					"latestWkid":3857
+				}
+			},
+			"controls": {
+				"select": {
+					"hazard": {
+						"options": [
+							{
+								"name": " -- ",
+								"value": ""
+							},
+							{
+								"name": "Coastal Flooding (NC Emergency Mgmt)",
+								"value": "coastal_flooding_oem",
+								"controls": { 
+									"slider": ["climate", "scenario"]
+								},
+								"chart": true
+							}
+						]
+					}
+				},
+				"slider": {
+					"climate": { "disabled": false, "show": true,
+						"labels": { 
+							"coastal_flooding_oem": ["Current<br>(0in)", "20cm<br>(7.8in)", "40cm<br>(15.7in)", "100cm<br>(39in)"]
+						},
+						"title": { 
+							"coastal_flooding_oem": "Sea Level Rise"
+						}
+					},
+					"scenario": { "disabled": false, "show": true,
+						"labels": { 
+							"coastal_flooding_oem": ["MHHW", "10yr", "100yr", "Fran"]
+						},
+						"title": {
+							"coastal_flooding_oem": "Flood Extent"
+						}
+					 }
+				}
+			},
+			"download": {
+				"report": {
+					"coastal_flooding_oem": "http://media.coastalresilience.org/NC/North%20Carolina%20Sea%20Level%20Rise%20Impact%20Study_FinalReport_20140627.pdf",
+					"default": "https://coast.noaa.gov/floodexposure/#/services#flood-hazards"
+				},
+				"data": {
+					"coastal_flooding_oem": { "popup": true, "width":250, "height":85, "url": "<div style='padding:30px 20px;line-height:1;font-size: 15px;'>Data was acquired from <a href='https://www.ncdps.gov/Our-Organization/Emergency-Management' target='_blank'>NC Emergency Management</a> through a public records request.  For data or information on this project contact <a  href='https://www.ncdps.gov/Our-Organization/Emergency-Management' target='_blank'>NC Emergency Management</a>.</div>" },
+					"default":"https://coast.noaa.gov/floodexposure/#/services#flood-hazards"
+				}
+			},
+			"chart": {
+				"data": "chart_data_nc.csv",
+				"title": "Acres at Risk Under Various Flood Events and Sea Level Rise Scenarios",
+				"controls": {
+					"chart":"scenario",
+					"highlight": "climate"
+				},
+				"exclude-value": 3
+			}
+		},
+		 "Bertie": {
+			"geography":"County",
+			"url": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer",
+			"layers": {
+				"main": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer"
+			},
+			"tooltips": {
+				"region": "Geographic areas where climate change/sea level rise vulnerability studies have been conducted.",
+				"hazard": "Spatial extent for different coastal hazards that may affect coastal assets.  Impact zones were estimated across multiple planning horizons.",
+				"climate": { 
+					"control":"hazard",
+					"values": {
+						"coastal_flooding_oem": "Current and modeled potential water surface.",
+						"default": "Future planning horizons representing the impact of climate change."
+					}
+				},
+				"scenario": {
+					"control":"hazard",
+					"values": {
+						"coastal_flooding_oem": "<div style='text-align:left'>Modeled storm surge from North Carolina Sea Level Rise Impact Study.<div style='height:5px;'></div><b>Mean High High Water (MHHW)</b>: The average of all the <b>high</b> water heights observed over a period of several years.<div style='height:5px;'></div><b>10-yr event</b>: A coastal flood event with a 10% chance of occurring annually. Has a 96% chance of occurring over a 30-yr mortgage.<div style='height:5px;'></div><b>100-year event</b>: A coastal flood event with a 1% chance of occurring annually. Has a 26% chance of occurring over a 30-yr mortgage.<div style='height:5px;'></div><b>Hurricane Fran</b>: Modeled storm surge using conditions from this 1996 event.</div>",
+						"default": "Sea level rise scenarios (low, medium, and high) based on regional sea level rise amounts."
+					}
+				}
+			},
+			"extent": {
+				"xmin":-8608547.2528691459,"ymin":4275105.2315206397,"xmax":-8537473.6833136473,"ymax":4333852.493629653,
+				"spatialReference":{
+					"wkid":102100,
+					"latestWkid":3857
+				}
+			},
+			"controls": {
+				"select": {
+					"hazard": {
+						"options": [
+							{
+								"name": " -- ",
+								"value": ""
+							},
+							{
+								"name": "Coastal Flooding (NC Emergency Mgmt)",
+								"value": "coastal_flooding_oem",
+								"controls": { 
+									"slider": ["climate", "scenario"]
+								},
+								"chart": true
+							}
+						]
+					}
+				},
+				"slider": {
+					"climate": { "disabled": false, "show": true,
+						"labels": { 
+							"coastal_flooding_oem": ["Current<br>(0in)", "20cm<br>(7.8in)", "40cm<br>(15.7in)", "100cm<br>(39in)"]
+						},
+						"title": { 
+							"coastal_flooding_oem": "Sea Level Rise"
+						}
+					},
+					"scenario": { "disabled": false, "show": true,
+						"labels": { 
+							"coastal_flooding_oem": ["MHHW", "10yr", "100yr", "Fran"]
+						},
+						"title": {
+							"coastal_flooding_oem": "Flood Extent"
+						}
+					 }
+				}
+			},
+			"download": {
+				"report": {
+					"coastal_flooding_oem": "http://media.coastalresilience.org/NC/North%20Carolina%20Sea%20Level%20Rise%20Impact%20Study_FinalReport_20140627.pdf",
+					"default": "https://coast.noaa.gov/floodexposure/#/services#flood-hazards"
+				},
+				"data": {
+					"coastal_flooding_oem": { "popup": true, "width":250, "height":85, "url": "<div style='padding:30px 20px;line-height:1;font-size: 15px;'>Data was acquired from <a href='https://www.ncdps.gov/Our-Organization/Emergency-Management' target='_blank'>NC Emergency Management</a> through a public records request.  For data or information on this project contact <a  href='https://www.ncdps.gov/Our-Organization/Emergency-Management' target='_blank'>NC Emergency Management</a>.</div>" },
+					"default":"https://coast.noaa.gov/floodexposure/#/services#flood-hazards"
+				}
+			},
+			"chart": {
+				"data": "chart_data_nc.csv",
+				"title": "Acres at Risk Under Various Flood Events and Sea Level Rise Scenarios",
+				"controls": {
+					"chart":"scenario",
+					"highlight": "climate"
+				},
+				"exclude-value": 3
+			}
+		},
+		"Brunswick": {
+			"geography":"County",
+			"url": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer",
+			"layers": {
+				"main": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer"
+			},
+			"tooltips": {
+				"region": "Geographic areas where climate change/sea level rise vulnerability studies have been conducted.",
+				"hazard": "Spatial extent for different coastal hazards that may affect coastal assets.  Impact zones were estimated across multiple planning horizons.",
+				"climate": { 
+					"control":"hazard",
+					"values": {
+						"coastal_flooding_oem": "Current and modeled potential water surface.",
+						"default": "Future planning horizons representing the impact of climate change."
+					}
+				},
+				"scenario": {
+					"control":"hazard",
+					"values": {
+						"coastal_flooding_oem": "<div style='text-align:left'>Modeled storm surge from North Carolina Sea Level Rise Impact Study.<div style='height:5px;'></div><b>Mean High High Water (MHHW)</b>: The average of all the <b>high</b> water heights observed over a period of several years.<div style='height:5px;'></div><b>10-yr event</b>: A coastal flood event with a 10% chance of occurring annually. Has a 96% chance of occurring over a 30-yr mortgage.<div style='height:5px;'></div><b>100-year event</b>: A coastal flood event with a 1% chance of occurring annually. Has a 26% chance of occurring over a 30-yr mortgage.<div style='height:5px;'></div><b>Hurricane Fran</b>: Modeled storm surge using conditions from this 1996 event.</div>",
+						"default": "Sea level rise scenarios (low, medium, and high) based on regional sea level rise amounts."
+					}
+				}
+			},
+			"extent": {
+				"xmin":-8755884.9957564902,"ymin":4012990.5666468679,"xmax":-8678271.2010853197,"ymax":4077823.1281778058,
+				"spatialReference":{
+					"wkid":102100,
+					"latestWkid":3857
+				}
+			},
+			"controls": {
+				"select": {
+					"hazard": {
+						"options": [
+							{
+								"name": " -- ",
+								"value": ""
+							},
+							{
+								"name": "Coastal Flooding (NC Emergency Mgmt)",
+								"value": "coastal_flooding_oem",
+								"controls": { 
+									"slider": ["climate", "scenario"]
+								},
+								"chart": true
+							}
+						]
+					}
+				},
+				"slider": {
+					"climate": { "disabled": false, "show": true,
+						"labels": { 
+							"coastal_flooding_oem": ["Current<br>(0in)", "20cm<br>(7.8in)", "40cm<br>(15.7in)", "100cm<br>(39in)"]
+						},
+						"title": { 
+							"coastal_flooding_oem": "Sea Level Rise"
+						}
+					},
+					"scenario": { "disabled": false, "show": true,
+						"labels": { 
+							"coastal_flooding_oem": ["MHHW", "10yr", "100yr", "Fran"]
+						},
+						"title": {
+							"coastal_flooding_oem": "Flood Extent"
+						}
+					 }
+				}
+			},
+			"download": {
+				"report": {
+					"coastal_flooding_oem": "http://media.coastalresilience.org/NC/North%20Carolina%20Sea%20Level%20Rise%20Impact%20Study_FinalReport_20140627.pdf",
+					"default": "https://coast.noaa.gov/floodexposure/#/services#flood-hazards"
+				},
+				"data": {
+					"coastal_flooding_oem": { "popup": true, "width":250, "height":85, "url": "<div style='padding:30px 20px;line-height:1;font-size: 15px;'>Data was acquired from <a href='https://www.ncdps.gov/Our-Organization/Emergency-Management' target='_blank'>NC Emergency Management</a> through a public records request.  For data or information on this project contact <a  href='https://www.ncdps.gov/Our-Organization/Emergency-Management' target='_blank'>NC Emergency Management</a>.</div>" },
+					"default":"https://coast.noaa.gov/floodexposure/#/services#flood-hazards"
+				}
+			},
+			"chart": {
+				"data": "chart_data_nc.csv",
+				"title": "Acres at Risk Under Various Flood Events and Sea Level Rise Scenarios",
+				"controls": {
+					"chart":"scenario",
+					"highlight": "climate"
+				},
+				"exclude-value": 3
+			}
+		},
+        "Camden": {
+			"geography":"County",
+			"url": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer",
+			"layers": {
+				"main": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer"
+			},
+			"tooltips": {
+				"region": "Geographic areas where climate change/sea level rise vulnerability studies have been conducted.",
+				"hazard": "Spatial extent for different coastal hazards that may affect coastal assets.  Impact zones were estimated across multiple planning horizons.",
+				"climate": { 
+					"control":"hazard",
+					"values": {
+						"coastal_flooding_oem": "Current and modeled potential water surface.",
+						"default": "Future planning horizons representing the impact of climate change."
+					}
+				},
+				"scenario": {
+					"control":"hazard",
+					"values": {
+						"coastal_flooding_oem": "<div style='text-align:left'>Modeled storm surge from North Carolina Sea Level Rise Impact Study.<div style='height:5px;'></div><b>Mean High High Water (MHHW)</b>: The average of all the <b>high</b> water heights observed over a period of several years.<div style='height:5px;'></div><b>10-yr event</b>: A coastal flood event with a 10% chance of occurring annually. Has a 96% chance of occurring over a 30-yr mortgage.<div style='height:5px;'></div><b>100-year event</b>: A coastal flood event with a 1% chance of occurring annually. Has a 26% chance of occurring over a 30-yr mortgage.<div style='height:5px;'></div><b>Hurricane Fran</b>: Modeled storm surge using conditions from this 1996 event.</div>",
+						"default": "Sea level rise scenarios (low, medium, and high) based on regional sea level rise amounts."
+					}
+				}
+			},
+			"extent": {
+				"xmin":-8522982.639374027,"ymin":4324022.7256203433,"xmax":-8455475.1720003542,"ymax":4377427.2289255792,
+				"spatialReference":{
+					"wkid":102100,
+					"latestWkid":3857
+				}
+			},
+			"controls": {
+				"select": {
+					"hazard": {
+						"options": [
+							{
+								"name": " -- ",
+								"value": ""
+							},
+							{
+								"name": "Coastal Flooding (NC Emergency Mgmt)",
+								"value": "coastal_flooding_oem",
+								"controls": { 
+									"slider": ["climate", "scenario"]
+								},
+								"chart": true
+							}
+						]
+					}
+				},
+				"slider": {
+					"climate": { "disabled": false, "show": true,
+						"labels": { 
+							"coastal_flooding_oem": ["Current<br>(0in)", "20cm<br>(7.8in)", "40cm<br>(15.7in)", "100cm<br>(39in)"]
+						},
+						"title": { 
+							"coastal_flooding_oem": "Sea Level Rise"
+						}
+					},
+					"scenario": { "disabled": false, "show": true,
+						"labels": { 
+							"coastal_flooding_oem": ["MHHW", "10yr", "100yr", "Fran"]
+						},
+						"title": {
+							"coastal_flooding_oem": "Flood Extent"
+						}
+					 }
+				}
+			},
+			"download": {
+				"report": {
+					"coastal_flooding_oem": "http://media.coastalresilience.org/NC/North%20Carolina%20Sea%20Level%20Rise%20Impact%20Study_FinalReport_20140627.pdf",
+					"default": "https://coast.noaa.gov/floodexposure/#/services#flood-hazards"
+				},
+				"data": {
+					"coastal_flooding_oem": { "popup": true, "width":250, "height":85, "url": "<div style='padding:30px 20px;line-height:1;font-size: 15px;'>Data was acquired from <a href='https://www.ncdps.gov/Our-Organization/Emergency-Management' target='_blank'>NC Emergency Management</a> through a public records request.  For data or information on this project contact <a  href='https://www.ncdps.gov/Our-Organization/Emergency-Management' target='_blank'>NC Emergency Management</a>.</div>" },
+					"default":"https://coast.noaa.gov/floodexposure/#/services#flood-hazards"
+				}
+			},
+			"chart": {
+				"data": "chart_data_nc.csv",
+				"title": "Acres at Risk Under Various Flood Events and Sea Level Rise Scenarios",
+				"controls": {
+					"chart":"scenario",
+					"highlight": "climate"
+				},
+				"exclude-value": 3
+			}
+		},
 		"Carteret": {
 			"geography":"County",
 			"url": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer",
@@ -46,6 +402,184 @@
 				"ymin":4096442.525359713,
 				"xmax":-8446350.958460935,
 				"ymax":4204868.992212647,
+				"spatialReference":{
+					"wkid":102100,
+					"latestWkid":3857
+				}
+			},
+			"controls": {
+				"select": {
+					"hazard": {
+						"options": [
+							{
+								"name": " -- ",
+								"value": ""
+							},
+							{
+								"name": "Coastal Flooding (NC Emergency Mgmt)",
+								"value": "coastal_flooding_oem",
+								"controls": { 
+									"slider": ["climate", "scenario"]
+								},
+								"chart": true
+							}
+						]
+					}
+				},
+				"slider": {
+					"climate": { "disabled": false, "show": true,
+						"labels": { 
+							"coastal_flooding_oem": ["Current<br>(0in)", "20cm<br>(7.8in)", "40cm<br>(15.7in)", "100cm<br>(39in)"]
+						},
+						"title": { 
+							"coastal_flooding_oem": "Sea Level Rise"
+						}
+					},
+					"scenario": { "disabled": false, "show": true,
+						"labels": { 
+							"coastal_flooding_oem": ["MHHW", "10yr", "100yr", "Fran"]
+						},
+						"title": {
+							"coastal_flooding_oem": "Flood Extent"
+						}
+					 }
+				}
+			},
+			"download": {
+				"report": {
+					"coastal_flooding_oem": "http://media.coastalresilience.org/NC/North%20Carolina%20Sea%20Level%20Rise%20Impact%20Study_FinalReport_20140627.pdf",
+					"default": "https://coast.noaa.gov/floodexposure/#/services#flood-hazards"
+				},
+				"data": {
+					"coastal_flooding_oem": { "popup": true, "width":250, "height":85, "url": "<div style='padding:30px 20px;line-height:1;font-size: 15px;'>Data was acquired from <a href='https://www.ncdps.gov/Our-Organization/Emergency-Management' target='_blank'>NC Emergency Management</a> through a public records request.  For data or information on this project contact <a  href='https://www.ncdps.gov/Our-Organization/Emergency-Management' target='_blank'>NC Emergency Management</a>.</div>" },
+					"default":"https://coast.noaa.gov/floodexposure/#/services#flood-hazards"
+				}
+			},
+			"chart": {
+				"data": "chart_data_nc.csv",
+				"title": "Acres at Risk Under Various Flood Events and Sea Level Rise Scenarios",
+				"controls": {
+					"chart":"scenario",
+					"highlight": "climate"
+				},
+				"exclude-value": 3
+			}
+		},
+		"Chowan": {
+			"geography":"County",
+			"url": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer",
+			"layers": {
+				"main": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer"
+			},
+			"tooltips": {
+				"region": "Geographic areas where climate change/sea level rise vulnerability studies have been conducted.",
+				"hazard": "Spatial extent for different coastal hazards that may affect coastal assets.  Impact zones were estimated across multiple planning horizons.",
+				"climate": { 
+					"control":"hazard",
+					"values": {
+						"coastal_flooding_oem": "Current and modeled potential water surface.",
+						"default": "Future planning horizons representing the impact of climate change."
+					}
+				},
+				"scenario": {
+					"control":"hazard",
+					"values": {
+						"coastal_flooding_oem": "<div style='text-align:left'>Modeled storm surge from North Carolina Sea Level Rise Impact Study.<div style='height:5px;'></div><b>Mean High High Water (MHHW)</b>: The average of all the <b>high</b> water heights observed over a period of several years.<div style='height:5px;'></div><b>10-yr event</b>: A coastal flood event with a 10% chance of occurring annually. Has a 96% chance of occurring over a 30-yr mortgage.<div style='height:5px;'></div><b>100-year event</b>: A coastal flood event with a 1% chance of occurring annually. Has a 26% chance of occurring over a 30-yr mortgage.<div style='height:5px;'></div><b>Hurricane Fran</b>: Modeled storm surge using conditions from this 1996 event.</div>",
+						"default": "Sea level rise scenarios (low, medium, and high) based on regional sea level rise amounts."
+					}
+				}
+			},
+			"extent": {
+				"xmin":-8541119.2635233589,"ymin":4301629.9611879829,"xmax":-8507045.0284321308,"ymax":4347606.281893529,
+				"spatialReference":{
+					"wkid":102100,
+					"latestWkid":3857
+				}
+			},
+			"controls": {
+				"select": {
+					"hazard": {
+						"options": [
+							{
+								"name": " -- ",
+								"value": ""
+							},
+							{
+								"name": "Coastal Flooding (NC Emergency Mgmt)",
+								"value": "coastal_flooding_oem",
+								"controls": { 
+									"slider": ["climate", "scenario"]
+								},
+								"chart": true
+							}
+						]
+					}
+				},
+				"slider": {
+					"climate": { "disabled": false, "show": true,
+						"labels": { 
+							"coastal_flooding_oem": ["Current<br>(0in)", "20cm<br>(7.8in)", "40cm<br>(15.7in)", "100cm<br>(39in)"]
+						},
+						"title": { 
+							"coastal_flooding_oem": "Sea Level Rise"
+						}
+					},
+					"scenario": { "disabled": false, "show": true,
+						"labels": { 
+							"coastal_flooding_oem": ["MHHW", "10yr", "100yr", "Fran"]
+						},
+						"title": {
+							"coastal_flooding_oem": "Flood Extent"
+						}
+					 }
+				}
+			},
+			"download": {
+				"report": {
+					"coastal_flooding_oem": "http://media.coastalresilience.org/NC/North%20Carolina%20Sea%20Level%20Rise%20Impact%20Study_FinalReport_20140627.pdf",
+					"default": "https://coast.noaa.gov/floodexposure/#/services#flood-hazards"
+				},
+				"data": {
+					"coastal_flooding_oem": { "popup": true, "width":250, "height":85, "url": "<div style='padding:30px 20px;line-height:1;font-size: 15px;'>Data was acquired from <a href='https://www.ncdps.gov/Our-Organization/Emergency-Management' target='_blank'>NC Emergency Management</a> through a public records request.  For data or information on this project contact <a  href='https://www.ncdps.gov/Our-Organization/Emergency-Management' target='_blank'>NC Emergency Management</a>.</div>" },
+					"default":"https://coast.noaa.gov/floodexposure/#/services#flood-hazards"
+				}
+			},
+			"chart": {
+				"data": "chart_data_nc.csv",
+				"title": "Acres at Risk Under Various Flood Events and Sea Level Rise Scenarios",
+				"controls": {
+					"chart":"scenario",
+					"highlight": "climate"
+				},
+				"exclude-value": 3
+			}
+		},
+		"Craven": {
+			"geography":"County",
+			"url": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer",
+			"layers": {
+				"main": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer"
+			},
+			"tooltips": {
+				"region": "Geographic areas where climate change/sea level rise vulnerability studies have been conducted.",
+				"hazard": "Spatial extent for different coastal hazards that may affect coastal assets.  Impact zones were estimated across multiple planning horizons.",
+				"climate": { 
+					"control":"hazard",
+					"values": {
+						"coastal_flooding_oem": "Current and modeled potential water surface.",
+						"default": "Future planning horizons representing the impact of climate change."
+					}
+				},
+				"scenario": {
+					"control":"hazard",
+					"values": {
+						"coastal_flooding_oem": "<div style='text-align:left'>Modeled storm surge from North Carolina Sea Level Rise Impact Study.<div style='height:5px;'></div><b>Mean High High Water (MHHW)</b>: The average of all the <b>high</b> water heights observed over a period of several years.<div style='height:5px;'></div><b>10-yr event</b>: A coastal flood event with a 10% chance of occurring annually. Has a 96% chance of occurring over a 30-yr mortgage.<div style='height:5px;'></div><b>100-year event</b>: A coastal flood event with a 1% chance of occurring annually. Has a 26% chance of occurring over a 30-yr mortgage.<div style='height:5px;'></div><b>Hurricane Fran</b>: Modeled storm surge using conditions from this 1996 event.</div>",
+						"default": "Sea level rise scenarios (low, medium, and high) based on regional sea level rise amounts."
+					}
+				}
+			},
+			"extent": {
+				"xmin":-8624342.2162636835,"ymin":4140882.6858964143,"xmax":-8529885.9479400851,"ymax":4221530.8011003938,
 				"spatialReference":{
 					"wkid":102100,
 					"latestWkid":3857
@@ -410,6 +944,987 @@
 				},
 				"exclude-value": 3
 			}
+		},
+		"Gates": {
+			"geography":"County",
+			"url": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer",
+			"layers": {
+				"main": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer"
+			},
+			"tooltips": {
+				"region": "Geographic areas where climate change/sea level rise vulnerability studies have been conducted.",
+				"hazard": "Spatial extent for different coastal hazards that may affect coastal assets.  Impact zones were estimated across multiple planning horizons.",
+				"climate": { 
+					"control":"hazard",
+					"values": {
+						"coastal_flooding_oem": "Current and modeled potential water surface.",
+						"default": "Future planning horizons representing the impact of climate change."
+					}
+				},
+				"scenario": {
+					"control":"hazard",
+					"values": {
+						"coastal_flooding_oem": "<div style='text-align:left'>Modeled storm surge from North Carolina Sea Level Rise Impact Study.<div style='height:5px;'></div><b>Mean High High Water (MHHW)</b>: The average of all the <b>high</b> water heights observed over a period of several years.<div style='height:5px;'></div><b>10-yr event</b>: A coastal flood event with a 10% chance of occurring annually. Has a 96% chance of occurring over a 30-yr mortgage.<div style='height:5px;'></div><b>100-year event</b>: A coastal flood event with a 1% chance of occurring annually. Has a 26% chance of occurring over a 30-yr mortgage.<div style='height:5px;'></div><b>Hurricane Fran</b>: Modeled storm surge using conditions from this 1996 event.</div>",
+						"default": "Sea level rise scenarios (low, medium, and high) based on regional sea level rise amounts."
+					}
+				}
+			},
+			"extent": {
+				"xmin":-8566408.4719050713,"ymin":4341244.0715440297,"xmax":-8511490.0369608589,"ymax":4377315.7304677423,
+				"spatialReference":{
+					"wkid":102100,
+					"latestWkid":3857
+				}
+			},
+			"controls": {
+				"select": {
+					"hazard": {
+						"options": [
+							{
+								"name": " -- ",
+								"value": ""
+							},
+							{
+								"name": "Coastal Flooding (NC Emergency Mgmt)",
+								"value": "coastal_flooding_oem",
+								"controls": { 
+									"slider": ["climate", "scenario"]
+								},
+								"chart": true
+							}
+						]
+					}
+				},
+				"slider": {
+					"climate": { "disabled": false, "show": true,
+						"labels": { 
+							"coastal_flooding_oem": ["Current<br>(0in)", "20cm<br>(7.8in)", "40cm<br>(15.7in)", "100cm<br>(39in)"]
+						},
+						"title": { 
+							"coastal_flooding_oem": "Sea Level Rise"
+						}
+					},
+					"scenario": { "disabled": false, "show": true,
+						"labels": { 
+							"coastal_flooding_oem": ["MHHW", "10yr", "100yr", "Fran"]
+						},
+						"title": {
+							"coastal_flooding_oem": "Flood Extent"
+						}
+					 }
+				}
+			},
+			"download": {
+				"report": {
+					"coastal_flooding_oem": "http://media.coastalresilience.org/NC/North%20Carolina%20Sea%20Level%20Rise%20Impact%20Study_FinalReport_20140627.pdf",
+					"default": "https://coast.noaa.gov/floodexposure/#/services#flood-hazards"
+				},
+				"data": {
+					"coastal_flooding_oem": { "popup": true, "width":250, "height":85, "url": "<div style='padding:30px 20px;line-height:1;font-size: 15px;'>Data was acquired from <a href='https://www.ncdps.gov/Our-Organization/Emergency-Management' target='_blank'>NC Emergency Management</a> through a public records request.  For data or information on this project contact <a  href='https://www.ncdps.gov/Our-Organization/Emergency-Management' target='_blank'>NC Emergency Management</a>.</div>" },
+					"default":"https://coast.noaa.gov/floodexposure/#/services#flood-hazards"
+				}
+			},
+			"chart": {
+				"data": "chart_data_nc.csv",
+				"title": "Acres at Risk Under Various Flood Events and Sea Level Rise Scenarios",
+				"controls": {
+					"chart":"scenario",
+					"highlight": "climate"
+				},
+				"exclude-value": 3
+			}
+		},
+		"Hertford": {
+			"geography":"County",
+			"url": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer",
+			"layers": {
+				"main": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer"
+			},
+			"tooltips": {
+				"region": "Geographic areas where climate change/sea level rise vulnerability studies have been conducted.",
+				"hazard": "Spatial extent for different coastal hazards that may affect coastal assets.  Impact zones were estimated across multiple planning horizons.",
+				"climate": { 
+					"control":"hazard",
+					"values": {
+						"coastal_flooding_oem": "Current and modeled potential water surface.",
+						"default": "Future planning horizons representing the impact of climate change."
+					}
+				},
+				"scenario": {
+					"control":"hazard",
+					"values": {
+						"coastal_flooding_oem": "<div style='text-align:left'>Modeled storm surge from North Carolina Sea Level Rise Impact Study.<div style='height:5px;'></div><b>Mean High High Water (MHHW)</b>: The average of all the <b>high</b> water heights observed over a period of several years.<div style='height:5px;'></div><b>10-yr event</b>: A coastal flood event with a 10% chance of occurring annually. Has a 96% chance of occurring over a 30-yr mortgage.<div style='height:5px;'></div><b>100-year event</b>: A coastal flood event with a 1% chance of occurring annually. Has a 26% chance of occurring over a 30-yr mortgage.<div style='height:5px;'></div><b>Hurricane Fran</b>: Modeled storm surge using conditions from this 1996 event.</div>",
+						"default": "Sea level rise scenarios (low, medium, and high) based on regional sea level rise amounts."
+					}
+				}
+			},
+			"extent": {
+				"xmin":-8595796.5078538731,"ymin":4332369.4968478,"xmax":-8539002.9404510055,"ymax":4377458.9248229945,
+				"spatialReference":{
+					"wkid":102100,
+					"latestWkid":3857
+				}
+			},
+			"controls": {
+				"select": {
+					"hazard": {
+						"options": [
+							{
+								"name": " -- ",
+								"value": ""
+							},
+							{
+								"name": "Coastal Flooding (NC Emergency Mgmt)",
+								"value": "coastal_flooding_oem",
+								"controls": { 
+									"slider": ["climate", "scenario"]
+								},
+								"chart": true
+							}
+						]
+					}
+				},
+				"slider": {
+					"climate": { "disabled": false, "show": true,
+						"labels": { 
+							"coastal_flooding_oem": ["Current<br>(0in)", "20cm<br>(7.8in)", "40cm<br>(15.7in)", "100cm<br>(39in)"]
+						},
+						"title": { 
+							"coastal_flooding_oem": "Sea Level Rise"
+						}
+					},
+					"scenario": { "disabled": false, "show": true,
+						"labels": { 
+							"coastal_flooding_oem": ["MHHW", "10yr", "100yr", "Fran"]
+						},
+						"title": {
+							"coastal_flooding_oem": "Flood Extent"
+						}
+					 }
+				}
+			},
+			"download": {
+				"report": {
+					"coastal_flooding_oem": "http://media.coastalresilience.org/NC/North%20Carolina%20Sea%20Level%20Rise%20Impact%20Study_FinalReport_20140627.pdf",
+					"default": "https://coast.noaa.gov/floodexposure/#/services#flood-hazards"
+				},
+				"data": {
+					"coastal_flooding_oem": { "popup": true, "width":250, "height":85, "url": "<div style='padding:30px 20px;line-height:1;font-size: 15px;'>Data was acquired from <a href='https://www.ncdps.gov/Our-Organization/Emergency-Management' target='_blank'>NC Emergency Management</a> through a public records request.  For data or information on this project contact <a  href='https://www.ncdps.gov/Our-Organization/Emergency-Management' target='_blank'>NC Emergency Management</a>.</div>" },
+					"default":"https://coast.noaa.gov/floodexposure/#/services#flood-hazards"
+				}
+			},
+			"chart": {
+				"data": "chart_data_nc.csv",
+				"title": "Acres at Risk Under Various Flood Events and Sea Level Rise Scenarios",
+				"controls": {
+					"chart":"scenario",
+					"highlight": "climate"
+				},
+				"exclude-value": 3
+			}
+		},
+		"Hyde": {
+			"geography":"County",
+			"url": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer",
+			"layers": {
+				"main": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer"
+			},
+			"tooltips": {
+				"region": "Geographic areas where climate change/sea level rise vulnerability studies have been conducted.",
+				"hazard": "Spatial extent for different coastal hazards that may affect coastal assets.  Impact zones were estimated across multiple planning horizons.",
+				"climate": { 
+					"control":"hazard",
+					"values": {
+						"coastal_flooding_oem": "Current and modeled potential water surface.",
+						"default": "Future planning horizons representing the impact of climate change."
+					}
+				},
+				"scenario": {
+					"control":"hazard",
+					"values": {
+						"coastal_flooding_oem": "<div style='text-align:left'>Modeled storm surge from North Carolina Sea Level Rise Impact Study.<div style='height:5px;'></div><b>Mean High High Water (MHHW)</b>: The average of all the <b>high</b> water heights observed over a period of several years.<div style='height:5px;'></div><b>10-yr event</b>: A coastal flood event with a 10% chance of occurring annually. Has a 96% chance of occurring over a 30-yr mortgage.<div style='height:5px;'></div><b>100-year event</b>: A coastal flood event with a 1% chance of occurring annually. Has a 26% chance of occurring over a 30-yr mortgage.<div style='height:5px;'></div><b>Hurricane Fran</b>: Modeled storm surge using conditions from this 1996 event.</div>",
+						"default": "Sea level rise scenarios (low, medium, and high) based on regional sea level rise amounts."
+					}
+				}
+			},
+			"extent": {
+				"xmin":-8530799.8472251166,"ymin":4173344.2274137023,"xmax":-8433933.2586343065,"ymax":4259854.0751549909,
+				"spatialReference":{
+					"wkid":102100,
+					"latestWkid":3857
+				}
+			},
+			"controls": {
+				"select": {
+					"hazard": {
+						"options": [
+							{
+								"name": " -- ",
+								"value": ""
+							},
+							{
+								"name": "Coastal Flooding (NC Emergency Mgmt)",
+								"value": "coastal_flooding_oem",
+								"controls": { 
+									"slider": ["climate", "scenario"]
+								},
+								"chart": true
+							}
+						]
+					}
+				},
+				"slider": {
+					"climate": { "disabled": false, "show": true,
+						"labels": { 
+							"coastal_flooding_oem": ["Current<br>(0in)", "20cm<br>(7.8in)", "40cm<br>(15.7in)", "100cm<br>(39in)"]
+						},
+						"title": { 
+							"coastal_flooding_oem": "Sea Level Rise"
+						}
+					},
+					"scenario": { "disabled": false, "show": true,
+						"labels": { 
+							"coastal_flooding_oem": ["MHHW", "10yr", "100yr", "Fran"]
+						},
+						"title": {
+							"coastal_flooding_oem": "Flood Extent"
+						}
+					 }
+				}
+			},
+			"download": {
+				"report": {
+					"coastal_flooding_oem": "http://media.coastalresilience.org/NC/North%20Carolina%20Sea%20Level%20Rise%20Impact%20Study_FinalReport_20140627.pdf",
+					"default": "https://coast.noaa.gov/floodexposure/#/services#flood-hazards"
+				},
+				"data": {
+					"coastal_flooding_oem": { "popup": true, "width":250, "height":85, "url": "<div style='padding:30px 20px;line-height:1;font-size: 15px;'>Data was acquired from <a href='https://www.ncdps.gov/Our-Organization/Emergency-Management' target='_blank'>NC Emergency Management</a> through a public records request.  For data or information on this project contact <a  href='https://www.ncdps.gov/Our-Organization/Emergency-Management' target='_blank'>NC Emergency Management</a>.</div>" },
+					"default":"https://coast.noaa.gov/floodexposure/#/services#flood-hazards"
+				}
+			},
+			"chart": {
+				"data": "chart_data_nc.csv",
+				"title": "Acres at Risk Under Various Flood Events and Sea Level Rise Scenarios",
+				"controls": {
+					"chart":"scenario",
+					"highlight": "climate"
+				},
+				"exclude-value": 3
+			}
+		},
+		"New Hanover": {
+			"geography":"County",
+			"url": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer",
+			"layers": {
+				"main": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer"
+			},
+			"tooltips": {
+				"region": "Geographic areas where climate change/sea level rise vulnerability studies have been conducted.",
+				"hazard": "Spatial extent for different coastal hazards that may affect coastal assets.  Impact zones were estimated across multiple planning horizons.",
+				"climate": { 
+					"control":"hazard",
+					"values": {
+						"coastal_flooding_oem": "Current and modeled potential water surface.",
+						"default": "Future planning horizons representing the impact of climate change."
+					}
+				},
+				"scenario": {
+					"control":"hazard",
+					"values": {
+						"coastal_flooding_oem": "<div style='text-align:left'>Modeled storm surge from North Carolina Sea Level Rise Impact Study.<div style='height:5px;'></div><b>Mean High High Water (MHHW)</b>: The average of all the <b>high</b> water heights observed over a period of several years.<div style='height:5px;'></div><b>10-yr event</b>: A coastal flood event with a 10% chance of occurring annually. Has a 96% chance of occurring over a 30-yr mortgage.<div style='height:5px;'></div><b>100-year event</b>: A coastal flood event with a 1% chance of occurring annually. Has a 26% chance of occurring over a 30-yr mortgage.<div style='height:5px;'></div><b>Hurricane Fran</b>: Modeled storm surge using conditions from this 1996 event.</div>",
+						"default": "Sea level rise scenarios (low, medium, and high) based on regional sea level rise amounts."
+					}
+				}
+			},
+			"extent": {
+				"xmin":-8685774.3605804164,"ymin":4037157.9567822139,"xmax":-8655115.8583794143,"ymax":4081039.3381797741,
+				"spatialReference":{
+					"wkid":102100,
+					"latestWkid":3857
+				}
+			},
+			"controls": {
+				"select": {
+					"hazard": {
+						"options": [
+							{
+								"name": " -- ",
+								"value": ""
+							},
+							{
+								"name": "Coastal Flooding (NC Emergency Mgmt)",
+								"value": "coastal_flooding_oem",
+								"controls": { 
+									"slider": ["climate", "scenario"]
+								},
+								"chart": true
+							}
+						]
+					}
+				},
+				"slider": {
+					"climate": { "disabled": false, "show": true,
+						"labels": { 
+							"coastal_flooding_oem": ["Current<br>(0in)", "20cm<br>(7.8in)", "40cm<br>(15.7in)", "100cm<br>(39in)"]
+						},
+						"title": { 
+							"coastal_flooding_oem": "Sea Level Rise"
+						}
+					},
+					"scenario": { "disabled": false, "show": true,
+						"labels": { 
+							"coastal_flooding_oem": ["MHHW", "10yr", "100yr", "Fran"]
+						},
+						"title": {
+							"coastal_flooding_oem": "Flood Extent"
+						}
+					 }
+				}
+			},
+			"download": {
+				"report": {
+					"coastal_flooding_oem": "http://media.coastalresilience.org/NC/North%20Carolina%20Sea%20Level%20Rise%20Impact%20Study_FinalReport_20140627.pdf",
+					"default": "https://coast.noaa.gov/floodexposure/#/services#flood-hazards"
+				},
+				"data": {
+					"coastal_flooding_oem": { "popup": true, "width":250, "height":85, "url": "<div style='padding:30px 20px;line-height:1;font-size: 15px;'>Data was acquired from <a href='https://www.ncdps.gov/Our-Organization/Emergency-Management' target='_blank'>NC Emergency Management</a> through a public records request.  For data or information on this project contact <a  href='https://www.ncdps.gov/Our-Organization/Emergency-Management' target='_blank'>NC Emergency Management</a>.</div>" },
+					"default":"https://coast.noaa.gov/floodexposure/#/services#flood-hazards"
+				}
+			},
+			"chart": {
+				"data": "chart_data_nc.csv",
+				"title": "Acres at Risk Under Various Flood Events and Sea Level Rise Scenarios",
+				"controls": {
+					"chart":"scenario",
+					"highlight": "climate"
+				},
+				"exclude-value": 3
+			}
+		},
+		"Onslow": {
+			"geography":"County",
+			"url": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer",
+			"layers": {
+				"main": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer"
+			},
+			"tooltips": {
+				"region": "Geographic areas where climate change/sea level rise vulnerability studies have been conducted.",
+				"hazard": "Spatial extent for different coastal hazards that may affect coastal assets.  Impact zones were estimated across multiple planning horizons.",
+				"climate": { 
+					"control":"hazard",
+					"values": {
+						"coastal_flooding_oem": "Current and modeled potential water surface.",
+						"default": "Future planning horizons representing the impact of climate change."
+					}
+				},
+				"scenario": {
+					"control":"hazard",
+					"values": {
+						"coastal_flooding_oem": "<div style='text-align:left'>Modeled storm surge from North Carolina Sea Level Rise Impact Study.<div style='height:5px;'></div><b>Mean High High Water (MHHW)</b>: The average of all the <b>high</b> water heights observed over a period of several years.<div style='height:5px;'></div><b>10-yr event</b>: A coastal flood event with a 10% chance of occurring annually. Has a 96% chance of occurring over a 30-yr mortgage.<div style='height:5px;'></div><b>100-year event</b>: A coastal flood event with a 1% chance of occurring annually. Has a 26% chance of occurring over a 30-yr mortgage.<div style='height:5px;'></div><b>Hurricane Fran</b>: Modeled storm surge using conditions from this 1996 event.</div>",
+						"default": "Sea level rise scenarios (low, medium, and high) based on regional sea level rise amounts."
+					}
+				}
+			},
+			"extent": {
+				"xmin":-8648359.1418514196,"ymin":4090356.0101756039,"xmax":-8585968.474756727,"ymax":4161731.9253217229,
+				"spatialReference":{
+					"wkid":102100,
+					"latestWkid":3857
+				}
+			},
+			"controls": {
+				"select": {
+					"hazard": {
+						"options": [
+							{
+								"name": " -- ",
+								"value": ""
+							},
+							{
+								"name": "Coastal Flooding (NC Emergency Mgmt)",
+								"value": "coastal_flooding_oem",
+								"controls": { 
+									"slider": ["climate", "scenario"]
+								},
+								"chart": true
+							}
+						]
+					}
+				},
+				"slider": {
+					"climate": { "disabled": false, "show": true,
+						"labels": { 
+							"coastal_flooding_oem": ["Current<br>(0in)", "20cm<br>(7.8in)", "40cm<br>(15.7in)", "100cm<br>(39in)"]
+						},
+						"title": { 
+							"coastal_flooding_oem": "Sea Level Rise"
+						}
+					},
+					"scenario": { "disabled": false, "show": true,
+						"labels": { 
+							"coastal_flooding_oem": ["MHHW", "10yr", "100yr", "Fran"]
+						},
+						"title": {
+							"coastal_flooding_oem": "Flood Extent"
+						}
+					 }
+				}
+			},
+			"download": {
+				"report": {
+					"coastal_flooding_oem": "http://media.coastalresilience.org/NC/North%20Carolina%20Sea%20Level%20Rise%20Impact%20Study_FinalReport_20140627.pdf",
+					"default": "https://coast.noaa.gov/floodexposure/#/services#flood-hazards"
+				},
+				"data": {
+					"coastal_flooding_oem": { "popup": true, "width":250, "height":85, "url": "<div style='padding:30px 20px;line-height:1;font-size: 15px;'>Data was acquired from <a href='https://www.ncdps.gov/Our-Organization/Emergency-Management' target='_blank'>NC Emergency Management</a> through a public records request.  For data or information on this project contact <a  href='https://www.ncdps.gov/Our-Organization/Emergency-Management' target='_blank'>NC Emergency Management</a>.</div>" },
+					"default":"https://coast.noaa.gov/floodexposure/#/services#flood-hazards"
+				}
+			},
+			"chart": {
+				"data": "chart_data_nc.csv",
+				"title": "Acres at Risk Under Various Flood Events and Sea Level Rise Scenarios",
+				"controls": {
+					"chart":"scenario",
+					"highlight": "climate"
+				},
+				"exclude-value": 3
+			}
+		},
+		"Pamlico": {
+			"geography":"County",
+			"url": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer",
+			"layers": {
+				"main": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer"
+			},
+			"tooltips": {
+				"region": "Geographic areas where climate change/sea level rise vulnerability studies have been conducted.",
+				"hazard": "Spatial extent for different coastal hazards that may affect coastal assets.  Impact zones were estimated across multiple planning horizons.",
+				"climate": { 
+					"control":"hazard",
+					"values": {
+						"coastal_flooding_oem": "Current and modeled potential water surface.",
+						"default": "Future planning horizons representing the impact of climate change."
+					}
+				},
+				"scenario": {
+					"control":"hazard",
+					"values": {
+						"coastal_flooding_oem": "<div style='text-align:left'>Modeled storm surge from North Carolina Sea Level Rise Impact Study.<div style='height:5px;'></div><b>Mean High High Water (MHHW)</b>: The average of all the <b>high</b> water heights observed over a period of several years.<div style='height:5px;'></div><b>10-yr event</b>: A coastal flood event with a 10% chance of occurring annually. Has a 96% chance of occurring over a 30-yr mortgage.<div style='height:5px;'></div><b>100-year event</b>: A coastal flood event with a 1% chance of occurring annually. Has a 26% chance of occurring over a 30-yr mortgage.<div style='height:5px;'></div><b>Hurricane Fran</b>: Modeled storm surge using conditions from this 1996 event.</div>",
+						"default": "Sea level rise scenarios (low, medium, and high) based on regional sea level rise amounts."
+					}
+				}
+			},
+			"extent": {
+				"xmin":-8570438.4381217714,"ymin":4161486.9002149659,"xmax":-8516695.248039823,"ymax":4206395.7120632734,
+				"spatialReference":{
+					"wkid":102100,
+					"latestWkid":3857
+				}
+			},
+			"controls": {
+				"select": {
+					"hazard": {
+						"options": [
+							{
+								"name": " -- ",
+								"value": ""
+							},
+							{
+								"name": "Coastal Flooding (NC Emergency Mgmt)",
+								"value": "coastal_flooding_oem",
+								"controls": { 
+									"slider": ["climate", "scenario"]
+								},
+								"chart": true
+							}
+						]
+					}
+				},
+				"slider": {
+					"climate": { "disabled": false, "show": true,
+						"labels": { 
+							"coastal_flooding_oem": ["Current<br>(0in)", "20cm<br>(7.8in)", "40cm<br>(15.7in)", "100cm<br>(39in)"]
+						},
+						"title": { 
+							"coastal_flooding_oem": "Sea Level Rise"
+						}
+					},
+					"scenario": { "disabled": false, "show": true,
+						"labels": { 
+							"coastal_flooding_oem": ["MHHW", "10yr", "100yr", "Fran"]
+						},
+						"title": {
+							"coastal_flooding_oem": "Flood Extent"
+						}
+					 }
+				}
+			},
+			"download": {
+				"report": {
+					"coastal_flooding_oem": "http://media.coastalresilience.org/NC/North%20Carolina%20Sea%20Level%20Rise%20Impact%20Study_FinalReport_20140627.pdf",
+					"default": "https://coast.noaa.gov/floodexposure/#/services#flood-hazards"
+				},
+				"data": {
+					"coastal_flooding_oem": { "popup": true, "width":250, "height":85, "url": "<div style='padding:30px 20px;line-height:1;font-size: 15px;'>Data was acquired from <a href='https://www.ncdps.gov/Our-Organization/Emergency-Management' target='_blank'>NC Emergency Management</a> through a public records request.  For data or information on this project contact <a  href='https://www.ncdps.gov/Our-Organization/Emergency-Management' target='_blank'>NC Emergency Management</a>.</div>" },
+					"default":"https://coast.noaa.gov/floodexposure/#/services#flood-hazards"
+				}
+			},
+			"chart": {
+				"data": "chart_data_nc.csv",
+				"title": "Acres at Risk Under Various Flood Events and Sea Level Rise Scenarios",
+				"controls": {
+					"chart":"scenario",
+					"highlight": "climate"
+				},
+				"exclude-value": 3
+			}
+		},
+		"Pasquotank": {
+			"geography":"County",
+			"url": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer",
+			"layers": {
+				"main": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer"
+			},
+			"tooltips": {
+				"region": "Geographic areas where climate change/sea level rise vulnerability studies have been conducted.",
+				"hazard": "Spatial extent for different coastal hazards that may affect coastal assets.  Impact zones were estimated across multiple planning horizons.",
+				"climate": { 
+					"control":"hazard",
+					"values": {
+						"coastal_flooding_oem": "Current and modeled potential water surface.",
+						"default": "Future planning horizons representing the impact of climate change."
+					}
+				},
+				"scenario": {
+					"control":"hazard",
+					"values": {
+						"coastal_flooding_oem": "<div style='text-align:left'>Modeled storm surge from North Carolina Sea Level Rise Impact Study.<div style='height:5px;'></div><b>Mean High High Water (MHHW)</b>: The average of all the <b>high</b> water heights observed over a period of several years.<div style='height:5px;'></div><b>10-yr event</b>: A coastal flood event with a 10% chance of occurring annually. Has a 96% chance of occurring over a 30-yr mortgage.<div style='height:5px;'></div><b>100-year event</b>: A coastal flood event with a 1% chance of occurring annually. Has a 26% chance of occurring over a 30-yr mortgage.<div style='height:5px;'></div><b>Hurricane Fran</b>: Modeled storm surge using conditions from this 1996 event.</div>",
+						"default": "Sea level rise scenarios (low, medium, and high) based on regional sea level rise amounts."
+					}
+				}
+			},
+			"extent": {
+				"xmin":-8516178.54858982,"ymin":4320984.2396126455,"xmax":-8472788.9892263301,"ymax":4370202.0858823331,
+				"spatialReference":{
+					"wkid":102100,
+					"latestWkid":3857
+				}
+			},
+			"controls": {
+				"select": {
+					"hazard": {
+						"options": [
+							{
+								"name": " -- ",
+								"value": ""
+							},
+							{
+								"name": "Coastal Flooding (NC Emergency Mgmt)",
+								"value": "coastal_flooding_oem",
+								"controls": { 
+									"slider": ["climate", "scenario"]
+								},
+								"chart": true
+							}
+						]
+					}
+				},
+				"slider": {
+					"climate": { "disabled": false, "show": true,
+						"labels": { 
+							"coastal_flooding_oem": ["Current<br>(0in)", "20cm<br>(7.8in)", "40cm<br>(15.7in)", "100cm<br>(39in)"]
+						},
+						"title": { 
+							"coastal_flooding_oem": "Sea Level Rise"
+						}
+					},
+					"scenario": { "disabled": false, "show": true,
+						"labels": { 
+							"coastal_flooding_oem": ["MHHW", "10yr", "100yr", "Fran"]
+						},
+						"title": {
+							"coastal_flooding_oem": "Flood Extent"
+						}
+					 }
+				}
+			},
+			"download": {
+				"report": {
+					"coastal_flooding_oem": "http://media.coastalresilience.org/NC/North%20Carolina%20Sea%20Level%20Rise%20Impact%20Study_FinalReport_20140627.pdf",
+					"default": "https://coast.noaa.gov/floodexposure/#/services#flood-hazards"
+				},
+				"data": {
+					"coastal_flooding_oem": { "popup": true, "width":250, "height":85, "url": "<div style='padding:30px 20px;line-height:1;font-size: 15px;'>Data was acquired from <a href='https://www.ncdps.gov/Our-Organization/Emergency-Management' target='_blank'>NC Emergency Management</a> through a public records request.  For data or information on this project contact <a  href='https://www.ncdps.gov/Our-Organization/Emergency-Management' target='_blank'>NC Emergency Management</a>.</div>" },
+					"default":"https://coast.noaa.gov/floodexposure/#/services#flood-hazards"
+				}
+			},
+			"chart": {
+				"data": "chart_data_nc.csv",
+				"title": "Acres at Risk Under Various Flood Events and Sea Level Rise Scenarios",
+				"controls": {
+					"chart":"scenario",
+					"highlight": "climate"
+				},
+				"exclude-value": 3
+			}
+		},
+		"Pender": {
+			"geography":"County",
+			"url": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer",
+			"layers": {
+				"main": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer"
+			},
+			"tooltips": {
+				"region": "Geographic areas where climate change/sea level rise vulnerability studies have been conducted.",
+				"hazard": "Spatial extent for different coastal hazards that may affect coastal assets.  Impact zones were estimated across multiple planning horizons.",
+				"climate": { 
+					"control":"hazard",
+					"values": {
+						"coastal_flooding_oem": "Current and modeled potential water surface.",
+						"default": "Future planning horizons representing the impact of climate change."
+					}
+				},
+				"scenario": {
+					"control":"hazard",
+					"values": {
+						"coastal_flooding_oem": "<div style='text-align:left'>Modeled storm surge from North Carolina Sea Level Rise Impact Study.<div style='height:5px;'></div><b>Mean High High Water (MHHW)</b>: The average of all the <b>high</b> water heights observed over a period of several years.<div style='height:5px;'></div><b>10-yr event</b>: A coastal flood event with a 10% chance of occurring annually. Has a 96% chance of occurring over a 30-yr mortgage.<div style='height:5px;'></div><b>100-year event</b>: A coastal flood event with a 1% chance of occurring annually. Has a 26% chance of occurring over a 30-yr mortgage.<div style='height:5px;'></div><b>Hurricane Fran</b>: Modeled storm surge using conditions from this 1996 event.</div>",
+						"default": "Sea level rise scenarios (low, medium, and high) based on regional sea level rise amounts."
+					}
+				}
+			},
+			"extent": {
+				"xmin":-8712100.0357993674,"ymin":4069858.9715467221,"xmax":-8631527.0023033246,"ymax":4127127.5851372764,
+				"spatialReference":{
+					"wkid":102100,
+					"latestWkid":3857
+				}
+			},
+			"controls": {
+				"select": {
+					"hazard": {
+						"options": [
+							{
+								"name": " -- ",
+								"value": ""
+							},
+							{
+								"name": "Coastal Flooding (NC Emergency Mgmt)",
+								"value": "coastal_flooding_oem",
+								"controls": { 
+									"slider": ["climate", "scenario"]
+								},
+								"chart": true
+							}
+						]
+					}
+				},
+				"slider": {
+					"climate": { "disabled": false, "show": true,
+						"labels": { 
+							"coastal_flooding_oem": ["Current<br>(0in)", "20cm<br>(7.8in)", "40cm<br>(15.7in)", "100cm<br>(39in)"]
+						},
+						"title": { 
+							"coastal_flooding_oem": "Sea Level Rise"
+						}
+					},
+					"scenario": { "disabled": false, "show": true,
+						"labels": { 
+							"coastal_flooding_oem": ["MHHW", "10yr", "100yr", "Fran"]
+						},
+						"title": {
+							"coastal_flooding_oem": "Flood Extent"
+						}
+					 }
+				}
+			},
+			"download": {
+				"report": {
+					"coastal_flooding_oem": "http://media.coastalresilience.org/NC/North%20Carolina%20Sea%20Level%20Rise%20Impact%20Study_FinalReport_20140627.pdf",
+					"default": "https://coast.noaa.gov/floodexposure/#/services#flood-hazards"
+				},
+				"data": {
+					"coastal_flooding_oem": { "popup": true, "width":250, "height":85, "url": "<div style='padding:30px 20px;line-height:1;font-size: 15px;'>Data was acquired from <a href='https://www.ncdps.gov/Our-Organization/Emergency-Management' target='_blank'>NC Emergency Management</a> through a public records request.  For data or information on this project contact <a  href='https://www.ncdps.gov/Our-Organization/Emergency-Management' target='_blank'>NC Emergency Management</a>.</div>" },
+					"default":"https://coast.noaa.gov/floodexposure/#/services#flood-hazards"
+				}
+			},
+			"chart": {
+				"data": "chart_data_nc.csv",
+				"title": "Acres at Risk Under Various Flood Events and Sea Level Rise Scenarios",
+				"controls": {
+					"chart":"scenario",
+					"highlight": "climate"
+				},
+				"exclude-value": 3
+			}
+		},
+		"Perquimans": {
+			"geography":"County",
+			"url": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer",
+			"layers": {
+				"main": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer"
+			},
+			"tooltips": {
+				"region": "Geographic areas where climate change/sea level rise vulnerability studies have been conducted.",
+				"hazard": "Spatial extent for different coastal hazards that may affect coastal assets.  Impact zones were estimated across multiple planning horizons.",
+				"climate": { 
+					"control":"hazard",
+					"values": {
+						"coastal_flooding_oem": "Current and modeled potential water surface.",
+						"default": "Future planning horizons representing the impact of climate change."
+					}
+				},
+				"scenario": {
+					"control":"hazard",
+					"values": {
+						"coastal_flooding_oem": "<div style='text-align:left'>Modeled storm surge from North Carolina Sea Level Rise Impact Study.<div style='height:5px;'></div><b>Mean High High Water (MHHW)</b>: The average of all the <b>high</b> water heights observed over a period of several years.<div style='height:5px;'></div><b>10-yr event</b>: A coastal flood event with a 10% chance of occurring annually. Has a 96% chance of occurring over a 30-yr mortgage.<div style='height:5px;'></div><b>100-year event</b>: A coastal flood event with a 1% chance of occurring annually. Has a 26% chance of occurring over a 30-yr mortgage.<div style='height:5px;'></div><b>Hurricane Fran</b>: Modeled storm surge using conditions from this 1996 event.</div>",
+						"default": "Sea level rise scenarios (low, medium, and high) based on regional sea level rise amounts."
+					}
+				}
+			},
+			"extent": {
+				"xmin":-8526422.6331888791,"ymin":4311628.2820680821,"xmax":-8490912.1363657098,"ymax":4352213.1985263899,
+				"spatialReference":{
+					"wkid":102100,
+					"latestWkid":3857
+				}
+			},
+			"controls": {
+				"select": {
+					"hazard": {
+						"options": [
+							{
+								"name": " -- ",
+								"value": ""
+							},
+							{
+								"name": "Coastal Flooding (NC Emergency Mgmt)",
+								"value": "coastal_flooding_oem",
+								"controls": { 
+									"slider": ["climate", "scenario"]
+								},
+								"chart": true
+							}
+						]
+					}
+				},
+				"slider": {
+					"climate": { "disabled": false, "show": true,
+						"labels": { 
+							"coastal_flooding_oem": ["Current<br>(0in)", "20cm<br>(7.8in)", "40cm<br>(15.7in)", "100cm<br>(39in)"]
+						},
+						"title": { 
+							"coastal_flooding_oem": "Sea Level Rise"
+						}
+					},
+					"scenario": { "disabled": false, "show": true,
+						"labels": { 
+							"coastal_flooding_oem": ["MHHW", "10yr", "100yr", "Fran"]
+						},
+						"title": {
+							"coastal_flooding_oem": "Flood Extent"
+						}
+					 }
+				}
+			},
+			"download": {
+				"report": {
+					"coastal_flooding_oem": "http://media.coastalresilience.org/NC/North%20Carolina%20Sea%20Level%20Rise%20Impact%20Study_FinalReport_20140627.pdf",
+					"default": "https://coast.noaa.gov/floodexposure/#/services#flood-hazards"
+				},
+				"data": {
+					"coastal_flooding_oem": { "popup": true, "width":250, "height":85, "url": "<div style='padding:30px 20px;line-height:1;font-size: 15px;'>Data was acquired from <a href='https://www.ncdps.gov/Our-Organization/Emergency-Management' target='_blank'>NC Emergency Management</a> through a public records request.  For data or information on this project contact <a  href='https://www.ncdps.gov/Our-Organization/Emergency-Management' target='_blank'>NC Emergency Management</a>.</div>" },
+					"default":"https://coast.noaa.gov/floodexposure/#/services#flood-hazards"
+				}
+			},
+			"chart": {
+				"data": "chart_data_nc.csv",
+				"title": "Acres at Risk Under Various Flood Events and Sea Level Rise Scenarios",
+				"controls": {
+					"chart":"scenario",
+					"highlight": "climate"
+				},
+				"exclude-value": 3
+			}
+		},
+		"Tyrrell": {
+			"geography":"County",
+			"url": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer",
+			"layers": {
+				"main": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer"
+			},
+			"tooltips": {
+				"region": "Geographic areas where climate change/sea level rise vulnerability studies have been conducted.",
+				"hazard": "Spatial extent for different coastal hazards that may affect coastal assets.  Impact zones were estimated across multiple planning horizons.",
+				"climate": { 
+					"control":"hazard",
+					"values": {
+						"coastal_flooding_oem": "Current and modeled potential water surface.",
+						"default": "Future planning horizons representing the impact of climate change."
+					}
+				},
+				"scenario": {
+					"control":"hazard",
+					"values": {
+						"coastal_flooding_oem": "<div style='text-align:left'>Modeled storm surge from North Carolina Sea Level Rise Impact Study.<div style='height:5px;'></div><b>Mean High High Water (MHHW)</b>: The average of all the <b>high</b> water heights observed over a period of several years.<div style='height:5px;'></div><b>10-yr event</b>: A coastal flood event with a 10% chance of occurring annually. Has a 96% chance of occurring over a 30-yr mortgage.<div style='height:5px;'></div><b>100-year event</b>: A coastal flood event with a 1% chance of occurring annually. Has a 26% chance of occurring over a 30-yr mortgage.<div style='height:5px;'></div><b>Hurricane Fran</b>: Modeled storm surge using conditions from this 1996 event.</div>",
+						"default": "Sea level rise scenarios (low, medium, and high) based on regional sea level rise amounts."
+					}
+				}
+			},
+			"extent": {
+				"xmin":-8505738.9175934773,"ymin":4245013.2684723111,"xmax":-8463140.7533975877,"ymax":4297462.1564640049,
+				"spatialReference":{
+					"wkid":102100,
+					"latestWkid":3857
+				}
+			},
+			"controls": {
+				"select": {
+					"hazard": {
+						"options": [
+							{
+								"name": " -- ",
+								"value": ""
+							},
+							{
+								"name": "Coastal Flooding (NC Emergency Mgmt)",
+								"value": "coastal_flooding_oem",
+								"controls": { 
+									"slider": ["climate", "scenario"]
+								},
+								"chart": true
+							}
+						]
+					}
+				},
+				"slider": {
+					"climate": { "disabled": false, "show": true,
+						"labels": { 
+							"coastal_flooding_oem": ["Current<br>(0in)", "20cm<br>(7.8in)", "40cm<br>(15.7in)", "100cm<br>(39in)"]
+						},
+						"title": { 
+							"coastal_flooding_oem": "Sea Level Rise"
+						}
+					},
+					"scenario": { "disabled": false, "show": true,
+						"labels": { 
+							"coastal_flooding_oem": ["MHHW", "10yr", "100yr", "Fran"]
+						},
+						"title": {
+							"coastal_flooding_oem": "Flood Extent"
+						}
+					 }
+				}
+			},
+			"download": {
+				"report": {
+					"coastal_flooding_oem": "http://media.coastalresilience.org/NC/North%20Carolina%20Sea%20Level%20Rise%20Impact%20Study_FinalReport_20140627.pdf",
+					"default": "https://coast.noaa.gov/floodexposure/#/services#flood-hazards"
+				},
+				"data": {
+					"coastal_flooding_oem": { "popup": true, "width":250, "height":85, "url": "<div style='padding:30px 20px;line-height:1;font-size: 15px;'>Data was acquired from <a href='https://www.ncdps.gov/Our-Organization/Emergency-Management' target='_blank'>NC Emergency Management</a> through a public records request.  For data or information on this project contact <a  href='https://www.ncdps.gov/Our-Organization/Emergency-Management' target='_blank'>NC Emergency Management</a>.</div>" },
+					"default":"https://coast.noaa.gov/floodexposure/#/services#flood-hazards"
+				}
+			},
+			"chart": {
+				"data": "chart_data_nc.csv",
+				"title": "Acres at Risk Under Various Flood Events and Sea Level Rise Scenarios",
+				"controls": {
+					"chart":"scenario",
+					"highlight": "climate"
+				},
+				"exclude-value": 3
+			}
+		},
+		"Washington": {
+			"geography":"County",
+			"url": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer",
+			"layers": {
+				"main": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer"
+			},
+			"tooltips": {
+				"region": "Geographic areas where climate change/sea level rise vulnerability studies have been conducted.",
+				"hazard": "Spatial extent for different coastal hazards that may affect coastal assets.  Impact zones were estimated across multiple planning horizons.",
+				"climate": { 
+					"control":"hazard",
+					"values": {
+						"coastal_flooding_oem": "Current and modeled potential water surface.",
+						"default": "Future planning horizons representing the impact of climate change."
+					}
+				},
+				"scenario": {
+					"control":"hazard",
+					"values": {
+						"coastal_flooding_oem": "<div style='text-align:left'>Modeled storm surge from North Carolina Sea Level Rise Impact Study.<div style='height:5px;'></div><b>Mean High High Water (MHHW)</b>: The average of all the <b>high</b> water heights observed over a period of several years.<div style='height:5px;'></div><b>10-yr event</b>: A coastal flood event with a 10% chance of occurring annually. Has a 96% chance of occurring over a 30-yr mortgage.<div style='height:5px;'></div><b>100-year event</b>: A coastal flood event with a 1% chance of occurring annually. Has a 26% chance of occurring over a 30-yr mortgage.<div style='height:5px;'></div><b>Hurricane Fran</b>: Modeled storm surge using conditions from this 1996 event.</div>",
+						"default": "Sea level rise scenarios (low, medium, and high) based on regional sea level rise amounts."
+					}
+				}
+			},
+			"extent": {
+				"xmin":-8553564.5296464041,"ymin":4259321.4598429175,"xmax":-8500116.5708543286,"ymax":4297543.5793766854,
+				"spatialReference":{
+					"wkid":102100,
+					"latestWkid":3857
+				}
+			},
+			"controls": {
+				"select": {
+					"hazard": {
+						"options": [
+							{
+								"name": " -- ",
+								"value": ""
+							},
+							{
+								"name": "Coastal Flooding (NC Emergency Mgmt)",
+								"value": "coastal_flooding_oem",
+								"controls": { 
+									"slider": ["climate", "scenario"]
+								},
+								"chart": true
+							}
+						]
+					}
+				},
+				"slider": {
+					"climate": { "disabled": false, "show": true,
+						"labels": { 
+							"coastal_flooding_oem": ["Current<br>(0in)", "20cm<br>(7.8in)", "40cm<br>(15.7in)", "100cm<br>(39in)"]
+						},
+						"title": { 
+							"coastal_flooding_oem": "Sea Level Rise"
+						}
+					},
+					"scenario": { "disabled": false, "show": true,
+						"labels": { 
+							"coastal_flooding_oem": ["MHHW", "10yr", "100yr", "Fran"]
+						},
+						"title": {
+							"coastal_flooding_oem": "Flood Extent"
+						}
+					 }
+				}
+			},
+			"download": {
+				"report": {
+					"coastal_flooding_oem": "http://media.coastalresilience.org/NC/North%20Carolina%20Sea%20Level%20Rise%20Impact%20Study_FinalReport_20140627.pdf",
+					"default": "https://coast.noaa.gov/floodexposure/#/services#flood-hazards"
+				},
+				"data": {
+					"coastal_flooding_oem": { "popup": true, "width":250, "height":85, "url": "<div style='padding:30px 20px;line-height:1;font-size: 15px;'>Data was acquired from <a href='https://www.ncdps.gov/Our-Organization/Emergency-Management' target='_blank'>NC Emergency Management</a> through a public records request.  For data or information on this project contact <a  href='https://www.ncdps.gov/Our-Organization/Emergency-Management' target='_blank'>NC Emergency Management</a>.</div>" },
+					"default":"https://coast.noaa.gov/floodexposure/#/services#flood-hazards"
+				}
+			},
+			"chart": {
+				"data": "chart_data_nc.csv",
+				"title": "Acres at Risk Under Various Flood Events and Sea Level Rise Scenarios",
+				"controls": {
+					"chart":"scenario",
+					"highlight": "climate"
+				},
+				"exclude-value": 3
+			}
 		}
+		
+		
 	}
 }
