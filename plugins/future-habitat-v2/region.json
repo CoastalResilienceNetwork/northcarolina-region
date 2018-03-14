@@ -136,5 +136,7 @@
 		}
 	],
 	"regionService": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Future_Habitat/MapServer/0",
-	"regionAttributeLabel": "NC_Counties_NAME"
+	"regionAttributeLabel": "NC_Counties_NAME",
+	"printFooterTitle": "Coastal Resilience – North Carolina Future Habitat Mapping Tool",
+	"printFooterBody": ""
 }
