@@ -3,7 +3,12 @@
 	"regionLabel": "Choose a County to Explore",
 	"defaultExtent": [-9208521,3904403,-8436201,4465756],
 	"globalRegion": "North Carolina",
+	"parcelsLayer": null,
+	"crossingsLayer": null,
+	"regionLayer": 0,
 	"current_conservation_lands": 6,
+	"wildlife_Habitat": null,
+	"non_tidal_wetlands": null,
 	"disclaimer": "**This planning tool predicts habitat changes due to sea level rise at a regional scale. Due to data limitations, it should not be used at a scale finer than 1:50K",
 	"intro": "Wetland Types for",
 	"scenarios": [
@@ -136,5 +141,7 @@
 		}
 	],
 	"regionService": "http://services.coastalresilience.org/arcgis/rest/services/North_Carolina/Future_Habitat/MapServer/0",
-	"regionAttributeLabel": "NC_Counties_NAME"
+	"regionAttributeLabel": "NC_Counties_NAME",
+	"printFooterTitle": "Coastal Resilience – North Carolina Future Habitat Mapping Tool",
+	"printFooterBody": ""
 }
