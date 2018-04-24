@@ -136,7 +136,8 @@
         },
         "includeLayers": [
             {
-                "name": "Physical Vulnerability"
+                "name": "Physical Vulnerability4",
+                "displayName": "Physical Vulnerability"
             },
             {
                 "name": "Bridges"
