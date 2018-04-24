@@ -67,6 +67,24 @@
         ]
     },
     {
+        "displayName": "Hatteras Village",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "http://services.coastalresilience.org/arcgis/rest/services/North_Carolina",
+            "name": "North_Carolina" 
+        },
+        "includeLayers": [
+            {
+                "name": "Physical Vulnerability2",
+                "displayName": "Physical Vulnerability"
+            },
+            {
+                "name": "Physical Vulnerability Points"
+            }
+        ]
+    },
+    {
         "displayName": "Hyde County",
         "server": {
             "type": "ags",
@@ -107,5 +125,44 @@
                 "includeAllLayers": true
             }
         ]
-    }  
+    },
+    {
+        "displayName": "Town of Edenton",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "http://services.coastalresilience.org/arcgis/rest/services/North_Carolina",
+            "name": "North_Carolina" 
+        },
+        "includeLayers": [
+            {
+                "name": "Physical Vulnerability4",
+                "displayName": "Physical Vulnerability"
+            },
+            {
+                "name": "Bridges"
+            },
+            {
+                "name": "Historic District"
+            },
+            {
+                "name": "Social Vulnerability"
+            }
+        ]
+    }, 
+    {
+        "displayName": "Town of Oriental",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "http://services.coastalresilience.org/arcgis/rest/services/North_Carolina",
+            "name": "North_Carolina" 
+        },
+        "includeLayers": [
+            {
+                "name": "Oriental Physical Velnerability3",
+                "displayName": "Physical Vulnerability"
+            }
+        ]
+    }    
 ]
