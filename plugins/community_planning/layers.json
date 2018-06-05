@@ -106,6 +106,25 @@
         ]
     },
     {
+        "displayName": "Pine Knoll Shores",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/North_Carolina",
+            "name": "North_Carolina"
+        },
+        "includeLayers": [
+            {
+                "name": "Pine Knoll Physical Vulnerability ",
+                "displayName": "Physical Vulnerability "
+            },
+            {
+                "name": "Pine Knoll Physical Vulnerability Points",
+                "displayName": "Physical Vulnerability Points"
+            }            
+        ]
+    },
+    {
         "displayName": "Roanoke Island",
         "server": {
             "type": "ags",
