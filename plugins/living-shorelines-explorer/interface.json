@@ -77,8 +77,8 @@
 				"factors": {
 					"rep_we": { 
 						"url": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Living_Shoreline_Explorer/MapServer/10",
-						"outFields": ["RWE_SCORE","Shape_Area"],
-						"keyField":"RWE_SCORE",
+						"outFields": ["RWE_score","Shape_Area"],
+						"keyField":"RWE_score",
 						"valueField":"Shape_Area"
 					},
 					"bwe": {
@@ -89,8 +89,8 @@
 					},
 					"dist": {
 						"url": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Living_Shoreline_Explorer/MapServer/8",
-						"outFields": ["MARSH_SCORE","Shape_Area"],
-						"keyField":"MARSH_SCORE",
+						"outFields": ["MARSH_score","Shape_Area"],
+						"keyField":"MARSH_score",
 						"valueField":"Shape_Area"
 					}
 				}
@@ -108,7 +108,7 @@
 				"factor": {
 					"rep_we": {
 						"dynamicId": 10,
-						"field": "RWE_SCORE"
+						"field": "RWE_score"
 					},
 					"bwe": { 
 						"dynamicId": 9,
@@ -116,7 +116,7 @@
 					},
 					"dist": { 
 						"dynamicId": 8,
-						"field": "MARSH_SCORE"
+						"field": "MARSH_score"
 					}
 				}
 			},
@@ -344,8 +344,8 @@
 				"factors": {
 					"rep_we": { 
 						"url": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Living_Shoreline_Explorer/MapServer/18",
-						"outFields": ["RWE_SCORE","Shape_Area"],
-						"keyField":"RWE_SCORE",
+						"outFields": ["RWE_score","Shape_Area"],
+						"keyField":"RWE_score",
 						"valueField":"Shape_Area"
 					},
 					"bwe": {
@@ -356,8 +356,8 @@
 					},
 					"dist": {
 						"url": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Living_Shoreline_Explorer/MapServer/16",
-						"outFields": ["MARSH_SCORE","Shape_Area"],
-						"keyField":"MARSH_SCORE",
+						"outFields": ["MARSH_score","Shape_Area"],
+						"keyField":"MARSH_score",
 						"valueField":"Shape_Area"
 					}
 				}
@@ -375,7 +375,7 @@
 				"factor": {
 					"rep_we": { 
 						"dynamicId": 18,
-						"field": "RWE_SCORE"
+						"field": "RWE_score"
 					},
 					"bwe": { 
 						"dynamicId": 17,
@@ -383,7 +383,7 @@
 					},
 					"dist": { 
 						"dynamicId": 16,
-						"field": "MARSH_SCORE"
+						"field": "MARSH_score"
 					}
 				}
 			},
