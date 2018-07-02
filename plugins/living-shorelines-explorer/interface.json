@@ -89,8 +89,8 @@
 					},
 					"dist": {
 						"url": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Living_Shoreline_Explorer/MapServer/8",
-						"outFields": ["MARSH_score","Shape_Area"],
-						"keyField":"MARSH_score",
+						"outFields": ["Marsh_score","Shape_Area"],
+						"keyField":"Marsh_score",
 						"valueField":"Shape_Area"
 					}
 				}
@@ -116,7 +116,7 @@
 					},
 					"dist": { 
 						"dynamicId": 8,
-						"field": "MARSH_score"
+						"field": "Marsh_score"
 					}
 				}
 			},
@@ -356,8 +356,8 @@
 					},
 					"dist": {
 						"url": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Living_Shoreline_Explorer/MapServer/16",
-						"outFields": ["MARSH_score","Shape_Area"],
-						"keyField":"MARSH_score",
+						"outFields": ["Marsh_score","Shape_Area"],
+						"keyField":"Marsh_score",
 						"valueField":"Shape_Area"
 					}
 				}
@@ -383,7 +383,7 @@
 					},
 					"dist": { 
 						"dynamicId": 16,
-						"field": "MARSH_score"
+						"field": "Marsh_score"
 					}
 				}
 			},
