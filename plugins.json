@@ -5,6 +5,10 @@
         	"name": "community-rating-system"
         },
         {
+            "repo": "multiexplorer",
+            "name": "restoration_explorer"
+        },
+        {
             "repo": "regional-planning",
             "name": "regional-planning"
         },
