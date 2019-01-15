@@ -5,6 +5,10 @@
         	"name": "community-rating-system"
         },
         {
+            "repo": "multiexplorer",
+            "name": "restoration_explorer"
+        },
+        {
             "repo": "regional-planning",
             "name": "regional-planning"
         },
@@ -13,20 +17,16 @@
             "name": "flood-slr"
         },
         {
-			"repo": "future_habitat_v2",
-			"name": "future-habitat-v2"
-    	},
-        {
             "repo": "regional-planning",
             "name": "community_planning"
         },
         {
-            "repo": "multiexplorer",
-            "name": "restoration_explorer"
+            "repo":"living-shorelines-explorer",
+            "name":"living-shorelines-explorer"
         },
         {
-            "repo": "living-shorelines-explorer",
-            "name": "living-shorelines-explorer"
-        }
+		"repo": "future_habitat_v2",
+		"name": "future-habitat-v2"
+    	}
     ]
 }

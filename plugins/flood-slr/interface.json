@@ -19,9 +19,9 @@
 	"region": {
 		"Beaufort": {
 			"geography":"County",
-			"url": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer",
+			"url": "https://services2.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer",
 			"layers": {
-				"main": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer"
+				"main": "https://services2.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer"
 			},
 			"tooltips": {
 				"region": "Geographic areas where climate change/sea level rise vulnerability studies have been conducted.",
@@ -88,7 +88,7 @@
 			},
 			"download": {
 				"report": {
-					"coastal_flooding_oem": "http://media.coastalresilience.org/NC/North%20Carolina%20Sea%20Level%20Rise%20Impact%20Study_FinalReport_20140627.pdf",
+					"coastal_flooding_oem": "https://media.coastalresilience.org/NC/North%20Carolina%20Sea%20Level%20Rise%20Impact%20Study_FinalReport_20140627.pdf",
 					"default": "https://coast.noaa.gov/floodexposure/#/services#flood-hazards"
 				},
 				"data": {
@@ -108,9 +108,9 @@
 		},
 		 "Bertie": {
 			"geography":"County",
-			"url": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer",
+			"url": "https://services2.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer",
 			"layers": {
-				"main": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer"
+				"main": "https://services2.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer"
 			},
 			"tooltips": {
 				"region": "Geographic areas where climate change/sea level rise vulnerability studies have been conducted.",
@@ -177,7 +177,7 @@
 			},
 			"download": {
 				"report": {
-					"coastal_flooding_oem": "http://media.coastalresilience.org/NC/North%20Carolina%20Sea%20Level%20Rise%20Impact%20Study_FinalReport_20140627.pdf",
+					"coastal_flooding_oem": "https://media.coastalresilience.org/NC/North%20Carolina%20Sea%20Level%20Rise%20Impact%20Study_FinalReport_20140627.pdf",
 					"default": "https://coast.noaa.gov/floodexposure/#/services#flood-hazards"
 				},
 				"data": {
@@ -197,9 +197,9 @@
 		},
 		"Brunswick": {
 			"geography":"County",
-			"url": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer",
+			"url": "https://services2.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer",
 			"layers": {
-				"main": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer"
+				"main": "https://services2.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer"
 			},
 			"tooltips": {
 				"region": "Geographic areas where climate change/sea level rise vulnerability studies have been conducted.",
@@ -266,7 +266,7 @@
 			},
 			"download": {
 				"report": {
-					"coastal_flooding_oem": "http://media.coastalresilience.org/NC/North%20Carolina%20Sea%20Level%20Rise%20Impact%20Study_FinalReport_20140627.pdf",
+					"coastal_flooding_oem": "https://media.coastalresilience.org/NC/North%20Carolina%20Sea%20Level%20Rise%20Impact%20Study_FinalReport_20140627.pdf",
 					"default": "https://coast.noaa.gov/floodexposure/#/services#flood-hazards"
 				},
 				"data": {
@@ -286,9 +286,9 @@
 		},
         "Camden": {
 			"geography":"County",
-			"url": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer",
+			"url": "https://services2.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer",
 			"layers": {
-				"main": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer"
+				"main": "https://services2.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer"
 			},
 			"tooltips": {
 				"region": "Geographic areas where climate change/sea level rise vulnerability studies have been conducted.",
@@ -355,7 +355,7 @@
 			},
 			"download": {
 				"report": {
-					"coastal_flooding_oem": "http://media.coastalresilience.org/NC/North%20Carolina%20Sea%20Level%20Rise%20Impact%20Study_FinalReport_20140627.pdf",
+					"coastal_flooding_oem": "https://media.coastalresilience.org/NC/North%20Carolina%20Sea%20Level%20Rise%20Impact%20Study_FinalReport_20140627.pdf",
 					"default": "https://coast.noaa.gov/floodexposure/#/services#flood-hazards"
 				},
 				"data": {
@@ -375,9 +375,9 @@
 		},
 		"Carteret": {
 			"geography":"County",
-			"url": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer",
+			"url": "https://services2.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer",
 			"layers": {
-				"main": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer"
+				"main": "https://services2.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer"
 			},
 			"tooltips": {
 				"region": "Geographic areas where climate change/sea level rise vulnerability studies have been conducted.",
@@ -447,7 +447,7 @@
 			},
 			"download": {
 				"report": {
-					"coastal_flooding_oem": "http://media.coastalresilience.org/NC/North%20Carolina%20Sea%20Level%20Rise%20Impact%20Study_FinalReport_20140627.pdf",
+					"coastal_flooding_oem": "https://media.coastalresilience.org/NC/North%20Carolina%20Sea%20Level%20Rise%20Impact%20Study_FinalReport_20140627.pdf",
 					"default": "https://coast.noaa.gov/floodexposure/#/services#flood-hazards"
 				},
 				"data": {
@@ -467,9 +467,9 @@
 		},
 		"Chowan": {
 			"geography":"County",
-			"url": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer",
+			"url": "https://services2.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer",
 			"layers": {
-				"main": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer"
+				"main": "https://services2.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer"
 			},
 			"tooltips": {
 				"region": "Geographic areas where climate change/sea level rise vulnerability studies have been conducted.",
@@ -536,7 +536,7 @@
 			},
 			"download": {
 				"report": {
-					"coastal_flooding_oem": "http://media.coastalresilience.org/NC/North%20Carolina%20Sea%20Level%20Rise%20Impact%20Study_FinalReport_20140627.pdf",
+					"coastal_flooding_oem": "https://media.coastalresilience.org/NC/North%20Carolina%20Sea%20Level%20Rise%20Impact%20Study_FinalReport_20140627.pdf",
 					"default": "https://coast.noaa.gov/floodexposure/#/services#flood-hazards"
 				},
 				"data": {
@@ -556,9 +556,9 @@
 		},
 		"Craven": {
 			"geography":"County",
-			"url": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer",
+			"url": "https://services2.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer",
 			"layers": {
-				"main": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer"
+				"main": "https://services2.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer"
 			},
 			"tooltips": {
 				"region": "Geographic areas where climate change/sea level rise vulnerability studies have been conducted.",
@@ -625,7 +625,7 @@
 			},
 			"download": {
 				"report": {
-					"coastal_flooding_oem": "http://media.coastalresilience.org/NC/North%20Carolina%20Sea%20Level%20Rise%20Impact%20Study_FinalReport_20140627.pdf",
+					"coastal_flooding_oem": "https://media.coastalresilience.org/NC/North%20Carolina%20Sea%20Level%20Rise%20Impact%20Study_FinalReport_20140627.pdf",
 					"default": "https://coast.noaa.gov/floodexposure/#/services#flood-hazards"
 				},
 				"data": {
@@ -645,13 +645,13 @@
 		},
 		"Currituck": {
 			"geography":"County",
-			"url": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer",
+			"url": "https://services2.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer",
 			"layers": {
-				"main": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer",
-				"hurricane": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer",
-				"shallow_coastal_flooding": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer",
-				"fema": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer",
-				"model_storm": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer"
+				"main": "https://services2.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer",
+				"hurricane": "https://services2.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer",
+				"shallow_coastal_flooding": "https://services2.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer",
+				"fema": "https://services2.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer",
+				"model_storm": "https://services2.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer"
 			},
 			"tooltips": {
 				"region": "Geographic areas where climate change/sea level rise vulnerability studies have been conducted.",
@@ -777,7 +777,7 @@
 			},
 			"download": {
 				"report": {
-					"coastal_flooding_oem": "http://media.coastalresilience.org/NC/North%20Carolina%20Sea%20Level%20Rise%20Impact%20Study_FinalReport_20140627.pdf",
+					"coastal_flooding_oem": "https://media.coastalresilience.org/NC/North%20Carolina%20Sea%20Level%20Rise%20Impact%20Study_FinalReport_20140627.pdf",
 					"default": "https://coast.noaa.gov/floodexposure/#/services#flood-hazards"
 				},
 				"data": {
@@ -797,13 +797,13 @@
 		},
 		"Dare": {
 			"geography":"County",
-			"url": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer",
+			"url": "https://services2.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer",
 			"layers": {
-				"main": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer",
-				"hurricane": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer",
-				"shallow_coastal_flooding": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer",
-				"fema": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer",
-				"model_storm": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer"
+				"main": "https://services2.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer",
+				"hurricane": "https://services2.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer",
+				"shallow_coastal_flooding": "https://services2.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer",
+				"fema": "https://services2.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer",
+				"model_storm": "https://services2.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer"
 			},
 			"tooltips": {
 				"region": "Geographic areas where climate change/sea level rise vulnerability studies have been conducted.",
@@ -927,7 +927,7 @@
 			},
 			"download": {
 				"report": {
-					"coastal_flooding_oem": "http://media.coastalresilience.org/NC/North%20Carolina%20Sea%20Level%20Rise%20Impact%20Study_FinalReport_20140627.pdf",
+					"coastal_flooding_oem": "https://media.coastalresilience.org/NC/North%20Carolina%20Sea%20Level%20Rise%20Impact%20Study_FinalReport_20140627.pdf",
 					"default": "https://coast.noaa.gov/floodexposure/#/services#flood-hazards"
 				},
 				"data": {
@@ -947,9 +947,9 @@
 		},
 		"Gates": {
 			"geography":"County",
-			"url": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer",
+			"url": "https://services2.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer",
 			"layers": {
-				"main": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer"
+				"main": "https://services2.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer"
 			},
 			"tooltips": {
 				"region": "Geographic areas where climate change/sea level rise vulnerability studies have been conducted.",
@@ -1016,7 +1016,7 @@
 			},
 			"download": {
 				"report": {
-					"coastal_flooding_oem": "http://media.coastalresilience.org/NC/North%20Carolina%20Sea%20Level%20Rise%20Impact%20Study_FinalReport_20140627.pdf",
+					"coastal_flooding_oem": "https://media.coastalresilience.org/NC/North%20Carolina%20Sea%20Level%20Rise%20Impact%20Study_FinalReport_20140627.pdf",
 					"default": "https://coast.noaa.gov/floodexposure/#/services#flood-hazards"
 				},
 				"data": {
@@ -1036,9 +1036,9 @@
 		},
 		"Hertford": {
 			"geography":"County",
-			"url": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer",
+			"url": "https://services2.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer",
 			"layers": {
-				"main": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer"
+				"main": "https://services2.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer"
 			},
 			"tooltips": {
 				"region": "Geographic areas where climate change/sea level rise vulnerability studies have been conducted.",
@@ -1105,7 +1105,7 @@
 			},
 			"download": {
 				"report": {
-					"coastal_flooding_oem": "http://media.coastalresilience.org/NC/North%20Carolina%20Sea%20Level%20Rise%20Impact%20Study_FinalReport_20140627.pdf",
+					"coastal_flooding_oem": "https://media.coastalresilience.org/NC/North%20Carolina%20Sea%20Level%20Rise%20Impact%20Study_FinalReport_20140627.pdf",
 					"default": "https://coast.noaa.gov/floodexposure/#/services#flood-hazards"
 				},
 				"data": {
@@ -1125,9 +1125,9 @@
 		},
 		"Hyde": {
 			"geography":"County",
-			"url": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer",
+			"url": "https://services2.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer",
 			"layers": {
-				"main": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer"
+				"main": "https://services2.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer"
 			},
 			"tooltips": {
 				"region": "Geographic areas where climate change/sea level rise vulnerability studies have been conducted.",
@@ -1194,7 +1194,7 @@
 			},
 			"download": {
 				"report": {
-					"coastal_flooding_oem": "http://media.coastalresilience.org/NC/North%20Carolina%20Sea%20Level%20Rise%20Impact%20Study_FinalReport_20140627.pdf",
+					"coastal_flooding_oem": "https://media.coastalresilience.org/NC/North%20Carolina%20Sea%20Level%20Rise%20Impact%20Study_FinalReport_20140627.pdf",
 					"default": "https://coast.noaa.gov/floodexposure/#/services#flood-hazards"
 				},
 				"data": {
@@ -1214,9 +1214,9 @@
 		},
 		"New Hanover": {
 			"geography":"County",
-			"url": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer",
+			"url": "https://services2.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer",
 			"layers": {
-				"main": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer"
+				"main": "https://services2.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer"
 			},
 			"tooltips": {
 				"region": "Geographic areas where climate change/sea level rise vulnerability studies have been conducted.",
@@ -1283,7 +1283,7 @@
 			},
 			"download": {
 				"report": {
-					"coastal_flooding_oem": "http://media.coastalresilience.org/NC/North%20Carolina%20Sea%20Level%20Rise%20Impact%20Study_FinalReport_20140627.pdf",
+					"coastal_flooding_oem": "https://media.coastalresilience.org/NC/North%20Carolina%20Sea%20Level%20Rise%20Impact%20Study_FinalReport_20140627.pdf",
 					"default": "https://coast.noaa.gov/floodexposure/#/services#flood-hazards"
 				},
 				"data": {
@@ -1303,9 +1303,9 @@
 		},
 		"Onslow": {
 			"geography":"County",
-			"url": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer",
+			"url": "https://services2.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer",
 			"layers": {
-				"main": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer"
+				"main": "https://services2.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer"
 			},
 			"tooltips": {
 				"region": "Geographic areas where climate change/sea level rise vulnerability studies have been conducted.",
@@ -1372,7 +1372,7 @@
 			},
 			"download": {
 				"report": {
-					"coastal_flooding_oem": "http://media.coastalresilience.org/NC/North%20Carolina%20Sea%20Level%20Rise%20Impact%20Study_FinalReport_20140627.pdf",
+					"coastal_flooding_oem": "https://media.coastalresilience.org/NC/North%20Carolina%20Sea%20Level%20Rise%20Impact%20Study_FinalReport_20140627.pdf",
 					"default": "https://coast.noaa.gov/floodexposure/#/services#flood-hazards"
 				},
 				"data": {
@@ -1392,9 +1392,9 @@
 		},
 		"Pamlico": {
 			"geography":"County",
-			"url": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer",
+			"url": "https://services2.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer",
 			"layers": {
-				"main": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer"
+				"main": "https://services2.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer"
 			},
 			"tooltips": {
 				"region": "Geographic areas where climate change/sea level rise vulnerability studies have been conducted.",
@@ -1461,7 +1461,7 @@
 			},
 			"download": {
 				"report": {
-					"coastal_flooding_oem": "http://media.coastalresilience.org/NC/North%20Carolina%20Sea%20Level%20Rise%20Impact%20Study_FinalReport_20140627.pdf",
+					"coastal_flooding_oem": "https://media.coastalresilience.org/NC/North%20Carolina%20Sea%20Level%20Rise%20Impact%20Study_FinalReport_20140627.pdf",
 					"default": "https://coast.noaa.gov/floodexposure/#/services#flood-hazards"
 				},
 				"data": {
@@ -1481,9 +1481,9 @@
 		},
 		"Pasquotank": {
 			"geography":"County",
-			"url": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer",
+			"url": "https://services2.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer",
 			"layers": {
-				"main": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer"
+				"main": "https://services2.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer"
 			},
 			"tooltips": {
 				"region": "Geographic areas where climate change/sea level rise vulnerability studies have been conducted.",
@@ -1550,7 +1550,7 @@
 			},
 			"download": {
 				"report": {
-					"coastal_flooding_oem": "http://media.coastalresilience.org/NC/North%20Carolina%20Sea%20Level%20Rise%20Impact%20Study_FinalReport_20140627.pdf",
+					"coastal_flooding_oem": "https://media.coastalresilience.org/NC/North%20Carolina%20Sea%20Level%20Rise%20Impact%20Study_FinalReport_20140627.pdf",
 					"default": "https://coast.noaa.gov/floodexposure/#/services#flood-hazards"
 				},
 				"data": {
@@ -1570,9 +1570,9 @@
 		},
 		"Pender": {
 			"geography":"County",
-			"url": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer",
+			"url": "https://services2.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer",
 			"layers": {
-				"main": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer"
+				"main": "https://services2.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer"
 			},
 			"tooltips": {
 				"region": "Geographic areas where climate change/sea level rise vulnerability studies have been conducted.",
@@ -1639,7 +1639,7 @@
 			},
 			"download": {
 				"report": {
-					"coastal_flooding_oem": "http://media.coastalresilience.org/NC/North%20Carolina%20Sea%20Level%20Rise%20Impact%20Study_FinalReport_20140627.pdf",
+					"coastal_flooding_oem": "https://media.coastalresilience.org/NC/North%20Carolina%20Sea%20Level%20Rise%20Impact%20Study_FinalReport_20140627.pdf",
 					"default": "https://coast.noaa.gov/floodexposure/#/services#flood-hazards"
 				},
 				"data": {
@@ -1659,9 +1659,9 @@
 		},
 		"Perquimans": {
 			"geography":"County",
-			"url": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer",
+			"url": "https://services2.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer",
 			"layers": {
-				"main": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer"
+				"main": "https://services2.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer"
 			},
 			"tooltips": {
 				"region": "Geographic areas where climate change/sea level rise vulnerability studies have been conducted.",
@@ -1728,7 +1728,7 @@
 			},
 			"download": {
 				"report": {
-					"coastal_flooding_oem": "http://media.coastalresilience.org/NC/North%20Carolina%20Sea%20Level%20Rise%20Impact%20Study_FinalReport_20140627.pdf",
+					"coastal_flooding_oem": "https://media.coastalresilience.org/NC/North%20Carolina%20Sea%20Level%20Rise%20Impact%20Study_FinalReport_20140627.pdf",
 					"default": "https://coast.noaa.gov/floodexposure/#/services#flood-hazards"
 				},
 				"data": {
@@ -1748,9 +1748,9 @@
 		},
 		"Tyrrell": {
 			"geography":"County",
-			"url": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer",
+			"url": "https://services2.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer",
 			"layers": {
-				"main": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer"
+				"main": "https://services2.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer"
 			},
 			"tooltips": {
 				"region": "Geographic areas where climate change/sea level rise vulnerability studies have been conducted.",
@@ -1817,7 +1817,7 @@
 			},
 			"download": {
 				"report": {
-					"coastal_flooding_oem": "http://media.coastalresilience.org/NC/North%20Carolina%20Sea%20Level%20Rise%20Impact%20Study_FinalReport_20140627.pdf",
+					"coastal_flooding_oem": "https://media.coastalresilience.org/NC/North%20Carolina%20Sea%20Level%20Rise%20Impact%20Study_FinalReport_20140627.pdf",
 					"default": "https://coast.noaa.gov/floodexposure/#/services#flood-hazards"
 				},
 				"data": {
@@ -1837,9 +1837,9 @@
 		},
 		"Washington": {
 			"geography":"County",
-			"url": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer",
+			"url": "https://services2.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer",
 			"layers": {
-				"main": "http://dev.services.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer"
+				"main": "https://services2.coastalresilience.org/arcgis/rest/services/North_Carolina/Flood_SLR/MapServer"
 			},
 			"tooltips": {
 				"region": "Geographic areas where climate change/sea level rise vulnerability studies have been conducted.",
@@ -1906,7 +1906,7 @@
 			},
 			"download": {
 				"report": {
-					"coastal_flooding_oem": "http://media.coastalresilience.org/NC/North%20Carolina%20Sea%20Level%20Rise%20Impact%20Study_FinalReport_20140627.pdf",
+					"coastal_flooding_oem": "https://media.coastalresilience.org/NC/North%20Carolina%20Sea%20Level%20Rise%20Impact%20Study_FinalReport_20140627.pdf",
 					"default": "https://coast.noaa.gov/floodexposure/#/services#flood-hazards"
 				},
 				"data": {
