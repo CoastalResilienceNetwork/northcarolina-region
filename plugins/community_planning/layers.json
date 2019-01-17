@@ -146,6 +146,41 @@
         ]
     },
     {
+        "displayName": "Swansboro",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "https://services2.coastalresilience.org/arcgis/rest/services/North_Carolina",
+            "name": "North_Carolina" 
+        },
+        "includeLayers": [
+            {
+                "name": "Social Vulnerabilities_SB",
+                "displayName": "Social Vulnerabilities"
+            },
+            {
+                "name": "Physical Vulnerabilities_Pts_SB",
+                "displayName": "Physical Vulnerabilities_Pts"
+            },
+            {
+                "name": "Physical Vulnerabilities_SB",
+                "displayName": "Physical Vulnerabilities"
+            },
+            {
+                "name": "Preliminary DFIRM_SB",
+                "displayName": "Preliminary DFIRM"
+            },
+            {
+                "name": "Coastal_Wetlands_SB",
+                "displayName": "Coastal Wetlands"
+            },
+            {
+                "name": "Land Use_SB",
+                "displayName": "Land Use"
+            }
+        ]
+    }, 
+    {
         "displayName": "Town of Edenton",
         "server": {
             "type": "ags",
