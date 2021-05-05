@@ -1,10 +1,6 @@
 {
     "plugins": [
         {
-        	"repo": "community-rating-system",
-        	"name": "community-rating-system"
-        },
-        {
             "repo": "multiexplorer",
             "name": "restoration_explorer"
         },
@@ -23,10 +19,6 @@
         {
             "repo":"living-shorelines-explorer",
             "name":"living-shorelines-explorer"
-        },
-        {
-		"repo": "future_habitat_v2",
-		"name": "future-habitat-v2"
-    	}
+        }
     ]
 }

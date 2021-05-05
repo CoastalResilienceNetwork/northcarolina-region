@@ -39,7 +39,6 @@
     "pluginOrder": [
 		"launchpad",
         "flood-slr",
-        "community-rating-system",
         "living-shorelines-explorer",
         "restoration_explorer",
 	    "zoom_to",
@@ -68,11 +67,6 @@
                     "title": "<img src='img/flood_slr.png' hspace=10>Flood and Sea Level Rise",
                     "description": "Identifies potential inundation during coastal storms from wind, storm surge, and future flood risk based on sea-level rise predictions.",
                     "pluginName": "flood-slr"
-                },
-                {
-                    "title": "<img src='img/CRSicon_active.png' hspace=10>CRS Explorer",
-                    "description": "Identifies open space to reduce flood risk and insurance premiums using Community Rating System (CRS) Open Space Preservation (OSP) credits.",
-                    "pluginName": "community-rating-system"
                 },
 				{
 					"title": "<img src='img/living_shoreline.png' hspace=10>Living Shoreline Explorer",
